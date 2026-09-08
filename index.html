@@ -86,5 +86,48 @@ render=function(){renderWithChrist();if(state.section==='Passages_bibliques_maje
 <script>
   function humanize(key) { return String(key).replaceAll('_', ' ').replace(/\b\w/g, letter => letter.toLocaleUpperCase('fr')); }
 </script>
+<style>
+  .place-card { display:block; width:100%; padding:0; overflow:hidden; text-align:left; border-radius:1rem; background:white; }
+  .place-card img { width:100%; height:140px; object-fit:cover; display:block; filter:saturate(.75) contrast(1.05); }
+  .place-card .place-copy { display:block; padding:1rem; color:var(--ink); }
+  .place-card .place-copy small { display:block; color:var(--muted); margin-top:.25rem; }
+  .breadcrumb { display:flex; align-items:center; gap:.7rem; margin:0 0 1rem; color:var(--muted); }
+  .back { border-radius:.5rem; padding:.4rem .7rem; background:#e2eef9; color:#174d7e; border-color:#b6d2eb; }
+  .region { margin:1.4rem 0; padding:1.2rem; border:1px solid var(--line); border-radius:1rem; background:#fff; }
+  .region h2 { color:var(--accent); margin-bottom:.2rem; }
+  .city { margin-top:.85rem; padding:1rem; border-left:3px solid #76aee0; background:#f5f9fd; border-radius:0 .7rem .7rem 0; }
+  .city h3 { margin:0; font-size:1.2rem; color:var(--ink); }
+  .people { display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:.6rem; margin-top:.8rem; }
+  .person { padding:.75rem; background:white; border:1px solid #d5e1ec; border-radius:.6rem; }
+  .person strong { display:block; color:#164d7f; }
+  .person span { display:block; margin-top:.2rem; font-size:.88rem; color:var(--muted); }
+</style>
+<script>
+  state.placeIndex = null;
+  const placeImage = country => blueArt.carte;
+  const refText = refs => (refs || []).map(ref => `${ref.livre} ${ref.chapitre}:${ref.versets}`).join(' · ');
+  function personHtml(person) { return `<div class="person"><strong>${esc(person.nom)}</strong><span>${esc(refText(person.references))}</span>${person.note ? `<span>${esc(person.note)}</span>` : ''}</div>`; }
+  function cityHtml(city) {
+    const name = city.ville?.nom || 'Ville'; const modern = city.ville?.hypotheses_modernes || city.ville?.noms_modernes || [];
+    return `<article class="city"><h3>${esc(name)}</h3>${modern.length ? `<p class="note">${esc(modern.join(' · '))}</p>` : ''}<div class="people">${(city.personnages_bibliques || []).map(personHtml).join('') || '<span class="note">Aucun personnage explicitement associé.</span>'}</div></article>`;
+  }
+  function renderPlaces() {
+    const places = state.data.Lieux;
+    if (state.placeIndex === null) {
+      $('status').textContent = `${places.length} pays et territoires. Choisissez un lieu pour voir ses régions, villes et personnages.`;
+      $('results').className = 'record-grid';
+      $('results').innerHTML = places.map((place, index) => { const country = place.pays.nom; const cities = place.regions.reduce((sum, region) => sum + region.villes.length, 0); return `<button class="place-card" data-place="${index}"><img src="${placeImage(country)}" alt="Carte des lieux bibliques"><span class="place-copy"><strong>${esc(country)}</strong><small>${cities} ville${cities > 1 ? 's' : ''} · ${(place.personnages_bibliques || []).length} personnage${(place.personnages_bibliques || []).length > 1 ? 's' : ''} au niveau du pays</small></span></button>`; }).join('');
+      document.querySelectorAll('[data-place]').forEach(button => button.onclick = () => { state.placeIndex = Number(button.dataset.place); render(); });
+      return;
+    }
+    const place = places[state.placeIndex], country = place.pays.nom;
+    $('status').textContent = '';
+    $('results').className = '';
+    $('results').innerHTML = `<div class="breadcrumb"><button class="back" id="back-places">← Tous les lieux</button><span>${esc(country)}</span></div><article class="card"><img class="portrait" style="width:155px;height:110px" src="${placeImage(country)}" alt="Carte des lieux bibliques"><h2>${esc(country)}</h2><p class="note">${esc((place.pays.noms_modernes || []).join(' · '))}</p>${(place.personnages_bibliques || []).length ? `<div class="people">${place.personnages_bibliques.map(personHtml).join('')}</div>` : ''}</article>${place.regions.map(region => `<section class="region"><h2>${esc(region.region.nom)}</h2><p class="note">${esc((Array.isArray(region.region.noms_modernes) ? region.region.noms_modernes : [region.region.noms_modernes]).filter(Boolean).join(' · '))}</p>${(region.personnages_bibliques || []).length ? `<div class="people">${region.personnages_bibliques.map(personHtml).join('')}</div>` : ''}${region.villes.map(cityHtml).join('')}</section>`).join('')}`;
+    $('back-places').onclick = () => { state.placeIndex = null; render(); };
+  }
+  const renderWithoutPlaces = render;
+  render = function() { if (state.section === 'Lieux') { renderNav(); renderPlaces(); } else { state.placeIndex = null; renderWithoutPlaces(); } };
+</script>
 </body>
 </html>

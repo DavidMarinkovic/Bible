@@ -2143,6 +2143,28 @@
         "importance": "Sanctuaire marial majeur du catholicisme latino-américain.",
         "statut": "Lieu de culte vivant.",
         "note": "Les apparitions et Juan Diego relèvent de la tradition catholique."
+      },
+      {
+        "nom": "Monastères des Météores",
+        "tradition": "Orthodoxie grecque",
+        "type": "ensemble monastique rupestre",
+        "lieu": { "ville": "Kalambaka", "pays": "Grèce" },
+        "dates": "XIVe-XVIe siècles",
+        "personnalites": ["Athanase le Météorite", "moines orthodoxes"],
+        "monasteres": ["Grand Météore (Transfiguration)", "Varlaam", "Roussanou / Sainte-Barbe", "Saint-Nicolas Anapausas", "Sainte-Trinité", "Saint-Étienne"],
+        "importance": "Ensemble monastique orthodoxe établi sur des pitons rocheux spectaculaires.",
+        "statut": "Six monastères sont aujourd'hui visitables; site UNESCO."
+      },
+      {
+        "nom": "Mont Athos — Sainte Montagne",
+        "tradition": "Orthodoxie grecque",
+        "type": "république monastique orthodoxe",
+        "lieu": { "ville": "Péninsule de l'Athos", "pays": "Grèce" },
+        "dates": "vie monastique attestée depuis le IXe siècle",
+        "personnalites": ["Athanase l'Athonite"],
+        "monasteres": ["Grande Lavra", "Vatopedi", "Iviron", "Hilandar", "Dionysiou", "Koutloumousiou", "Pantokratoros", "Xiropotamou", "Zographou", "Dochiariou", "Karakallou", "Philotheou", "Simonopetra", "Saint-Paul", "Stavronikita", "Xénophon", "Grigoriou", "Esphigmenou", "Saint-Pantéléimon", "Konstamonitou"],
+        "importance": "Centre majeur du monachisme orthodoxe, organisé autour de vingt monastères souverains.",
+        "statut": "Territoire monastique autonome de Grèce; accès réglementé."
       }
     ]
   },

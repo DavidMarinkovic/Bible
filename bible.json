@@ -1,0 +1,5111 @@
+{
+  "Lieux": [
+    {
+      "pays": {
+        "nom": "Akkad",
+        "noms_modernes": [
+          "Irak"
+        ]
+      },
+      "personnages_bibliques": [],
+      "regions": [
+        {
+          "region": {
+            "nom": "Mésopotamie centrale",
+            "noms_modernes": [
+              "Irak central"
+            ]
+          },
+          "personnages_bibliques": [],
+          "villes": [
+            {
+              "ville": {
+                "nom": "Agadé / Akkad",
+                "hypotheses_modernes": [
+                  "Localisation exacte inconnue; probablement en Irak central"
+                ]
+              },
+              "personnages_bibliques": [
+                {
+                  "nom": "Nimrod",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 10,
+                      "versets": "8-10"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pays": {
+        "nom": "Ammon",
+        "noms_modernes": [
+          "Jordanie"
+        ]
+      },
+      "personnages_bibliques": [],
+      "regions": [
+        {
+          "region": {
+            "nom": "Hautes terres ammonites",
+            "noms_modernes": [
+              "Région d'Amman"
+            ]
+          },
+          "personnages_bibliques": [],
+          "villes": [
+            {
+              "ville": {
+                "nom": "Rabbah",
+                "hypotheses_modernes": [
+                  "Amman, Jordanie"
+                ]
+              },
+              "personnages_bibliques": [
+                {
+                  "nom": "David",
+                  "references": [
+                    {
+                      "livre": "2 Samuel",
+                      "chapitre": 11,
+                      "versets": "1"
+                    },
+                    {
+                      "livre": "2 Samuel",
+                      "chapitre": 12,
+                      "versets": "26-31"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Joab",
+                  "references": [
+                    {
+                      "livre": "2 Samuel",
+                      "chapitre": 12,
+                      "versets": "26-28"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pays": {
+        "nom": "Anatolie",
+        "noms_modernes": [
+          "Turquie"
+        ]
+      },
+      "personnages_bibliques": [],
+      "regions": [
+        {
+          "region": {
+            "nom": "Cappadoce / Anatolie centrale",
+            "noms_modernes": [
+              "Province de Kayseri",
+              "Anatolie centrale"
+            ]
+          },
+          "personnages_bibliques": [],
+          "villes": [
+            {
+              "ville": {
+                "nom": "Kanesh",
+                "hypotheses_modernes": [
+                  "Kültepe, près de Kayseri, Turquie"
+                ]
+              },
+              "personnages_bibliques": [],
+              "note_biblique": "Aucune mention explicite de Kanesh (Kültepe) n'a été relevée dans le corpus contrôlé : textes bibliques et deutérocanoniques, 1 Enoch, Jubilés et 1-3 Meqabyan."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pays": {
+        "nom": "Aram / Haute-Mésopotamie",
+        "noms_modernes": [
+          "Turquie",
+          "Syrie"
+        ]
+      },
+      "personnages_bibliques": [],
+      "regions": [
+        {
+          "region": {
+            "nom": "Paddan-Aram / Aram-Naharaïm",
+            "noms_modernes": [
+              "Sud-est de la Turquie",
+              "Haute-Mésopotamie"
+            ]
+          },
+          "personnages_bibliques": [],
+          "villes": [
+            {
+              "ville": {
+                "nom": "Haran",
+                "hypotheses_modernes": [
+                  "Harran, province de Şanlıurfa, Turquie"
+                ]
+              },
+              "personnages_bibliques": [
+                {
+                  "nom": "Abraham",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 11,
+                      "versets": "31-32"
+                    },
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 12,
+                      "versets": "4-5"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Jacob",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 27,
+                      "versets": "43"
+                    },
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 28,
+                      "versets": "10"
+                    },
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 29,
+                      "versets": "4"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Térah",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 11,
+                      "versets": "31-32"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Lot",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 11,
+                      "versets": "31"
+                    },
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 12,
+                      "versets": "4-5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pays": {
+        "nom": "Aram-Damas",
+        "noms_modernes": [
+          "Syrie"
+        ]
+      },
+      "personnages_bibliques": [],
+      "regions": [
+        {
+          "region": {
+            "nom": "Région de Damas",
+            "noms_modernes": [
+              "Damas et sa région"
+            ]
+          },
+          "personnages_bibliques": [],
+          "villes": [
+            {
+              "ville": {
+                "nom": "Damas",
+                "hypotheses_modernes": [
+                  "Damas, Syrie"
+                ]
+              },
+              "personnages_bibliques": [
+                {
+                  "nom": "Abraham",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 14,
+                      "versets": "15"
+                    },
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 15,
+                      "versets": "2"
+                    }
+                  ]
+                },
+                {
+                  "nom": "David",
+                  "references": [
+                    {
+                      "livre": "2 Samuel",
+                      "chapitre": 8,
+                      "versets": "5-6"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Rezin, roi de Damas",
+                  "references": [
+                    {
+                      "livre": "2 Rois",
+                      "chapitre": 16,
+                      "versets": "5-9"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pays": {
+        "nom": "Assyrie",
+        "noms_modernes": [
+          "Irak"
+        ]
+      },
+      "personnages_bibliques": [],
+      "regions": [
+        {
+          "region": {
+            "nom": "Haute-Mésopotamie",
+            "noms_modernes": [
+              "Région de Mossoul",
+              "Ninive"
+            ]
+          },
+          "personnages_bibliques": [],
+          "villes": [
+            {
+              "ville": {
+                "nom": "Ninive",
+                "hypotheses_modernes": [
+                  "Ruines de Ninive, face à Mossoul, Irak"
+                ]
+              },
+              "personnages_bibliques": [
+                {
+                  "nom": "Jonas",
+                  "references": [
+                    {
+                      "livre": "Jonas",
+                      "chapitre": 1,
+                      "versets": "2"
+                    },
+                    {
+                      "livre": "Jonas",
+                      "chapitre": 3,
+                      "versets": "1-10"
+                    },
+                    {
+                      "livre": "Jonas",
+                      "chapitre": 4,
+                      "versets": "1-11"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Sennachérib",
+                  "references": [
+                    {
+                      "livre": "2 Rois",
+                      "chapitre": 19,
+                      "versets": "36-37"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ville": {
+                "nom": "Assur / Ashur",
+                "hypotheses_modernes": [
+                  "Qal'at Sherqat, Irak"
+                ]
+              },
+              "personnages_bibliques": [
+                {
+                  "nom": "Assur, fils de Sem",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 10,
+                      "versets": "22"
+                    },
+                    {
+                      "livre": "Jubilés",
+                      "chapitre": 9,
+                      "versets": "3"
+                    }
+                  ],
+                  "note": "Lien éponymique et territorial : Jubilés attribue à Assur « le pays d'Assur, Ninive et Shinear ». Le texte ne situe pas Assur dans la ville d'Assur."
+                }
+              ],
+              "note_biblique": "Assur/Assyrie est mentionné comme territoire et comme ancêtre éponyme; la ville d'Assur n'est pas un cadre narratif explicite pour un personnage identifié."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pays": {
+        "nom": "Babylonie",
+        "noms_modernes": [
+          "Irak"
+        ]
+      },
+      "personnages_bibliques": [],
+      "regions": [
+        {
+          "region": {
+            "nom": "Basse-Mésopotamie",
+            "noms_modernes": [
+              "Province de Babil"
+            ]
+          },
+          "personnages_bibliques": [],
+          "villes": [
+            {
+              "ville": {
+                "nom": "Babylone / Babel",
+                "hypotheses_modernes": [
+                  "Ruines de Babylone, près de Hillah, Irak"
+                ]
+              },
+              "personnages_bibliques": [
+                {
+                  "nom": "Nimrod",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 10,
+                      "versets": "8-10"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Nebucadnetsar",
+                  "references": [
+                    {
+                      "livre": "Daniel",
+                      "chapitre": 1,
+                      "versets": "1-7"
+                    },
+                    {
+                      "livre": "Daniel",
+                      "chapitre": 2,
+                      "versets": "1-49"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Daniel",
+                  "references": [
+                    {
+                      "livre": "Daniel",
+                      "chapitre": 1,
+                      "versets": "1-7"
+                    },
+                    {
+                      "livre": "Daniel",
+                      "chapitre": 2,
+                      "versets": "1-49"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Hanania, Mishaël et Azaria",
+                  "references": [
+                    {
+                      "livre": "Daniel",
+                      "chapitre": 1,
+                      "versets": "6-7"
+                    },
+                    {
+                      "livre": "Daniel",
+                      "chapitre": 3,
+                      "versets": "1-30"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pays": {
+        "nom": "Canaan",
+        "noms_modernes": [
+          "Cisjordanie",
+          "Israël/Palestine"
+        ]
+      },
+      "personnages_bibliques": [],
+      "regions": [
+        {
+          "region": {
+            "nom": "Collines de Juda / Salem",
+            "noms_modernes": [
+              "Jérusalem"
+            ]
+          },
+          "personnages_bibliques": [],
+          "villes": [
+            {
+              "ville": {
+                "nom": "Salem / Jérusalem",
+                "hypotheses_modernes": [
+                  "Jérusalem"
+                ]
+              },
+              "personnages_bibliques": [
+                {
+                  "nom": "Melchisédek",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 14,
+                      "versets": "18-20"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Abraham",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 14,
+                      "versets": "18-20"
+                    }
+                  ]
+                },
+                {
+                  "nom": "David",
+                  "references": [
+                    {
+                      "livre": "2 Samuel",
+                      "chapitre": 5,
+                      "versets": "6-10"
+                    }
+                  ],
+                  "note": "Ce lien concerne Jérusalem; l'identification de Salem de Genèse 14 avec Jérusalem est traditionnelle mais discutée."
+                },
+                {
+                  "nom": "Salomon",
+                  "references": [
+                    {
+                      "livre": "1 Rois",
+                      "chapitre": 6,
+                      "versets": "1-14"
+                    }
+                  ],
+                  "note": "Ce lien concerne Jérusalem; l'identification de Salem de Genèse 14 avec Jérusalem est traditionnelle mais discutée."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "region": {
+            "nom": "Montagnes centrales de Canaan",
+            "noms_modernes": [
+              "Région de Naplouse"
+            ]
+          },
+          "personnages_bibliques": [],
+          "villes": [
+            {
+              "ville": {
+                "nom": "Sichem",
+                "hypotheses_modernes": [
+                  "Tell Balata, près de Naplouse"
+                ]
+              },
+              "personnages_bibliques": [
+                {
+                  "nom": "Abraham",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 12,
+                      "versets": "6-7"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Jacob",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 33,
+                      "versets": "18-20"
+                    },
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 34,
+                      "versets": "1-31"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Dinah",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 34,
+                      "versets": "1-31"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Sichem, fils de Hamor",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 34,
+                      "versets": "2-26"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Siméon et Lévi",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 34,
+                      "versets": "25-31"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ville": {
+                "nom": "Béthel",
+                "hypotheses_modernes": [
+                  "Beitin (identification traditionnelle)",
+                  "Secteur d'al-Bireh / Ramallah (hypothèses alternatives)"
+                ]
+              },
+              "personnages_bibliques": [
+                {
+                  "nom": "Abraham",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 12,
+                      "versets": "8"
+                    },
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 13,
+                      "versets": "3-4"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Jacob",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 28,
+                      "versets": "10-22"
+                    },
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 35,
+                      "versets": "1-15"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Jéroboam Ier",
+                  "references": [
+                    {
+                      "livre": "1 Rois",
+                      "chapitre": 12,
+                      "versets": "28-33"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "region": {
+            "nom": "Montagnes de Juda / Mamré",
+            "noms_modernes": [
+              "Région d'Hébron"
+            ]
+          },
+          "personnages_bibliques": [],
+          "villes": [
+            {
+              "ville": {
+                "nom": "Hébron / Kirjath-Arba",
+                "hypotheses_modernes": [
+                  "Hébron / al-Khalil"
+                ]
+              },
+              "personnages_bibliques": [
+                {
+                  "nom": "Abraham",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 13,
+                      "versets": "18"
+                    },
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 23,
+                      "versets": "1-20"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Sarah",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 23,
+                      "versets": "1-20"
+                    }
+                  ]
+                },
+                {
+                  "nom": "David",
+                  "references": [
+                    {
+                      "livre": "2 Samuel",
+                      "chapitre": 2,
+                      "versets": "1-4"
+                    },
+                    {
+                      "livre": "2 Samuel",
+                      "chapitre": 5,
+                      "versets": "1-5"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pays": {
+        "nom": "Canaan / Phénicie",
+        "noms_modernes": [
+          "Liban"
+        ]
+      },
+      "personnages_bibliques": [],
+      "regions": [
+        {
+          "region": {
+            "nom": "Côte phénicienne",
+            "noms_modernes": [
+              "Mont-Liban",
+              "côte du Liban"
+            ]
+          },
+          "personnages_bibliques": [],
+          "villes": [
+            {
+              "ville": {
+                "nom": "Byblos / Gebal",
+                "hypotheses_modernes": [
+                  "Jbeil, Liban"
+                ]
+              },
+              "personnages_bibliques": [
+                {
+                  "nom": "Salomon",
+                  "references": [
+                    {
+                      "livre": "1 Rois",
+                      "chapitre": 5,
+                      "versets": "18"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ville": {
+                "nom": "Sidon",
+                "hypotheses_modernes": [
+                  "Saïda / Sidon, Liban"
+                ]
+              },
+              "personnages_bibliques": [
+                {
+                  "nom": "Jacob",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 49,
+                      "versets": "13"
+                    }
+                  ]
+                }
+              ],
+              "note_biblique": "Genèse 49:13 mentionne Sidon comme repère territorial dans la bénédiction de Jacob; il ne situe pas Jacob dans la ville."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pays": {
+        "nom": "Canaan méridional",
+        "noms_modernes": [
+          "Israël"
+        ]
+      },
+      "personnages_bibliques": [],
+      "regions": [
+        {
+          "region": {
+            "nom": "Néguev",
+            "noms_modernes": [
+              "District Sud d'Israël"
+            ]
+          },
+          "personnages_bibliques": [],
+          "villes": [
+            {
+              "ville": {
+                "nom": "Beer-Sheba / Beersheba",
+                "hypotheses_modernes": [
+                  "Tel Be'er Sheva",
+                  "Be'er Sheva moderne"
+                ]
+              },
+              "personnages_bibliques": [
+                {
+                  "nom": "Abraham",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 21,
+                      "versets": "22-34"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Isaac",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 26,
+                      "versets": "23-33"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Jacob",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 46,
+                      "versets": "1-5"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Hagar et Ismaël",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 21,
+                      "versets": "14-21"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pays": {
+        "nom": "Canaan méridional / Philistie",
+        "noms_modernes": [
+          "Bande de Gaza",
+          "Israël/Palestine"
+        ]
+      },
+      "personnages_bibliques": [],
+      "regions": [
+        {
+          "region": {
+            "nom": "Plaine côtière méridionale",
+            "noms_modernes": [
+              "Gaza et environs"
+            ]
+          },
+          "personnages_bibliques": [],
+          "villes": [
+            {
+              "ville": {
+                "nom": "Gaza",
+                "hypotheses_modernes": [
+                  "Gaza"
+                ]
+              },
+              "personnages_bibliques": [
+                {
+                  "nom": "Samson",
+                  "references": [
+                    {
+                      "livre": "Juges",
+                      "chapitre": 16,
+                      "versets": "1-3"
+                    },
+                    {
+                      "livre": "Juges",
+                      "chapitre": 16,
+                      "versets": "21-31"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pays": {
+        "nom": "Canaan méridional / territoire de Guérar",
+        "noms_modernes": [
+          "Israël"
+        ]
+      },
+      "personnages_bibliques": [],
+      "regions": [
+        {
+          "region": {
+            "nom": "Néguev occidental",
+            "noms_modernes": [
+              "Nord-ouest du Néguev"
+            ]
+          },
+          "personnages_bibliques": [],
+          "villes": [
+            {
+              "ville": {
+                "nom": "Guérar",
+                "hypotheses_modernes": [
+                  "Tel Haror / Tell Abu Hureira, identification souvent proposée",
+                  "Secteur du Nahal Gerar"
+                ]
+              },
+              "personnages_bibliques": [
+                {
+                  "nom": "Abraham",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 20,
+                      "versets": "1-18"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Isaac",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 26,
+                      "versets": "1-33"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Abimélec, roi de Guérar",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 20,
+                      "versets": "2-18"
+                    },
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 26,
+                      "versets": "1-33"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pays": {
+        "nom": "Canaan septentrional / Syrie côtière",
+        "noms_modernes": [
+          "Syrie"
+        ]
+      },
+      "personnages_bibliques": [],
+      "regions": [
+        {
+          "region": {
+            "nom": "Côte levantine nord",
+            "noms_modernes": [
+              "Gouvernorat de Lattaquié"
+            ]
+          },
+          "personnages_bibliques": [],
+          "villes": [
+            {
+              "ville": {
+                "nom": "Ugarit",
+                "hypotheses_modernes": [
+                  "Ras Shamra, près de Lattaquié, Syrie"
+                ]
+              },
+              "personnages_bibliques": [],
+              "note_biblique": "Ugarit n'est pas nommée dans le corpus contrôlé : textes bibliques et deutérocanoniques, 1 Enoch, Jubilés et 1-3 Meqabyan; aucun personnage ne peut lui être associé textuellement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pays": {
+        "nom": "Édom / région du golfe d'Aqaba",
+        "noms_modernes": [
+          "Israël",
+          "Jordanie"
+        ]
+      },
+      "personnages_bibliques": [],
+      "regions": [
+        {
+          "region": {
+            "nom": "Arabah méridionale",
+            "noms_modernes": [
+              "Eilat",
+              "Aqaba"
+            ]
+          },
+          "personnages_bibliques": [],
+          "villes": [
+            {
+              "ville": {
+                "nom": "Ezion-Guéber",
+                "hypotheses_modernes": [
+                  "Tell el-Kheleifeh, près d'Aqaba/Eilat (identification proposée)"
+                ]
+              },
+              "personnages_bibliques": [
+                {
+                  "nom": "Salomon",
+                  "references": [
+                    {
+                      "livre": "1 Rois",
+                      "chapitre": 9,
+                      "versets": "26"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Josaphat",
+                  "references": [
+                    {
+                      "livre": "1 Rois",
+                      "chapitre": 22,
+                      "versets": "48"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Hiram, roi de Tyr",
+                  "references": [
+                    {
+                      "livre": "1 Rois",
+                      "chapitre": 9,
+                      "versets": "26-28"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Achazia",
+                  "references": [
+                    {
+                      "livre": "2 Chroniques",
+                      "chapitre": 20,
+                      "versets": "35-37"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pays": {
+        "nom": "Égypte",
+        "noms_modernes": [
+          "Égypte"
+        ]
+      },
+      "personnages_bibliques": [],
+      "regions": [
+        {
+          "region": {
+            "nom": "Basse-Égypte",
+            "noms_modernes": [
+              "Grand Caire"
+            ]
+          },
+          "personnages_bibliques": [],
+          "villes": [
+            {
+              "ville": {
+                "nom": "On / Héliopolis",
+                "hypotheses_modernes": [
+                  "Ayn Shams",
+                  "Al-Matariyya, Le Caire"
+                ]
+              },
+              "personnages_bibliques": [
+                {
+                  "nom": "Joseph",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 41,
+                      "versets": "45"
+                    },
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 41,
+                      "versets": "50"
+                    },
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 46,
+                      "versets": "20"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Asnath et Potiphéra",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 41,
+                      "versets": "45"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Manassé et Éphraïm",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 41,
+                      "versets": "50"
+                    },
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 46,
+                      "versets": "20"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ville": {
+                "nom": "Noph / Memphis",
+                "hypotheses_modernes": [
+                  "Mit Rahina, Égypte"
+                ]
+              },
+              "personnages_bibliques": [
+                {
+                  "nom": "Jérémie",
+                  "references": [
+                    {
+                      "livre": "Jérémie",
+                      "chapitre": 44,
+                      "versets": "1"
+                    }
+                  ]
+                }
+              ],
+              "note_biblique": "Jérémie 44:1 adresse une parole aux Judéens établis à Memphis; le verset ne dit pas que Jérémie s'y trouvait personnellement."
+            }
+          ]
+        },
+        {
+          "region": {
+            "nom": "Delta oriental du Nil",
+            "noms_modernes": [
+              "Gouvernorat d'Ash-Sharqiya"
+            ]
+          },
+          "personnages_bibliques": [],
+          "villes": [
+            {
+              "ville": {
+                "nom": "Tsoan / Tanis",
+                "hypotheses_modernes": [
+                  "San el-Hagar, Égypte"
+                ]
+              },
+              "personnages_bibliques": [
+                {
+                  "nom": "Moïse",
+                  "references": [
+                    {
+                      "livre": "Psaumes",
+                      "chapitre": 78,
+                      "versets": "12"
+                    },
+                    {
+                      "livre": "Psaumes",
+                      "chapitre": 78,
+                      "versets": "43"
+                    }
+                  ]
+                }
+              ],
+              "note_biblique": "Le Psaume 78 associe Tsoan aux prodiges de l'Exode sans nommer Moïse dans ces versets; le lien avec Moïse est donc contextuel."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pays": {
+        "nom": "Hatti / Anatolie hittite",
+        "noms_modernes": [
+          "Turquie"
+        ]
+      },
+      "personnages_bibliques": [],
+      "regions": [
+        {
+          "region": {
+            "nom": "Anatolie centrale",
+            "noms_modernes": [
+              "Province de Çorum",
+              "Anatolie centrale"
+            ]
+          },
+          "personnages_bibliques": [],
+          "villes": [
+            {
+              "ville": {
+                "nom": "Hattusa",
+                "hypotheses_modernes": [
+                  "Boğazkale (site de Boğazköy), Turquie"
+                ]
+              },
+              "personnages_bibliques": [
+                {
+                  "nom": "Urie le Hittite",
+                  "references": [
+                    {
+                      "livre": "2 Samuel",
+                      "chapitre": 11,
+                      "versets": "3, 6, 17, 21, 24"
+                    },
+                    {
+                      "livre": "2 Samuel",
+                      "chapitre": 12,
+                      "versets": "9-10"
+                    }
+                  ],
+                  "note": "Lien ethnique indirect : Urie est appelé « le Hittite » dans la Bible. Hattusa n'est pas nommée dans le texte biblique et aucun passage ne rattache Urie personnellement à cette ville."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pays": {
+        "nom": "Sinaï / région frontalière de Canaan",
+        "noms_modernes": [
+          "Égypte",
+          "Israël"
+        ]
+      },
+      "personnages_bibliques": [],
+      "regions": [
+        {
+          "region": {
+            "nom": "Désert de Paran / Néguev méridional",
+            "noms_modernes": [
+              "Nord-est du Sinaï",
+              "Néguev"
+            ]
+          },
+          "personnages_bibliques": [],
+          "villes": [
+            {
+              "ville": {
+                "nom": "Kadès-Barnéa",
+                "hypotheses_modernes": [
+                  "Ain Qudeirat (identification courante)",
+                  "Ein Qedeis (hypothèse historique)"
+                ]
+              },
+              "personnages_bibliques": [
+                {
+                  "nom": "Moïse",
+                  "references": [
+                    {
+                      "livre": "Nombres",
+                      "chapitre": 13,
+                      "versets": "26"
+                    },
+                    {
+                      "livre": "Nombres",
+                      "chapitre": 20,
+                      "versets": "1"
+                    },
+                    {
+                      "livre": "Deutéronome",
+                      "chapitre": 1,
+                      "versets": "19-46"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Miriam",
+                  "references": [
+                    {
+                      "livre": "Nombres",
+                      "chapitre": 20,
+                      "versets": "1"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pays": {
+        "nom": "Sumer / Basse-Mésopotamie",
+        "noms_modernes": [
+          "Irak"
+        ]
+      },
+      "personnages_bibliques": [],
+      "regions": [
+        {
+          "region": {
+            "nom": "Chaldée / sud mésopotamien",
+            "noms_modernes": [
+              "Province de Dhi Qar",
+              "Sud de l'Irak"
+            ]
+          },
+          "personnages_bibliques": [],
+          "villes": [
+            {
+              "ville": {
+                "nom": "Ur",
+                "hypotheses_modernes": [
+                  "Tell el-Muqayyar, près de Nasiriyah, Irak"
+                ]
+              },
+              "personnages_bibliques": [
+                {
+                  "nom": "Abraham",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 11,
+                      "versets": "28-31"
+                    },
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 15,
+                      "versets": "7"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Térah",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 11,
+                      "versets": "31"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Haran, fils de Térah",
+                  "references": [
+                    {
+                      "livre": "Genèse",
+                      "chapitre": 11,
+                      "versets": "27-28"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pays": {
+        "nom": "Syrie du Nord",
+        "noms_modernes": [
+          "Turquie",
+          "Syrie"
+        ]
+      },
+      "personnages_bibliques": [],
+      "regions": [
+        {
+          "region": {
+            "nom": "Intérieur syrien",
+            "noms_modernes": [
+              "Gouvernorat d'Idlib"
+            ]
+          },
+          "personnages_bibliques": [],
+          "villes": [
+            {
+              "ville": {
+                "nom": "Ebla",
+                "hypotheses_modernes": [
+                  "Tell Mardikh, Syrie"
+                ]
+              },
+              "personnages_bibliques": [],
+              "note_biblique": "Ebla n'est pas nommée dans le corpus contrôlé : textes bibliques et deutérocanoniques, 1 Enoch, Jubilés et 1-3 Meqabyan; aucun personnage ne peut lui être associé textuellement."
+            }
+          ]
+        },
+        {
+          "region": {
+            "nom": "Vallée de l'Oronte",
+            "noms_modernes": [
+              "Hatay",
+              "Nord-ouest de la Syrie"
+            ]
+          },
+          "personnages_bibliques": [],
+          "villes": [
+            {
+              "ville": {
+                "nom": "Alalakh",
+                "hypotheses_modernes": [
+                  "Tell Atchana, province de Hatay, Turquie"
+                ]
+              },
+              "personnages_bibliques": [],
+              "note_biblique": "Alalakh n'est pas nommée dans le corpus contrôlé : textes bibliques et deutérocanoniques, 1 Enoch, Jubilés et 1-3 Meqabyan; aucun personnage ne peut lui être associé textuellement."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pays": {
+        "nom": "Syrie du Nord / Aram",
+        "noms_modernes": [
+          "Syrie"
+        ]
+      },
+      "personnages_bibliques": [],
+      "regions": [
+        {
+          "region": {
+            "nom": "Nord de la Syrie",
+            "noms_modernes": [
+              "Gouvernorat d'Alep"
+            ]
+          },
+          "personnages_bibliques": [],
+          "villes": [
+            {
+              "ville": {
+                "nom": "Alep",
+                "hypotheses_modernes": [
+                  "Alep, Syrie"
+                ]
+              },
+              "personnages_bibliques": [
+                {
+                  "nom": "Ménélas, grand prêtre",
+                  "references": [
+                    {
+                      "livre": "2 Maccabées",
+                      "chapitre": 13,
+                      "versets": "3-8"
+                    }
+                  ],
+                  "note": "Le texte nomme la ville Bérée (Beroea), nom grec d'Alep, où Ménélas est conduit puis exécuté."
+                }
+              ],
+              "note_biblique": "Alep n'est pas nommée sous son nom actuel dans les livres canoniques hébreux ni dans le Nouveau Testament. Bérée, son nom grec, apparaît en 2 Maccabées, livre deutérocanonique dans les traditions catholique et orthodoxe, et généralement classé parmi les apocryphes dans les traditions protestantes."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pays": {
+        "nom": "Syrie du Nord / zone syro-hittite",
+        "noms_modernes": [
+          "Turquie",
+          "Syrie"
+        ]
+      },
+      "personnages_bibliques": [],
+      "regions": [
+        {
+          "region": {
+            "nom": "Haute vallée de l'Euphrate",
+            "noms_modernes": [
+              "Frontière Turquie-Syrie",
+              "Gaziantep",
+              "Alep"
+            ]
+          },
+          "personnages_bibliques": [],
+          "villes": [
+            {
+              "ville": {
+                "nom": "Carchemish",
+                "hypotheses_modernes": [
+                  "Karkamış, Turquie",
+                  "Jerablus, Syrie (à proximité)"
+                ]
+              },
+              "personnages_bibliques": [
+                {
+                  "nom": "Pharaon Néko",
+                  "references": [
+                    {
+                      "livre": "2 Chroniques",
+                      "chapitre": 35,
+                      "versets": "20"
+                    },
+                    {
+                      "livre": "Jérémie",
+                      "chapitre": 46,
+                      "versets": "2"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Nebucadnetsar",
+                  "references": [
+                    {
+                      "livre": "Jérémie",
+                      "chapitre": 46,
+                      "versets": "2"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Josias",
+                  "references": [
+                    {
+                      "livre": "2 Chroniques",
+                      "chapitre": 35,
+                      "versets": "20-24"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pays": {
+        "nom": "Syrie intérieure",
+        "noms_modernes": [
+          "Syrie"
+        ]
+      },
+      "personnages_bibliques": [],
+      "regions": [
+        {
+          "region": {
+            "nom": "Désert syrien",
+            "noms_modernes": [
+              "Gouvernorat de Homs"
+            ]
+          },
+          "personnages_bibliques": [],
+          "villes": [
+            {
+              "ville": {
+                "nom": "Tadmor",
+                "hypotheses_modernes": [
+                  "Tadmur / Palmyre, Syrie"
+                ]
+              },
+              "personnages_bibliques": [
+                {
+                  "nom": "Salomon",
+                  "references": [
+                    {
+                      "livre": "2 Chroniques",
+                      "chapitre": 8,
+                      "versets": "4"
+                    }
+                  ]
+                }
+              ],
+              "note_biblique": "Tadmor est nommé en 2 Chroniques 8:4; le passage parallèle de 1 Rois 9:18 lit « Tamar », d'où une identification discutée."
+            }
+          ]
+        },
+        {
+          "region": {
+            "nom": "Vallée de l'Oronte",
+            "noms_modernes": [
+              "Gouvernorat de Hama"
+            ]
+          },
+          "personnages_bibliques": [],
+          "villes": [
+            {
+              "ville": {
+                "nom": "Hamath",
+                "hypotheses_modernes": [
+                  "Hama, Syrie"
+                ]
+              },
+              "personnages_bibliques": [
+                {
+                  "nom": "David",
+                  "references": [
+                    {
+                      "livre": "2 Samuel",
+                      "chapitre": 8,
+                      "versets": "9-10"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Toï, roi de Hamath",
+                  "references": [
+                    {
+                      "livre": "2 Samuel",
+                      "chapitre": 8,
+                      "versets": "9-10"
+                    }
+                  ]
+                },
+                {
+                  "nom": "Salomon",
+                  "references": [
+                    {
+                      "livre": "2 Chroniques",
+                      "chapitre": 8,
+                      "versets": "3-4"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Temporel": {
+    "description": "Chronologie indicative: faits attestés, traditions et processus graduels sont distingués.",
+    "propagation_du_christianisme": [
+      {
+        "periode": "vers 30-33",
+        "pays": "Judée romaine",
+        "region": "Jérusalem et Palestine",
+        "acteurs": [
+          "Jésus de Nazareth",
+          "apôtres et première communauté"
+        ],
+        "mode": "Naissance du mouvement chrétien",
+        "statut": "Attesté par le Nouveau Testament",
+        "references": [
+          "Actes 1-2"
+        ]
+      },
+      {
+        "periode": "vers 34-40",
+        "pays": "Samarie et Koush/Nubie",
+        "region": "Route de Gaza et royaume de Koush",
+        "acteurs": [
+          "Philippe",
+          "haut fonctionnaire de la Kandake"
+        ],
+        "mode": "Baptême individuel",
+        "statut": "Communauté durable non démontrée",
+        "references": [
+          "Actes 8:26-40"
+        ]
+      },
+      {
+        "periode": "années 40-60",
+        "pays": "Syrie, Anatolie, Grèce et Italie",
+        "region": "Méditerranée orientale et Rome",
+        "acteurs": [
+          "Paul de Tarse",
+          "Barnabé",
+          "Pierre et autres missionnaires"
+        ],
+        "mode": "Réseaux urbains, diaspora et routes romaines",
+        "statut": "Attesté",
+        "references": [
+          "Actes 11-28",
+          "Épîtres pauliniennes"
+        ]
+      },
+      {
+        "periode": "Ier-IIIe siècles",
+        "pays": "Empire romain, Mésopotamie et Perse",
+        "region": "Méditerranée et au-delà de l Euphrate",
+        "acteurs": [
+          "communautés locales",
+          "évêques",
+          "marchands",
+          "missionnaires syriaques"
+        ],
+        "mode": "Diffusion urbaine et commerciale",
+        "statut": "Processus graduel",
+        "references": [
+          "sources patristiques et archéologiques"
+        ]
+      },
+      {
+        "periode": "début IVe siècle",
+        "pays": "Arménie",
+        "region": "Caucase du Sud",
+        "acteurs": [
+          "Grégoire l Illuminateur",
+          "Tiridate III"
+        ],
+        "mode": "Conversion royale",
+        "statut": "Date discutée, souvent 301 ou 314",
+        "references": [
+          "tradition arménienne"
+        ]
+      },
+      {
+        "periode": "313-380",
+        "pays": "Empire romain",
+        "region": "Europe méridionale, Méditerranée et Proche-Orient",
+        "acteurs": [
+          "Constantin Ier",
+          "Théodose Ier",
+          "évêques"
+        ],
+        "mode": "Tolérance puis religion impériale",
+        "statut": "Attesté",
+        "references": [
+          "édit de Milan, 313",
+          "édit de Thessalonique, 380"
+        ]
+      },
+      {
+        "periode": "IVe siècle",
+        "pays": "Géorgie",
+        "region": "Caucase",
+        "acteurs": [
+          "Nino de Cappadoce",
+          "Mirian III"
+        ],
+        "mode": "Conversion de la cour",
+        "statut": "Tradition et chronologie approximative",
+        "references": [
+          "tradition géorgienne"
+        ]
+      },
+      {
+        "periode": "IVe siècle",
+        "pays": "Royaume d Aksoum",
+        "region": "Corne de l Afrique",
+        "acteurs": [
+          "Frumence",
+          "Ézana",
+          "marchands chrétiens de la mer Rouge"
+        ],
+        "mode": "Réseaux commerciaux, mission épiscopale et conversion royale",
+        "statut": "Attesté",
+        "references": [
+          "Rufin",
+          "inscriptions et monnaies d Ézana"
+        ]
+      },
+      {
+        "periode": "Ve-VIIe siècles",
+        "pays": "Irlande, Nubie et Angleterre anglo-saxonne",
+        "region": "Îles Britanniques et vallée du Nil",
+        "acteurs": [
+          "Patrick",
+          "missionnaires coptes et byzantins",
+          "Augustin de Cantorbéry"
+        ],
+        "mode": "Missions et monachisme",
+        "statut": "Processus régionaux",
+        "references": [
+          "sources hagiographiques et archéologiques"
+        ]
+      },
+      {
+        "periode": "VIIe siècle",
+        "pays": "Chine des Tang",
+        "region": "Asie de l Est",
+        "acteurs": [
+          "Alopen",
+          "Église de l Orient"
+        ],
+        "mode": "Routes de la soie",
+        "statut": "Attesté",
+        "references": [
+          "stèle de Xi an, 781"
+        ]
+      },
+      {
+        "periode": "IXe-Xe siècles",
+        "pays": "Monde slave et Rus de Kiev",
+        "region": "Europe centrale et orientale",
+        "acteurs": [
+          "Cyrille",
+          "Méthode",
+          "Vladimir Ier",
+          "clergé byzantin"
+        ],
+        "mode": "Traduction, mission et conversions royales",
+        "statut": "Diffusion graduelle",
+        "references": [
+          "mission morave, 863",
+          "baptême de la Rus, 988"
+        ]
+      },
+      {
+        "periode": "XVIe-XXIe siècles",
+        "pays": "Monde entier",
+        "region": "Amériques, Afrique, Asie et Océanie",
+        "acteurs": [
+          "Églises locales",
+          "missionnaires",
+          "mouvements autochtones"
+        ],
+        "mode": "Migrations, traductions et missions",
+        "statut": "Processus pluriel et continu",
+        "references": [
+          "histoires régionales"
+        ]
+      }
+    ]
+  },
+  "Eglise": {
+    "description": "Répertoire sélectif de sanctuaires, cathédrales, basiliques, chapelles et temples d'importance historique, artistique ou spirituelle mondiale. Les temples de Jérusalem sont inclus comme précurseurs du culte judéo-chrétien; la liste n'est pas exhaustive.",
+    "edifices_majeurs": [
+      {
+        "nom": "Premier Temple de Jérusalem",
+        "tradition": "Judaïsme antique",
+        "type": "temple",
+        "lieu": {
+          "ville": "Jérusalem",
+          "pays": "Israël/Palestine"
+        },
+        "dates": "traditionnellement Xe siècle av. J.-C.; détruit en 586 av. J.-C.",
+        "personnalites": [
+          "Salomon"
+        ],
+        "importance": "Premier sanctuaire permanent du culte israélite.",
+        "statut": "Disparu; site de l'esplanade du Temple.",
+        "note": "Les sources bibliques sont centrales; les détails historiques et archéologiques sont discutés."
+      },
+      {
+        "nom": "Second Temple de Jérusalem",
+        "tradition": "Judaïsme du Second Temple",
+        "type": "temple",
+        "lieu": {
+          "ville": "Jérusalem",
+          "pays": "Israël/Palestine"
+        },
+        "dates": "achevé vers 516 av. J.-C.; agrandi par Hérode; détruit en 70 apr. J.-C.",
+        "personnalites": [
+          "Zorobabel",
+          "Esdras",
+          "Hérode le Grand",
+          "Jésus"
+        ],
+        "importance": "Centre du judaïsme du Second Temple et cadre majeur des Évangiles.",
+        "statut": "Détruit; mur Occidental conservé comme vestige du complexe."
+      },
+      {
+        "nom": "Église du Saint-Sépulcre",
+        "tradition": "Christianisme",
+        "type": "église et sanctuaire",
+        "lieu": {
+          "ville": "Jérusalem",
+          "pays": "Israël/Palestine"
+        },
+        "dates": "origine IVe siècle; reconstructions ultérieures",
+        "personnalites": [
+          "Constantin Ier",
+          "Hélène"
+        ],
+        "importance": "Lieu traditionnel de la crucifixion, de l'ensevelissement et de la résurrection de Jésus.",
+        "statut": "Lieu de culte vivant administré selon le Status Quo des Lieux saints."
+      },
+      {
+        "nom": "Basilique de la Nativité",
+        "tradition": "Christianisme",
+        "type": "basilique et sanctuaire",
+        "lieu": {
+          "ville": "Bethléem",
+          "pays": "Palestine"
+        },
+        "dates": "origine IVe siècle; édifice principal du VIe siècle",
+        "personnalites": [
+          "Constantin Ier",
+          "Hélène"
+        ],
+        "importance": "Lieu traditionnel de la naissance de Jésus et haut lieu de pèlerinage.",
+        "statut": "Lieu de culte vivant partagé par plusieurs Églises."
+      },
+      {
+        "nom": "Sainte-Sophie (Hagia Sophia)",
+        "tradition": "Byzantine, chrétienne puis islamique",
+        "type": "ancienne cathédrale impériale et mosquée",
+        "lieu": {
+          "ville": "Istanbul",
+          "pays": "Turquie"
+        },
+        "dates": "532-537",
+        "personnalites": [
+          "Justinien Ier",
+          "Anthémius de Tralles",
+          "Isidore de Milet"
+        ],
+        "importance": "Chef-d'œuvre byzantin et ancien siège patriarcal de Constantinople.",
+        "statut": "Mosquée; importance majeure pour l'histoire du christianisme orthodoxe."
+      },
+      {
+        "nom": "Basilique Saint-Pierre",
+        "tradition": "Catholicisme",
+        "type": "basilique papale",
+        "lieu": {
+          "ville": "Cité du Vatican",
+          "pays": "Cité du Vatican"
+        },
+        "dates": "XVIe-XVIIe siècles",
+        "personnalites": [
+          "Pierre apôtre",
+          "Jules II",
+          "Bramante",
+          "Michel-Ange",
+          "Bernin"
+        ],
+        "importance": "Principal sanctuaire catholique associé au tombeau traditionnel de Pierre.",
+        "statut": "Lieu de culte vivant et siège symbolique de la papauté."
+      },
+      {
+        "nom": "Chapelle Sixtine",
+        "tradition": "Catholicisme",
+        "type": "chapelle pontificale",
+        "lieu": {
+          "ville": "Cité du Vatican",
+          "pays": "Cité du Vatican"
+        },
+        "dates": "1473-1481; plafond peint 1508-1512",
+        "personnalites": [
+          "Sixte IV",
+          "Michel-Ange",
+          "Botticelli",
+          "Pérugin"
+        ],
+        "importance": "Chef-d'œuvre de la Renaissance et lieu du conclave.",
+        "statut": "Chapelle pontificale et musée en activité."
+      },
+      {
+        "nom": "Basilique Saint-Marc",
+        "tradition": "Catholicisme",
+        "type": "basilique-cathédrale",
+        "lieu": {
+          "ville": "Venise",
+          "pays": "Italie"
+        },
+        "dates": "édifice actuel commencé au XIe siècle",
+        "personnalites": [
+          "Marc l'évangéliste",
+          "doges de Venise"
+        ],
+        "importance": "Sanctuaire vénitien et monument majeur de l'art byzantino-vénitien.",
+        "statut": "Lieu de culte vivant.",
+        "note": "La présence des reliques de Marc relève de la tradition vénitienne."
+      },
+      {
+        "nom": "Cathédrale de Saint-Jacques-de-Compostelle",
+        "tradition": "Catholicisme",
+        "type": "cathédrale et sanctuaire de pèlerinage",
+        "lieu": {
+          "ville": "Santiago de Compostela",
+          "pays": "Espagne"
+        },
+        "dates": "XIe-XIIe siècles; façade baroque ultérieure",
+        "personnalites": [
+          "Jacques le Majeur",
+          "pèlerins du Camino"
+        ],
+        "importance": "Destination du Camino de Santiago et grand pèlerinage occidental.",
+        "statut": "Lieu de culte vivant.",
+        "note": "Le tombeau est traditionnellement attribué à Jacques."
+      },
+      {
+        "nom": "Cathédrale Notre-Dame de Chartres",
+        "tradition": "Catholicisme",
+        "type": "cathédrale",
+        "lieu": {
+          "ville": "Chartres",
+          "pays": "France"
+        },
+        "dates": "reconstruction majeure après 1194",
+        "personnalites": [
+          "chapitre cathédral",
+          "maîtres verriers"
+        ],
+        "importance": "Référence mondiale du gothique et de l'art du vitrail.",
+        "statut": "Lieu de culte vivant; UNESCO."
+      },
+      {
+        "nom": "Cathédrale de Cologne",
+        "tradition": "Catholicisme",
+        "type": "cathédrale",
+        "lieu": {
+          "ville": "Cologne",
+          "pays": "Allemagne"
+        },
+        "dates": "1248-1880",
+        "personnalites": [
+          "archevêques de Cologne"
+        ],
+        "importance": "Sommet de l'architecture gothique européenne.",
+        "statut": "Lieu de culte vivant; UNESCO."
+      },
+      {
+        "nom": "Cathédrale de Cantorbéry",
+        "tradition": "Anglicanisme",
+        "type": "cathédrale",
+        "lieu": {
+          "ville": "Canterbury",
+          "pays": "Royaume-Uni"
+        },
+        "dates": "fondée en 597; édifices médiévaux",
+        "personnalites": [
+          "Augustin de Cantorbéry",
+          "Thomas Becket"
+        ],
+        "importance": "Siège de l'archevêque de Cantorbéry et centre symbolique de la Communion anglicane.",
+        "statut": "Lieu de culte vivant; UNESCO."
+      },
+      {
+        "nom": "Cathédrale d'Etchmiadzin",
+        "tradition": "Église apostolique arménienne",
+        "type": "cathédrale",
+        "lieu": {
+          "ville": "Vagharshapat",
+          "pays": "Arménie"
+        },
+        "dates": "origine traditionnellement 301-303; forme actuelle surtout Ve-XVIIe siècles",
+        "personnalites": [
+          "Grégoire l'Illuminateur",
+          "Tiridate III"
+        ],
+        "importance": "Siège spirituel de l'Église apostolique arménienne.",
+        "statut": "Lieu de culte vivant; UNESCO."
+      },
+      {
+        "nom": "Églises rupestres de Lalibela",
+        "tradition": "Église orthodoxe éthiopienne Tewahedo",
+        "type": "ensemble de onze églises monolithes",
+        "lieu": {
+          "ville": "Lalibela",
+          "pays": "Éthiopie"
+        },
+        "dates": "XIIe-XIIIe siècles",
+        "personnalites": [
+          "roi Lalibela"
+        ],
+        "importance": "« Nouvelle Jérusalem » éthiopienne et ensemble monolithique unique.",
+        "statut": "Lieu de culte et pèlerinage vivant; UNESCO."
+      },
+      {
+        "nom": "Monastère Sainte-Catherine du Sinaï",
+        "tradition": "Orthodoxie orientale",
+        "type": "monastère",
+        "lieu": {
+          "ville": "Sinaï",
+          "pays": "Égypte"
+        },
+        "dates": "VIe siècle",
+        "personnalites": [
+          "Justinian Ier",
+          "Catherine d'Alexandrie (tradition)"
+        ],
+        "importance": "Un des plus anciens monastères chrétiens continûment actifs.",
+        "statut": "Monastère vivant; UNESCO."
+      },
+      {
+        "nom": "Cathédrale Sainte-Sophie de Kyiv",
+        "tradition": "Orthodoxie orientale",
+        "type": "cathédrale historique",
+        "lieu": {
+          "ville": "Kyiv",
+          "pays": "Ukraine"
+        },
+        "dates": "XIe siècle",
+        "personnalites": [
+          "Iaroslav le Sage"
+        ],
+        "importance": "Témoin majeur de la christianisation de la Rus'.",
+        "statut": "Musée-réserve; UNESCO."
+      },
+      {
+        "nom": "Basilique Notre-Dame de Guadalupe",
+        "tradition": "Catholicisme",
+        "type": "basilique et sanctuaire",
+        "lieu": {
+          "ville": "Mexico",
+          "pays": "Mexique"
+        },
+        "dates": "1974-1976",
+        "personnalites": [
+          "Notre-Dame de Guadalupe",
+          "Juan Diego (tradition)"
+        ],
+        "importance": "Sanctuaire marial majeur du catholicisme latino-américain.",
+        "statut": "Lieu de culte vivant.",
+        "note": "Les apparitions et Juan Diego relèvent de la tradition catholique."
+      }
+    ]
+  },
+  "Saints": {
+    "convention_calendrier": "Les dates orthodoxes sont données selon le calendrier liturgique des Églises utilisant le calendrier julien révisé, actuellement aligné sur les dates grégoriennes pour les fêtes fixes. Dans les Églises conservant le calendrier julien, la célébration civile tombe actuellement 13 jours plus tard. Des calendriers locaux peuvent ajouter ou déplacer des commémorations.",
+    "Orthodoxe": [
+      {
+        "nom": "La Théotokos (Marie)",
+        "date_fete_orthodoxe": "8 septembre — Nativité de la Théotokos",
+        "epoque": "avant 1054",
+        "martyre": false,
+        "description_de_la_mort": "Selon la tradition de la Dormition, la Très Sainte Mère de Dieu s'endort à Jérusalem et est élevée dans la gloire; ces récits appartiennent à la Sainte Tradition et ne sont pas relatés dans le Nouveau Testament.",
+        "date_fete_catholique": "8 septembre (Nativité); autres fêtes mariales au calendrier romain",
+        "importance": "Fête de la personne et des grandes fêtes mariales; les calendriers comportent plusieurs commémorations."
+      },
+      {
+        "nom": "Jean, apôtre et évangéliste",
+        "date_fete_orthodoxe": "26 septembre",
+        "epoque": "avant 1054",
+        "martyre": false,
+        "description_de_la_mort": "La tradition le fait s'endormir à Éphèse, à un âge avancé.",
+        "date_fete_catholique": "27 décembre",
+        "importance": "Apôtre, évangéliste et figure majeure de la tradition johannique.",
+        "oeuvres": [
+          {
+            "titre": "Évangile selon Jean",
+            "type": "livre biblique",
+            "note": "Tradition johannique; composition et attribution discutées."
+          },
+          {
+            "titre": "Première, Deuxième et Troisième épîtres de Jean",
+            "type": "livres bibliques",
+            "note": "Tradition johannique."
+          },
+          {
+            "titre": "Apocalypse",
+            "type": "livre biblique",
+            "note": "Attribuée traditionnellement à Jean; attribution débattue."
+          }
+        ]
+      },
+      {
+        "nom": "Parascève de Iași",
+        "date_fete_orthodoxe": "14 octobre",
+        "epoque": "après 1054",
+        "martyre": false,
+        "description_de_la_mort": "Elle s'endort jeune, vers la fin du XIe siècle, après une vie ascétique; les détails proviennent de sa Vita hagiographique.",
+        "importance": "Sainte très vénérée en Roumanie, associée à la cathédrale métropolitaine de Iași.",
+        "tradition_locale": "roumaine"
+      },
+      {
+        "nom": "Luc, évangéliste",
+        "date_fete_orthodoxe": "18 octobre",
+        "epoque": "avant 1054",
+        "martyre": false,
+        "description_de_la_mort": "La tradition le fait mourir en paix en Béotie, à un âge avancé; les circonstances restent incertaines.",
+        "date_fete_catholique": "18 octobre",
+        "importance": "Évangéliste et auteur traditionnel des Actes des Apôtres.",
+        "oeuvres": [
+          {
+            "titre": "Évangile selon Luc",
+            "type": "livre biblique",
+            "note": "Attribution traditionnelle."
+          },
+          {
+            "titre": "Actes des Apôtres",
+            "type": "livre biblique",
+            "note": "Attribué traditionnellement au même auteur."
+          }
+        ]
+      },
+      {
+        "nom": "Jacques, frère du Seigneur",
+        "date_fete_orthodoxe": "23 octobre",
+        "epoque": "avant 1054",
+        "martyre": true,
+        "description_de_la_mort": "Selon des traditions anciennes, il est jeté du Temple puis mis à mort à Jérusalem vers 62.",
+        "date_fete_catholique": "3 mai",
+        "importance": "Premier responsable de l'Église de Jérusalem selon la tradition.",
+        "oeuvres": [
+          {
+            "titre": "Épître de Jacques",
+            "type": "livre biblique",
+            "note": "Attribution traditionnelle; l'identification de l'auteur est discutée."
+          }
+        ]
+      },
+      {
+        "nom": "Dimitrie le Nouveau de Basarabov",
+        "date_fete_orthodoxe": "27 octobre",
+        "epoque": "après 1054",
+        "martyre": false,
+        "description_de_la_mort": "Il s'endort comme ermite près de Basarabov; les circonstances précises relèvent de la tradition hagiographique.",
+        "importance": "Saint patron de Bucarest et figure majeure du calendrier roumain.",
+        "tradition_locale": "roumaine"
+      },
+      {
+        "nom": "Étienne de Dečani",
+        "date_fete_orthodoxe": "11 novembre",
+        "epoque": "après 1054",
+        "martyre": true,
+        "description_de_la_mort": "Déposé puis emprisonné à Zvečan, il est étranglé en 1331, selon la tradition serbe, sur ordre de son fils Dušan.",
+        "importance": "Roi serbe et fondateur du monastère de Visoki Dečani.",
+        "tradition_locale": "serbe"
+      },
+      {
+        "nom": "Jean Chrysostome",
+        "date_fete_orthodoxe": "13 novembre",
+        "epoque": "avant 1054",
+        "martyre": false,
+        "description_de_la_mort": "Épuisé par l'exil imposé par l'autorité impériale, il meurt à Comana du Pont en 407.",
+        "date_fete_catholique": "13 septembre",
+        "importance": "Archevêque de Constantinople et docteur de l'Église.",
+        "oeuvres": [
+          {
+            "titre": "Sur le sacerdoce",
+            "type": "traité"
+          },
+          {
+            "titre": "Homélies sur Matthieu",
+            "type": "homélies"
+          },
+          {
+            "titre": "Homélies sur Jean",
+            "type": "homélies"
+          },
+          {
+            "titre": "Homélies sur les épîtres de Paul",
+            "type": "homélies"
+          }
+        ]
+      },
+      {
+        "nom": "Grégoire Palamas",
+        "date_fete_orthodoxe": "14 novembre",
+        "epoque": "après 1054",
+        "martyre": false,
+        "description_de_la_mort": "Il meurt de maladie à Thessalonique en 1359.",
+        "importance": "Archevêque de Thessalonique et théologien de l'hésychasme.",
+        "oeuvres": [
+          {
+            "titre": "Triades pour la défense des saints hésychastes",
+            "type": "traité théologique"
+          },
+          {
+            "titre": "Tome hagioritique",
+            "type": "texte doctrinal"
+          },
+          {
+            "titre": "Homélies",
+            "type": "homélies"
+          }
+        ]
+      },
+      {
+        "nom": "Païssy de Neamț",
+        "date_fete_orthodoxe": "15 novembre",
+        "epoque": "après 1054",
+        "martyre": false,
+        "description_de_la_mort": "Il meurt au monastère de Neamț en 1794, après une longue vie monastique.",
+        "importance": "Moine et rénovateur de la tradition hésychaste en Moldavie et dans le monde slave.",
+        "tradition_locale": "roumaine",
+        "oeuvres": [
+          {
+            "titre": "Traductions et édition slavonne de la Philocalie",
+            "type": "traduction et édition",
+            "note": "Travail réalisé avec son cercle monastique."
+          }
+        ]
+      },
+      {
+        "nom": "Matthieu, apôtre et évangéliste",
+        "date_fete_orthodoxe": "16 novembre",
+        "epoque": "avant 1054",
+        "martyre": true,
+        "description_de_la_mort": "La tradition le présente comme martyr, mais les circonstances et le lieu de sa mort sont incertains.",
+        "date_fete_catholique": "21 septembre",
+        "importance": "Apôtre et auteur traditionnel du premier Évangile.",
+        "oeuvres": [
+          {
+            "titre": "Évangile selon Matthieu",
+            "type": "livre biblique",
+            "note": "Attribution traditionnelle; les études modernes discutent la paternité directe."
+          }
+        ]
+      },
+      {
+        "nom": "Catherine d'Alexandrie",
+        "date_fete_orthodoxe": "25 novembre",
+        "epoque": "avant 1054",
+        "martyre": true,
+        "description_de_la_mort": "Selon sa Passion hagiographique, elle est décapitée à Alexandrie sous Maxence; l'historicité de ce récit demeure discutée.",
+        "lieu_du_martyre": "Alexandrie, Égypte (selon la tradition)",
+        "lien_avec_sinai": "Selon la tradition, ses reliques furent transportées au mont Sinaï; le monastère Sainte-Catherine porte son nom et les vénère.",
+        "date_fete_catholique": "25 novembre",
+        "importance": "Martyre vénérée selon une tradition ancienne; culte et données historiques discutés."
+      },
+      {
+        "nom": "André, apôtre, protecteur de la Roumanie",
+        "date_fete_orthodoxe": "30 novembre",
+        "epoque": "avant 1054",
+        "martyre": true,
+        "description_de_la_mort": "Selon la tradition ancienne, il est crucifié à Patras; les détails du supplice ne sont pas établis par des sources contemporaines.",
+        "importance": "Apôtre considéré par la tradition roumaine comme l'évangélisateur de la Scythie Mineure.",
+        "tradition_locale": "roumaine",
+        "oeuvres": [
+          {
+            "titre": "Évangile selon André",
+            "type": "texte apocryphe",
+            "note": "Non canonique; l'attribution à l'apôtre est pseudépigraphique."
+          }
+        ]
+      },
+      {
+        "nom": "Frumence d'Aksoum",
+        "date_fete_orthodoxe": "30 novembre",
+        "epoque": "avant 1054",
+        "martyre": false,
+        "description_de_la_mort": "La tradition le fait s'endormir en paix après son épiscopat à Aksoum; les circonstances et la date exacte ne sont pas conservées.",
+        "importance": "Premier évêque d'Aksoum selon la tradition historique et ecclésiale."
+      },
+      {
+        "nom": "Jean Damascène",
+        "date_fete_orthodoxe": "4 décembre",
+        "epoque": "avant 1054",
+        "martyre": false,
+        "description_de_la_mort": "Il s'endort au monastère de Saint-Sabas, près de Jérusalem, vers 749.",
+        "date_fete_catholique": "4 décembre",
+        "importance": "Docteur et grand théologien de l'orthodoxie, défenseur des saintes icônes.",
+        "oeuvres": [
+          {
+            "titre": "La Source de la connaissance, dont Exposé exact de la foi orthodoxe",
+            "type": "somme théologique"
+          },
+          {
+            "titre": "Trois discours contre ceux qui rejettent les saintes images",
+            "type": "traité"
+          }
+        ]
+      },
+      {
+        "nom": "Nicolas de Myre",
+        "date_fete_orthodoxe": "6 décembre",
+        "epoque": "avant 1054",
+        "martyre": false,
+        "description_de_la_mort": "Il s'endort en paix à Myre, probablement au IVe siècle; les détails sont incertains.",
+        "date_fete_catholique": "6 décembre",
+        "importance": "Évêque de Myre, très vénéré en Orient et en Occident."
+      },
+      {
+        "nom": "Ambroise de Milan",
+        "date_fete_orthodoxe": "7 décembre",
+        "epoque": "avant 1054",
+        "martyre": false,
+        "description_de_la_mort": "Il s'endort à Milan en 397, peu avant Pâques.",
+        "date_fete_catholique": "7 décembre",
+        "importance": "Évêque et docteur de l'Église latine.",
+        "oeuvres": [
+          {
+            "titre": "De officiis ministrorum",
+            "type": "traité moral"
+          },
+          {
+            "titre": "De mysteriis",
+            "type": "catéchèse sacramentelle"
+          },
+          {
+            "titre": "Hymnes ambrosiennes",
+            "type": "hymnes"
+          }
+        ]
+      },
+      {
+        "nom": "Ignace d'Antioche",
+        "date_fete_orthodoxe": "20 décembre",
+        "epoque": "avant 1054",
+        "martyre": true,
+        "description_de_la_mort": "Conduit à Rome sous Trajan, il est livré aux bêtes dans l'amphithéâtre, selon la tradition ancienne.",
+        "date_fete_catholique": "17 octobre",
+        "importance": "Père apostolique et témoin majeur de l'Église primitive.",
+        "oeuvres": [
+          {
+            "titre": "Lettres d'Ignace d'Antioche",
+            "type": "lettres pastorales"
+          }
+        ]
+      },
+      {
+        "nom": "Basile le Grand",
+        "date_fete_orthodoxe": "1 janvier",
+        "epoque": "avant 1054",
+        "martyre": false,
+        "description_de_la_mort": "Affaibli par la maladie et les austérités, il meurt à Césarée de Cappadoce le 1er janvier 379.",
+        "date_fete_catholique": "2 janvier",
+        "importance": "Évêque de Césarée et docteur de l'Église.",
+        "oeuvres": [
+          {
+            "titre": "Sur le Saint-Esprit",
+            "type": "traité théologique"
+          },
+          {
+            "titre": "Homélies sur l'Hexaéméron",
+            "type": "homélies"
+          },
+          {
+            "titre": "Règles longues et Règles brèves",
+            "type": "règle monastique"
+          },
+          {
+            "titre": "Lettres",
+            "type": "correspondance"
+          }
+        ]
+      },
+      {
+        "nom": "Séraphim de Sarov",
+        "date_fete_orthodoxe": "2 janvier",
+        "epoque": "après 1054",
+        "martyre": false,
+        "description_de_la_mort": "Il est trouvé mort à Sarov en 1833, agenouillé en prière devant une icône, selon sa communauté.",
+        "importance": "Moine russe et saint populaire de l'orthodoxie moderne."
+      },
+      {
+        "nom": "Nino de Géorgie",
+        "date_fete_orthodoxe": "14 janvier",
+        "epoque": "avant 1054",
+        "martyre": false,
+        "description_de_la_mort": "Elle s'endort en paix à Bodbe, en Kakhétie, après l'évangélisation de la Géorgie selon la tradition.",
+        "importance": "Évangélisatrice traditionnelle de la Géorgie."
+      },
+      {
+        "nom": "Sava de Serbie",
+        "date_fete_orthodoxe": "14 janvier",
+        "epoque": "après 1054",
+        "martyre": false,
+        "description_de_la_mort": "Il meurt à Trnovo en 1236, vraisemblablement de maladie, au retour d'un voyage en Terre sainte.",
+        "importance": "Premier archevêque serbe; fondateur et grande figure spirituelle de l'Église orthodoxe serbe.",
+        "tradition_locale": "serbe",
+        "oeuvres": [
+          {
+            "titre": "Nomocanon (Krmčija)",
+            "type": "recueil canonique"
+          },
+          {
+            "titre": "Vie de saint Siméon",
+            "type": "biographie hagiographique"
+          },
+          {
+            "titre": "Typikon de Karyès",
+            "type": "règle monastique"
+          }
+        ]
+      },
+      {
+        "nom": "Athanase d'Alexandrie",
+        "date_fete_orthodoxe": "18 janvier",
+        "epoque": "avant 1054",
+        "martyre": false,
+        "description_de_la_mort": "Il s'endort à Alexandrie en 373, après avoir connu plusieurs exils; aucune mort violente n'est rapportée.",
+        "date_fete_catholique": "2 mai",
+        "importance": "Patriarche d'Alexandrie, défenseur de Nicée.",
+        "oeuvres": [
+          {
+            "titre": "Sur l'Incarnation du Verbe",
+            "type": "traité"
+          },
+          {
+            "titre": "Discours contre les Ariens",
+            "type": "traité polémique"
+          },
+          {
+            "titre": "Vie d'Antoine",
+            "type": "biographie hagiographique"
+          },
+          {
+            "titre": "Lettres festales",
+            "type": "lettres"
+          }
+        ]
+      },
+      {
+        "nom": "Maxime le Confesseur",
+        "date_fete_orthodoxe": "21 janvier",
+        "epoque": "avant 1054",
+        "martyre": false,
+        "description_de_la_mort": "Après l'exil, les mauvais traitements et la mutilation, il s'endort en 662; il est vénéré comme confesseur.",
+        "date_fete_catholique": "13 août",
+        "importance": "Théologien majeur de la christologie et de la vie spirituelle.",
+        "oeuvres": [
+          {
+            "titre": "Ambigua",
+            "type": "traité théologique"
+          },
+          {
+            "titre": "Centuries sur l'amour",
+            "type": "maximes spirituelles"
+          },
+          {
+            "titre": "Mystagogie",
+            "type": "commentaire liturgique"
+          }
+        ]
+      },
+      {
+        "nom": "Grégoire le Théologien",
+        "date_fete_orthodoxe": "25 janvier",
+        "epoque": "avant 1054",
+        "martyre": false,
+        "description_de_la_mort": "Retiré à Nazianze, il s'endort en paix vers 390.",
+        "date_fete_catholique": "2 janvier",
+        "importance": "Père cappadocien et docteur de l'Église.",
+        "oeuvres": [
+          {
+            "titre": "Discours théologiques",
+            "type": "discours"
+          },
+          {
+            "titre": "Discours funèbres et panégyriques",
+            "type": "discours"
+          },
+          {
+            "titre": "Poèmes théologiques et autobiographiques",
+            "type": "poèmes"
+          },
+          {
+            "titre": "Lettres",
+            "type": "correspondance"
+          }
+        ]
+      },
+      {
+        "nom": "Éphrem le Syrien",
+        "date_fete_orthodoxe": "28 janvier",
+        "epoque": "avant 1054",
+        "martyre": false,
+        "description_de_la_mort": "Il s'endort à Édesse en 373, après avoir assisté les victimes d'une famine selon la tradition.",
+        "date_fete_catholique": "9 juin",
+        "importance": "Diacre, poète et docteur de l'Église syriaque.",
+        "oeuvres": [
+          {
+            "titre": "Hymnes sur la foi",
+            "type": "hymnes"
+          },
+          {
+            "titre": "Hymnes sur le Paradis",
+            "type": "hymnes"
+          },
+          {
+            "titre": "Commentaires bibliques",
+            "type": "commentaires"
+          }
+        ]
+      },
+      {
+        "nom": "Photius de Constantinople",
+        "date_fete_orthodoxe": "6 février",
+        "epoque": "avant 1054",
+        "martyre": false,
+        "description_de_la_mort": "Il meurt en exil, probablement au monastère de Bordi, vers 893.",
+        "importance": "Patriarche de Constantinople, figure majeure de l'orthodoxie.",
+        "oeuvres": [
+          {
+            "titre": "Bibliothèque (Myriobiblon)",
+            "type": "recueil critique et bibliographique"
+          },
+          {
+            "titre": "Amphilochia",
+            "type": "questions et réponses théologiques"
+          },
+          {
+            "titre": "Mystagogie du Saint-Esprit",
+            "type": "traité théologique"
+          }
+        ]
+      },
+      {
+        "nom": "Siméon le Myroblite",
+        "date_fete_orthodoxe": "13 février",
+        "epoque": "après 1054",
+        "martyre": false,
+        "description_de_la_mort": "Devenu moine au Mont Athos, il meurt au monastère de Hilandar en 1199.",
+        "importance": "Stefan Nemanja, fondateur de la dynastie Nemanjić et moine du Mont Athos.",
+        "tradition_locale": "serbe"
+      },
+      {
+        "nom": "Nicolas Velimirovitch",
+        "date_fete_orthodoxe": "5 mars",
+        "epoque": "après 1054",
+        "martyre": false,
+        "description_de_la_mort": "Il s'endort aux États-Unis en 1956, après les épreuves de l'occupation et de l'exil.",
+        "importance": "Évêque, prédicateur et théologien serbe du XXe siècle.",
+        "tradition_locale": "serbe",
+        "oeuvres": [
+          {
+            "titre": "Prières au bord du lac",
+            "type": "poèmes et prières"
+          },
+          {
+            "titre": "Prologue d'Ohrid",
+            "type": "hagiographie et méditations"
+          }
+        ]
+      },
+      {
+        "nom": "Grégoire le Grand",
+        "date_fete_orthodoxe": "12 mars",
+        "epoque": "avant 1054",
+        "martyre": false,
+        "description_de_la_mort": "Il s'endort à Rome en 604, après son pontificat.",
+        "date_fete_catholique": "3 septembre",
+        "importance": "Pape et docteur de l'Église latine.",
+        "oeuvres": [
+          {
+            "titre": "Règle pastorale",
+            "type": "traité pastoral"
+          },
+          {
+            "titre": "Dialogues",
+            "type": "récits hagiographiques"
+          },
+          {
+            "titre": "Morales sur Job",
+            "type": "commentaire biblique"
+          }
+        ]
+      },
+      {
+        "nom": "Benoît de Nursie",
+        "date_fete_orthodoxe": "14 mars",
+        "epoque": "avant 1054",
+        "martyre": false,
+        "description_de_la_mort": "Selon Grégoire le Grand, il meurt debout, soutenu par ses frères, après avoir reçu l'Eucharistie, vers 547.",
+        "date_fete_catholique": "11 juillet",
+        "importance": "Père du monachisme occidental.",
+        "oeuvres": [
+          {
+            "titre": "Règle de saint Benoît",
+            "type": "règle monastique"
+          }
+        ]
+      },
+      {
+        "nom": "Patrick d'Irlande",
+        "date_fete_orthodoxe": "17 mars",
+        "epoque": "avant 1054",
+        "martyre": false,
+        "description_de_la_mort": "La tradition le fait s'endormir à Saul, en Irlande, vers 461; les circonstances précises ne sont pas certaines.",
+        "date_fete_catholique": "17 mars",
+        "importance": "Missionnaire et évêque associé à l'évangélisation de l'Irlande.",
+        "oeuvres": [
+          {
+            "titre": "Confession",
+            "type": "autobiographie spirituelle"
+          },
+          {
+            "titre": "Lettre aux soldats de Coroticus",
+            "type": "lettre"
+          }
+        ]
+      },
+      {
+        "nom": "Jean Climaque",
+        "date_fete_orthodoxe": "30 mars",
+        "epoque": "avant 1054",
+        "martyre": false,
+        "description_de_la_mort": "Higoumène du monastère du Sinaï, il s'endort en paix au mont Sinaï, probablement au début du VIIe siècle; les dates précises sont incertaines.",
+        "date_fete_catholique": "30 mars",
+        "importance": "Moine du Sinaï et maître majeur de la vie ascétique; il est aussi commémoré le quatrième dimanche du Grand Carême dans la tradition orthodoxe.",
+        "oeuvres": [
+          {
+            "titre": "L'Échelle sainte (L'Échelle du paradis)",
+            "type": "traité ascétique",
+            "note": "Trente degrés de la vie spirituelle, de la renonciation au monde à l'amour."
+          }
+        ]
+      },
+      {
+        "nom": "Calinic de Cernica",
+        "date_fete_orthodoxe": "11 avril",
+        "epoque": "après 1054",
+        "martyre": false,
+        "description_de_la_mort": "Il s'endort au monastère de Cernica en 1868, après son ministère d'évêque et de réformateur.",
+        "importance": "Hiérarque et réformateur monastique majeur de l'orthodoxie roumaine.",
+        "tradition_locale": "roumaine"
+      },
+      {
+        "nom": "Georges le Mégalomartyr",
+        "date_fete_orthodoxe": "23 avril",
+        "epoque": "avant 1054",
+        "martyre": true,
+        "description_de_la_mort": "Selon sa Passion, il est torturé puis décapité pendant la persécution de Dioclétien; plusieurs détails sont hagiographiques.",
+        "date_fete_catholique": "23 avril",
+        "importance": "Martyr extrêmement populaire dans les calendriers orientaux."
+      },
+      {
+        "nom": "Marc, évangéliste",
+        "date_fete_orthodoxe": "25 avril",
+        "epoque": "avant 1054",
+        "martyre": true,
+        "description_de_la_mort": "Selon la tradition, il subit le martyre à Alexandrie; les détails historiques sont incertains.",
+        "date_fete_catholique": "25 avril",
+        "importance": "Évangéliste traditionnellement associé à l'apôtre Pierre.",
+        "oeuvres": [
+          {
+            "titre": "Évangile selon Marc",
+            "type": "livre biblique",
+            "note": "Attribution traditionnelle."
+          }
+        ]
+      },
+      {
+        "nom": "Basile d'Ostrog",
+        "date_fete_orthodoxe": "29 avril",
+        "epoque": "après 1054",
+        "martyre": false,
+        "description_de_la_mort": "Il s'endort au monastère d'Ostrog en 1671, après avoir été métropolite d'Herzégovine.",
+        "importance": "Évêque et thaumaturge; l'un des saints les plus vénérés de la tradition serbe.",
+        "tradition_locale": "serbe"
+      },
+      {
+        "nom": "Cyrille et Méthode",
+        "date_fete_orthodoxe": "11 mai",
+        "epoque": "avant 1054",
+        "martyre": false,
+        "description_de_la_mort": "Cyrille s'endort à Rome en 869 et Méthode en Moravie en 885; aucune mort violente n'est rapportée.",
+        "date_fete_catholique": "14 février",
+        "importance": "Évangélisateurs des Slaves; saint Cyrille est mort avant 1054, Méthode également.",
+        "oeuvres": [
+          {
+            "titre": "Traductions liturgiques et bibliques en slavon",
+            "type": "traduction",
+            "note": "Œuvre missionnaire et liturgique attribuée au cercle des deux frères."
+          },
+          {
+            "titre": "Alphabet glagolitique",
+            "type": "écriture",
+            "note": "Traditionnellement associé à Cyrille."
+          }
+        ]
+      },
+      {
+        "nom": "Constantin et Hélène",
+        "date_fete_orthodoxe": "21 mai",
+        "epoque": "avant 1054",
+        "martyre": false,
+        "description_de_la_mort": "Constantin meurt de maladie près de Nicomédie en 337, après le baptême; sainte Hélène est morte auparavant, vers 328-330, probablement de mort naturelle.",
+        "date_fete_catholique": "21 mai dans certains calendriers propres",
+        "importance": "Empereur et impératrice associés à la paix de l'Église et aux Lieux saints."
+      },
+      {
+        "nom": "Justin Popovitch",
+        "date_fete_orthodoxe": "1 juin",
+        "epoque": "après 1054",
+        "martyre": false,
+        "description_de_la_mort": "Il s'endort au monastère de Ćelije en 1979, après des années de restrictions sous le régime communiste.",
+        "importance": "Théologien et archimandrite serbe du XXe siècle.",
+        "tradition_locale": "serbe",
+        "oeuvres": [
+          {
+            "titre": "Dogmatique de l'Église orthodoxe",
+            "type": "traité théologique"
+          },
+          {
+            "titre": "Vies des saints",
+            "type": "hagiographie"
+          }
+        ]
+      },
+      {
+        "nom": "Cyrille d'Alexandrie",
+        "date_fete_orthodoxe": "9 juin",
+        "epoque": "avant 1054",
+        "martyre": false,
+        "description_de_la_mort": "Il s'endort à Alexandrie en 444; aucune mort violente n'est rapportée.",
+        "date_fete_catholique": "27 juin",
+        "importance": "Patriarche d'Alexandrie, figure majeure du concile d'Éphèse.",
+        "oeuvres": [
+          {
+            "titre": "Sur l'unité du Christ",
+            "type": "traité"
+          },
+          {
+            "titre": "Commentaires sur Jean",
+            "type": "commentaire biblique"
+          },
+          {
+            "titre": "Commentaires sur Luc",
+            "type": "commentaire biblique"
+          },
+          {
+            "titre": "Douze anathématismes contre Nestorius",
+            "type": "texte doctrinal"
+          }
+        ]
+      },
+      {
+        "nom": "Lazare de Serbie",
+        "date_fete_orthodoxe": "15 juin",
+        "epoque": "après 1054",
+        "martyre": true,
+        "description_de_la_mort": "Capturé après Kosovo Polje en 1389, il est exécuté par décapitation selon la tradition serbe.",
+        "importance": "Prince martyr associé à la mémoire de Kosovo Polje et figure majeure de la spiritualité serbe.",
+        "tradition_locale": "serbe"
+      },
+      {
+        "nom": "Augustin d'Hippone",
+        "date_fete_orthodoxe": "15 juin",
+        "epoque": "avant 1054",
+        "martyre": false,
+        "description_de_la_mort": "Il meurt à Hippone en 430, durant le siège vandale de la ville, probablement de maladie.",
+        "date_fete_catholique": "28 août",
+        "importance": "Évêque et théologien latin, reçu aussi dans la tradition orthodoxe.",
+        "oeuvres": [
+          {
+            "titre": "Les Confessions",
+            "type": "autobiographie spirituelle"
+          },
+          {
+            "titre": "La Cité de Dieu",
+            "type": "traité théologique et politique"
+          },
+          {
+            "titre": "De la Trinité",
+            "type": "traité théologique"
+          },
+          {
+            "titre": "Enchiridion sur la foi, l'espérance et la charité",
+            "type": "traité"
+          }
+        ]
+      },
+      {
+        "nom": "Jérôme de Stridon",
+        "date_fete_orthodoxe": "15 juin",
+        "epoque": "avant 1054",
+        "martyre": false,
+        "description_de_la_mort": "Il s'endort à Bethléem en 420, après une longue vie d'étude et de traduction.",
+        "date_fete_catholique": "30 septembre",
+        "importance": "Traducteur de la Vulgate et docteur de l'Église.",
+        "oeuvres": [
+          {
+            "titre": "Vulgate",
+            "type": "traduction biblique"
+          },
+          {
+            "titre": "De viris illustribus",
+            "type": "ouvrage biographique"
+          },
+          {
+            "titre": "Commentaires bibliques",
+            "type": "commentaires"
+          }
+        ]
+      },
+      {
+        "nom": "Jude, apôtre",
+        "date_fete_orthodoxe": "19 juin",
+        "epoque": "avant 1054",
+        "martyre": true,
+        "description_de_la_mort": "La tradition le présente comme martyr missionnaire; le lieu et les circonstances sont incertains.",
+        "date_fete_catholique": "28 octobre",
+        "importance": "Apôtre et auteur traditionnel d'une épître catholique.",
+        "oeuvres": [
+          {
+            "titre": "Épître de Jude",
+            "type": "livre biblique",
+            "note": "Attribution traditionnelle."
+          }
+        ]
+      },
+      {
+        "nom": "Pierre et Paul, apôtres",
+        "date_fete_orthodoxe": "29 juin",
+        "epoque": "avant 1054",
+        "martyre": true,
+        "description_de_la_mort": "La tradition ancienne situe leur martyre à Rome sous Néron: Pierre crucifié et Paul décapité; les modalités précises restent traditionnelles.",
+        "date_fete_catholique": "29 juin",
+        "importance": "Principaux apôtres, fêtés ensemble dans de nombreuses traditions.",
+        "oeuvres": [
+          {
+            "titre": "Première épître de Pierre",
+            "type": "épître",
+            "note": "Attribution traditionnelle à Pierre."
+          },
+          {
+            "titre": "Deuxième épître de Pierre",
+            "type": "épître",
+            "note": "Attribution traditionnelle à Pierre; discutée par une partie de la recherche."
+          },
+          {
+            "titre": "Épître aux Romains",
+            "type": "épître",
+            "note": "Attribuée à Paul."
+          },
+          {
+            "titre": "Première épître aux Corinthiens",
+            "type": "épître",
+            "note": "Attribuée à Paul."
+          },
+          {
+            "titre": "Épître aux Galates",
+            "type": "épître",
+            "note": "Attribuée à Paul."
+          }
+        ]
+      },
+      {
+        "nom": "Étienne le Grand",
+        "date_fete_orthodoxe": "2 juillet",
+        "epoque": "après 1054",
+        "martyre": false,
+        "description_de_la_mort": "Il s'endort de maladie à Suceava en 1504, après un long règne en Moldavie.",
+        "importance": "Prince de Moldavie, canonisé par l'Église orthodoxe roumaine; fondateur et protecteur d'églises et monastères.",
+        "tradition_locale": "roumaine"
+      },
+      {
+        "nom": "Irénée de Lyon",
+        "date_fete_orthodoxe": "23 août",
+        "epoque": "avant 1054",
+        "martyre": true,
+        "description_de_la_mort": "La tradition le compte parmi les martyrs de Lyon, mais les circonstances précises ne sont pas établies.",
+        "date_fete_catholique": "28 juin",
+        "importance": "Père de l'Église et défenseur de la foi apostolique.",
+        "oeuvres": [
+          {
+            "titre": "Contre les hérésies",
+            "type": "traité théologique"
+          },
+          {
+            "titre": "Démonstration de la prédication apostolique",
+            "type": "traité catéchétique"
+          }
+        ]
+      }
+    ],
+    "Catholique": [
+      {
+        "nom": "Thomas d'Aquin",
+        "date_fete_catholique": "28 janvier",
+        "epoque": "après 1054",
+        "martyre": false,
+        "description_de_la_mort": "Tombé malade en route vers le concile de Lyon, il meurt à Fossanova en 1274.",
+        "importance": "Théologien et docteur de l'Église.",
+        "oeuvres": [
+          {
+            "titre": "Somme théologique",
+            "type": "somme théologique"
+          },
+          {
+            "titre": "Somme contre les Gentils",
+            "type": "traité théologique"
+          },
+          {
+            "titre": "Commentaires bibliques",
+            "type": "commentaires"
+          },
+          {
+            "titre": "Hymnes eucharistiques, dont Pange lingua",
+            "type": "hymnes"
+          }
+        ]
+      },
+      {
+        "nom": "Oscar Romero",
+        "date_fete_catholique": "24 mars",
+        "epoque": "après 1054",
+        "martyre": true,
+        "description_de_la_mort": "Il est assassiné par balle le 24 mars 1980 pendant qu'il célèbre la messe à San Salvador.",
+        "importance": "Archevêque martyr de San Salvador.",
+        "oeuvres": [
+          {
+            "titre": "Homélies",
+            "type": "homélies"
+          },
+          {
+            "titre": "Lettres pastorales",
+            "type": "lettres pastorales"
+          }
+        ]
+      },
+      {
+        "nom": "Catherine de Sienne",
+        "date_fete_catholique": "29 avril",
+        "epoque": "après 1054",
+        "martyre": false,
+        "description_de_la_mort": "Très affaiblie par la maladie et les pénitences, elle meurt à Rome en 1380.",
+        "importance": "Mystique, réformatrice et docteur de l'Église.",
+        "oeuvres": [
+          {
+            "titre": "Le Dialogue",
+            "type": "traité spirituel"
+          },
+          {
+            "titre": "Lettres",
+            "type": "correspondance"
+          },
+          {
+            "titre": "Prières",
+            "type": "prières"
+          }
+        ]
+      },
+      {
+        "nom": "Jeanne d'Arc",
+        "date_fete_catholique": "30 mai",
+        "epoque": "après 1054",
+        "martyre": true,
+        "description_de_la_mort": "Condamnée à Rouen par un tribunal ecclésiastique sous contrôle anglais, elle est brûlée vive le 30 mai 1431; le procès est annulé après sa mort.",
+        "importance": "Jeune femme française, figure de la libération d'Orléans, canonisée en 1920.",
+        "oeuvres": [
+          {
+            "titre": "Lettres dictées de Jeanne d'Arc",
+            "type": "correspondance",
+            "note": "Lettres conservées ou rapportées; Jeanne les dictait généralement."
+          }
+        ]
+      },
+      {
+        "nom": "Bonaventure",
+        "date_fete_catholique": "15 juillet",
+        "epoque": "après 1054",
+        "martyre": false,
+        "description_de_la_mort": "Il meurt à Lyon en 1274 pendant le deuxième concile de Lyon; la cause exacte est incertaine.",
+        "importance": "Théologien franciscain et docteur de l'Église.",
+        "oeuvres": [
+          {
+            "titre": "Itinéraire de l'esprit vers Dieu",
+            "type": "traité mystique"
+          },
+          {
+            "titre": "Légende majeure de saint François",
+            "type": "biographie hagiographique"
+          },
+          {
+            "titre": "Breviloquium",
+            "type": "traité théologique"
+          }
+        ]
+      },
+      {
+        "nom": "Ignace de Loyola",
+        "date_fete_catholique": "31 juillet",
+        "epoque": "après 1054",
+        "martyre": false,
+        "description_de_la_mort": "Il meurt de maladie à Rome en 1556.",
+        "importance": "Fondateur de la Compagnie de Jésus.",
+        "oeuvres": [
+          {
+            "titre": "Exercices spirituels",
+            "type": "guide spirituel"
+          },
+          {
+            "titre": "Constitutions de la Compagnie de Jésus",
+            "type": "constitution religieuse"
+          },
+          {
+            "titre": "Autobiographie",
+            "type": "récit dicté"
+          }
+        ]
+      },
+      {
+        "nom": "Jean-Marie Vianney",
+        "date_fete_catholique": "4 août",
+        "epoque": "après 1054",
+        "martyre": false,
+        "description_de_la_mort": "Épuisé et malade, il meurt à Ars en 1859.",
+        "importance": "Curé d'Ars et patron des curés.",
+        "oeuvres": [
+          {
+            "titre": "Sermons",
+            "type": "sermons"
+          },
+          {
+            "titre": "Catéchismes",
+            "type": "enseignements catéchétiques"
+          }
+        ]
+      },
+      {
+        "nom": "Dominique de Guzmán",
+        "date_fete_catholique": "8 août",
+        "epoque": "après 1054",
+        "martyre": false,
+        "description_de_la_mort": "Il meurt de maladie à Bologne en 1221.",
+        "importance": "Fondateur de l'ordre des Prêcheurs."
+      },
+      {
+        "nom": "Claire d'Assise",
+        "date_fete_catholique": "11 août",
+        "epoque": "après 1054",
+        "martyre": false,
+        "description_de_la_mort": "Elle meurt de maladie à San Damiano en 1253.",
+        "importance": "Fondatrice des Clarisses.",
+        "oeuvres": [
+          {
+            "titre": "Règle de sainte Claire",
+            "type": "règle religieuse"
+          },
+          {
+            "titre": "Testament",
+            "type": "testament spirituel"
+          },
+          {
+            "titre": "Lettres à Agnès de Prague",
+            "type": "correspondance"
+          }
+        ]
+      },
+      {
+        "nom": "Maximilien Kolbe",
+        "date_fete_catholique": "14 août",
+        "epoque": "après 1054",
+        "martyre": true,
+        "description_de_la_mort": "Déporté à Auschwitz, il meurt après le bunker de la faim, tué par injection de phénol le 14 août 1941.",
+        "importance": "Martyr d'Auschwitz."
+      },
+      {
+        "nom": "Louis IX, roi de France",
+        "date_fete_catholique": "25 août",
+        "epoque": "après 1054",
+        "martyre": false,
+        "description_de_la_mort": "Il meurt de maladie, vraisemblablement de dysenterie, devant Tunis durant la huitième croisade en 1270.",
+        "importance": "Roi de France, modèle de justice chrétienne et fondateur d'institutions religieuses et hospitalières.",
+        "oeuvres": [
+          {
+            "titre": "Enseignements à son fils Philippe",
+            "type": "testament spirituel et politique"
+          },
+          {
+            "titre": "Ordonnances de Louis IX",
+            "type": "actes de gouvernement",
+            "note": "Ensemble d'actes royaux, non un livre rédigé seul par le roi."
+          }
+        ]
+      },
+      {
+        "nom": "Teresa de Calcutta",
+        "date_fete_catholique": "5 septembre",
+        "epoque": "après 1054",
+        "martyre": false,
+        "description_de_la_mort": "Elle meurt d'une défaillance cardiaque à Calcutta en 1997.",
+        "importance": "Fondatrice des Missionnaires de la Charité."
+      },
+      {
+        "nom": "Thérèse de Lisieux",
+        "date_fete_catholique": "1 octobre",
+        "epoque": "après 1054",
+        "martyre": false,
+        "description_de_la_mort": "Elle meurt de tuberculose au carmel de Lisieux en 1897.",
+        "importance": "Docteur de l'Église et figure de spiritualité moderne.",
+        "oeuvres": [
+          {
+            "titre": "Histoire d'une âme",
+            "type": "autobiographie spirituelle"
+          },
+          {
+            "titre": "Poésies",
+            "type": "poèmes"
+          },
+          {
+            "titre": "Lettres",
+            "type": "correspondance"
+          }
+        ]
+      },
+      {
+        "nom": "François d'Assise",
+        "date_fete_catholique": "4 octobre",
+        "epoque": "après 1054",
+        "martyre": false,
+        "description_de_la_mort": "Très malade et presque aveugle, il meurt à la Portioncule en 1226.",
+        "importance": "Fondateur de l'ordre franciscain et figure universelle de la pauvreté évangélique.",
+        "oeuvres": [
+          {
+            "titre": "Cantique des créatures",
+            "type": "poème"
+          },
+          {
+            "titre": "Règle non bullée",
+            "type": "règle religieuse"
+          },
+          {
+            "titre": "Règle bullée",
+            "type": "règle religieuse"
+          },
+          {
+            "titre": "Admonitions",
+            "type": "enseignements spirituels"
+          }
+        ]
+      },
+      {
+        "nom": "Faustine Kowalska",
+        "date_fete_catholique": "5 octobre",
+        "epoque": "après 1054",
+        "martyre": false,
+        "description_de_la_mort": "Elle meurt de tuberculose à Cracovie en 1938.",
+        "importance": "Religieuse associée à la dévotion à la Miséricorde divine.",
+        "oeuvres": [
+          {
+            "titre": "Petit Journal : La Miséricorde divine dans mon âme",
+            "type": "journal spirituel"
+          }
+        ]
+      },
+      {
+        "nom": "Thérèse d'Avila",
+        "date_fete_catholique": "15 octobre",
+        "epoque": "après 1054",
+        "martyre": false,
+        "description_de_la_mort": "Elle meurt de maladie à Alba de Tormes en 1582.",
+        "importance": "Réformatrice du Carmel et docteur de l'Église.",
+        "oeuvres": [
+          {
+            "titre": "Le Livre de la vie",
+            "type": "autobiographie spirituelle"
+          },
+          {
+            "titre": "Le Chemin de perfection",
+            "type": "traité spirituel"
+          },
+          {
+            "titre": "Le Château intérieur",
+            "type": "traité mystique"
+          },
+          {
+            "titre": "Les Fondations",
+            "type": "récit historique et spirituel"
+          }
+        ]
+      },
+      {
+        "nom": "Jean-Paul II",
+        "date_fete_catholique": "22 octobre",
+        "epoque": "après 1054",
+        "martyre": false,
+        "description_de_la_mort": "Il meurt au Vatican en 2005 des suites de complications liées à Parkinson et à une infection.",
+        "importance": "Pape; mémoire facultative au calendrier romain général.",
+        "oeuvres": [
+          {
+            "titre": "Mémoire et identité",
+            "type": "livre"
+          },
+          {
+            "titre": "Franchir le seuil de l'espérance",
+            "type": "livre"
+          },
+          {
+            "titre": "Redemptor hominis",
+            "type": "encyclique"
+          },
+          {
+            "titre": "Fides et ratio",
+            "type": "encyclique"
+          },
+          {
+            "titre": "Veritatis splendor",
+            "type": "encyclique"
+          }
+        ]
+      },
+      {
+        "nom": "François Xavier",
+        "date_fete_catholique": "3 décembre",
+        "epoque": "après 1054",
+        "martyre": false,
+        "description_de_la_mort": "Il meurt de fièvre sur l'île de Shangchuan, au large de la Chine, en 1552.",
+        "importance": "Missionnaire jésuite majeur en Asie.",
+        "oeuvres": [
+          {
+            "titre": "Lettres",
+            "type": "correspondance missionnaire"
+          }
+        ]
+      },
+      {
+        "nom": "Jean de la Croix",
+        "date_fete_catholique": "14 décembre",
+        "epoque": "après 1054",
+        "martyre": false,
+        "description_de_la_mort": "Il meurt de maladie à Úbeda en 1591.",
+        "importance": "Mystique carme et docteur de l'Église.",
+        "oeuvres": [
+          {
+            "titre": "La Nuit obscure",
+            "type": "poème et commentaire"
+          },
+          {
+            "titre": "Le Cantique spirituel",
+            "type": "poème et commentaire"
+          },
+          {
+            "titre": "La Vive Flamme d'amour",
+            "type": "poème et commentaire"
+          },
+          {
+            "titre": "La Montée du Carmel",
+            "type": "traité spirituel"
+          }
+        ]
+      }
+    ]
+  },
+  "Passages_bibliques_majeurs": {
+    "description": "Sélection de passages bibliques parmi les plus connus et les plus marquants. Les extraits français sont brefs; la référence permet de consulter le texte dans la traduction souhaitée.",
+    "passages": [
+      {
+        "titre": "La création",
+        "reference": "Genèse 1:1",
+        "extrait": "Au commencement, Dieu créa les cieux et la terre.",
+        "theme": "création"
+      },
+      {
+        "titre": "L'union du mariage",
+        "reference": "Genèse 2:24",
+        "traduction": "Louis Segond 1910",
+        "theme": "mariage et unité",
+        "versets": [
+          {
+            "numero": 24,
+            "texte": "C'est pourquoi l'homme quittera son père et sa mère, et s'attachera à sa femme, et ils deviendront une seule chair."
+          }
+        ]
+      },
+      {
+        "titre": "Les dix paroles",
+        "reference": "Exode 20:1-17",
+        "extrait": "Tu n'auras pas d'autres dieux devant ma face.",
+        "theme": "alliance et commandements"
+      },
+      {
+        "titre": "Honore ton père et ta mère",
+        "reference": "Exode 20:12",
+        "extrait": "Honore ton père et ta mère, afin que tes jours se prolongent dans le pays que l'Éternel, ton Dieu, te donne.",
+        "theme": "famille et respect des parents"
+      },
+      {
+        "titre": "Tu ne tueras point",
+        "reference": "Exode 20:13",
+        "extrait": "Tu ne tueras point.",
+        "theme": "respect de la vie"
+      },
+      {
+        "titre": "Ne mentez pas",
+        "reference": "Lévitique 19:11",
+        "extrait": "Vous ne déroberez point, et vous n'userez ni de mensonge ni de tromperie les uns envers les autres.",
+        "theme": "vérité et honnêteté"
+      },
+      {
+        "titre": "Les lèvres menteuses",
+        "reference": "Proverbes 12:22",
+        "extrait": "Les lèvres menteuses sont en horreur à l'Éternel, mais ceux qui agissent avec vérité lui sont agréables.",
+        "theme": "vérité et honnêteté"
+      },
+      {
+        "titre": "Rejetez le mensonge",
+        "reference": "Éphésiens 4:25",
+        "extrait": "C'est pourquoi, renoncez au mensonge, et que chacun de vous parle selon la vérité à son prochain; car nous sommes membres les uns des autres.",
+        "theme": "vérité et vie fraternelle"
+      },
+      {
+        "titre": "Ne mentez pas les uns aux autres",
+        "reference": "Colossiens 3:9",
+        "extrait": "Ne mentez pas les uns aux autres, vous étant dépouillés du vieil homme et de ses œuvres.",
+        "theme": "vérité et conversion"
+      },
+      {
+        "titre": "Tu ne porteras pas de faux témoignage",
+        "reference": "Exode 20:16",
+        "extrait": "Tu ne porteras point de faux témoignage contre ton prochain.",
+        "theme": "vérité et justice"
+      },
+      {
+        "titre": "Le salut au bord de la mer",
+        "reference": "Exode 14:14",
+        "extrait": "L'Éternel combattra pour vous; et vous, gardez le silence.",
+        "theme": "confiance et délivrance"
+      },
+      {
+        "titre": "Courage pour la mission",
+        "reference": "Josué 1:9",
+        "extrait": "Fortifie-toi et prends courage; ne t'effraie point.",
+        "theme": "courage"
+      },
+      {
+        "titre": "Dieu marche devant toi",
+        "reference": "Deutéronome 31:8",
+        "traduction": "Louis Segond 1910",
+        "theme": "présence de Dieu",
+        "versets": [
+          {
+            "numero": 8,
+            "texte": "L'Eternel marchera lui-même devant toi, il sera lui-même avec toi, il ne te délaissera point, il ne t'abandonnera point; ne crains point, et ne t'effraie point."
+          }
+        ]
+      },
+      {
+        "titre": "La fidélité de Ruth",
+        "reference": "Ruth 1:16-17",
+        "traduction": "Louis Segond 1910",
+        "theme": "fidélité et conversion",
+        "versets": [
+          {
+            "numero": 16,
+            "texte": "Ruth répondit: Ne me presse pas de te laisser, de retourner loin de toi! Où tu iras j'irai, où tu demeureras je demeurerai; ton peuple sera mon peuple, et ton Dieu sera mon Dieu;"
+          },
+          {
+            "numero": 17,
+            "texte": "où tu mourras je mourrai, et j'y serai enterrée. Que l'Eternel me traite dans toute sa rigueur, si autre chose que la mort vient à me séparer de toi!"
+          }
+        ]
+      },
+      {
+        "titre": "Le Seigneur est mon berger",
+        "reference": "Psaume 23:1-4",
+        "extrait": "L'Éternel est mon berger: je ne manquerai de rien.",
+        "theme": "confiance et consolation"
+      },
+      {
+        "titre": "Lumière et salut",
+        "reference": "Psaume 27:1",
+        "extrait": "L'Éternel est ma lumière et mon salut: de qui aurais-je crainte?",
+        "theme": "espérance"
+      },
+      {
+        "titre": "Refuge dans l'épreuve",
+        "reference": "Psaume 46:2",
+        "extrait": "Dieu est pour nous un refuge et un appui.",
+        "theme": "protection"
+      },
+      {
+        "titre": "La protection contre la flèche et le démon de midi",
+        "reference": "Psaume 91:5-6 (numérotation hébraïque); Psaume 90:5-6 (Septante)",
+        "extrait": "Tu ne craindras ni la terreur de la nuit, ni la flèche qui vole de jour, ni le fléau qui marche dans les ténèbres, ni le démon de midi.",
+        "theme": "protection et confiance en Dieu",
+        "note": "L'expression « démon de midi » provient de la Septante et des traductions liturgiques qui la suivent; d'autres traductions rendent le dernier membre autrement."
+      },
+      {
+        "titre": "La miséricorde renouvelée",
+        "reference": "Lamentations 3:22-23",
+        "extrait": "Ses compassions ne sont pas à leur terme; elles se renouvellent chaque matin.",
+        "theme": "miséricorde"
+      },
+      {
+        "titre": "Ne crains pas",
+        "reference": "Isaïe 41:10",
+        "extrait": "Ne crains rien, car je suis avec toi.",
+        "theme": "présence de Dieu"
+      },
+      {
+        "titre": "Le passage des eaux",
+        "reference": "Isaïe 43:1-2",
+        "extrait": "Si tu traverses les eaux, je serai avec toi.",
+        "theme": "protection"
+      },
+      {
+        "titre": "Un avenir et une espérance",
+        "reference": "Jérémie 29:11",
+        "extrait": "Je connais les projets que j'ai formés sur vous: projets de paix et d'espérance.",
+        "theme": "espérance"
+      },
+      {
+        "titre": "Ce que le Seigneur demande",
+        "reference": "Michée 6:8",
+        "extrait": "Pratique la justice, aime la miséricorde, et marche humblement avec ton Dieu.",
+        "theme": "justice et humilité"
+      },
+      {
+        "titre": "Les Béatitudes",
+        "reference": "Matthieu 5:3-12",
+        "extrait": "Heureux les pauvres en esprit, car le royaume des cieux est à eux.",
+        "theme": "Royaume de Dieu"
+      },
+      {
+        "titre": "La prière du Seigneur",
+        "reference": "Matthieu 6:9-13",
+        "traduction": "Louis Segond 1910",
+        "theme": "prière",
+        "versets": [
+          {
+            "numero": 9,
+            "texte": "Voici donc comment vous devez prier: Notre Père qui es aux cieux! Que ton nom soit sanctifié;"
+          },
+          {
+            "numero": 10,
+            "texte": "que ton règne vienne; que ta volonté soit faite sur la terre comme au ciel."
+          },
+          {
+            "numero": 11,
+            "texte": "Donne-nous aujourd'hui notre pain quotidien;"
+          },
+          {
+            "numero": 12,
+            "texte": "pardonne-nous nos offenses, comme nous aussi nous pardonnons à ceux qui nous ont offensés;"
+          },
+          {
+            "numero": 13,
+            "texte": "ne nous induis pas en tentation, mais délivre-nous du malin. Car c'est à toi qu'appartiennent, dans tous les siècles, le règne, la puissance et la gloire. Amen!"
+          }
+        ]
+      },
+      {
+        "titre": "La porte étroite et le chemin de la vie",
+        "reference": "Matthieu 7:13-14",
+        "traduction": "Louis Segond 1910",
+        "theme": "conversion et vie éternelle",
+        "versets": [
+          {
+            "numero": 13,
+            "texte": "Entrez par la porte étroite. Car large est la porte, spacieux est le chemin qui mènent à la perdition, et il y en a beaucoup qui entrent par là."
+          },
+          {
+            "numero": 14,
+            "texte": "Mais étroite est la porte, resserré le chemin qui mènent à la vie, et il y en a peu qui les trouvent."
+          }
+        ]
+      },
+      {
+        "titre": "L'humilité de Jean le Baptiste",
+        "reference": "Marc 1:7",
+        "traduction": "Louis Segond 1910",
+        "theme": "humilité devant le Christ",
+        "note": "Parallèles: Matthieu 3:11, Luc 3:16 et Jean 1:27. Les traductions contemporaines disent souvent « lanière de ses sandales ».",
+        "versets": [
+          {
+            "numero": 7,
+            "texte": "Il prêchait, disant: Il vient après moi celui qui est plus puissant que moi, et je ne suis pas digne de délier, en me baissant, la courroie de ses souliers."
+          }
+        ]
+      },
+      {
+        "titre": "Le repos en Christ",
+        "reference": "Matthieu 11:28",
+        "extrait": "Venez à moi, vous tous qui êtes fatigués et chargés, et je vous donnerai du repos.",
+        "theme": "repos et salut"
+      },
+      {
+        "titre": "Dieu a tant aimé le monde",
+        "reference": "Jean 3:16",
+        "extrait": "Dieu a tant aimé le monde qu'il a donné son Fils unique.",
+        "theme": "amour et salut"
+      },
+      {
+        "titre": "Le chemin, la vérité et la vie",
+        "reference": "Jean 14:6",
+        "extrait": "Je suis le chemin, la vérité, et la vie.",
+        "theme": "Christ"
+      },
+      {
+        "titre": "Rien ne nous séparera",
+        "reference": "Romains 8:38-39",
+        "extrait": "Rien ne pourra nous séparer de l'amour de Dieu manifesté en Jésus-Christ.",
+        "theme": "amour de Dieu"
+      }
+    ],
+    "paraboles_du_christ": [
+      {
+        "ordre": 1,
+        "titre": "La maison sur le roc et sur le sable",
+        "reference": "Matthieu 7:24-27",
+        "evangile": "Matthieu",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 24,
+            "texte": "C'est pourquoi, quiconque entend ces paroles que je dis et les met en pratique, sera semblable à un homme prudent qui a bâti sa maison sur le roc."
+          },
+          {
+            "numero": 25,
+            "texte": "La pluie est tombée, les torrents sont venus, les vents ont soufflé et se sont jetés contre cette maison: elle n'est point tombée, parce qu'elle était fondée sur le roc."
+          },
+          {
+            "numero": 26,
+            "texte": "Mais quiconque entend ces paroles que je dis, et ne les met pas en pratique, sera semblable à un homme insensé qui a bâti sa maison sur le sable."
+          },
+          {
+            "numero": 27,
+            "texte": "La pluie est tombée, les torrents sont venus, les vents ont soufflé et ont battu cette maison: elle est tombée, et sa ruine a été grande."
+          }
+        ]
+      },
+      {
+        "ordre": 2,
+        "titre": "Le vêtement neuf et les vieilles outres",
+        "reference": "Matthieu 9:16-17",
+        "evangile": "Matthieu",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 16,
+            "texte": "Personne ne met une pièce de drap neuf à un vieil habit; car elle emporterait une partie de l'habit, et la déchirure serait pire."
+          },
+          {
+            "numero": 17,
+            "texte": "On ne met pas non plus du vin nouveau dans de vieilles outres; autrement, les outres se rompent, le vin se répand, et les outres sont perdues; mais on met le vin nouveau dans des outres neuves, et le vin et les outres se conservent."
+          }
+        ]
+      },
+      {
+        "ordre": 3,
+        "titre": "Le semeur",
+        "reference": "Matthieu 13:3-9, 18-23",
+        "evangile": "Matthieu",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 3,
+            "texte": "Il leur parla en paraboles sur beaucoup de choses, et il dit: Un semeur sortit pour semer."
+          },
+          {
+            "numero": 4,
+            "texte": "Comme il semait, une partie de la semence tomba le long du chemin: les oiseaux vinrent, et la mangèrent."
+          },
+          {
+            "numero": 5,
+            "texte": "Une autre partie tomba dans les endroits pierreux, où elle n'avait pas beaucoup de terre: elle leva aussitôt, parce qu'elle ne trouva pas un sol profond;"
+          },
+          {
+            "numero": 6,
+            "texte": "mais, quand le soleil parut, elle fut brûlée et sécha, faute de racines."
+          },
+          {
+            "numero": 7,
+            "texte": "Une autre partie tomba parmi les épines: les épines montèrent, et l'étouffèrent."
+          },
+          {
+            "numero": 8,
+            "texte": "Une autre partie tomba dans la bonne terre: elle donna du fruit, un grain cent, un autre soixante, un autre trente."
+          },
+          {
+            "numero": 9,
+            "texte": "Que celui qui a des oreilles pour entendre entende."
+          },
+          {
+            "numero": 18,
+            "texte": "Vous donc, écoutez ce que signifie la parabole du semeur."
+          },
+          {
+            "numero": 19,
+            "texte": "Lorsqu'un homme écoute la parole du royaume et ne la comprend pas, le malin vient et enlève ce qui a été semé dans son coeur: cet homme est celui qui a reçu la semence le long du chemin."
+          },
+          {
+            "numero": 20,
+            "texte": "Celui qui a reçu la semence dans les endroits pierreux, c'est celui qui entend la parole et la reçoit aussitôt avec joie;"
+          },
+          {
+            "numero": 21,
+            "texte": "mais il n'a pas de racines en lui-même, il manque de persistance, et, dès que survient une tribulation ou une persécution à cause de la parole, il y trouve une occasion de chute."
+          },
+          {
+            "numero": 22,
+            "texte": "Celui qui a reçu la semence parmi les épines, c'est celui qui entend la parole, mais en qui les soucis du siècle et la séduction des richesses étouffent cette parole, et la rendent infructueuse."
+          },
+          {
+            "numero": 23,
+            "texte": "Celui qui a reçu la semence dans la bonne terre, c'est celui qui entend la parole et la comprend; il porte du fruit, et un grain en donne cent, un autre soixante, un autre trente."
+          }
+        ]
+      },
+      {
+        "ordre": 4,
+        "titre": "L'ivraie parmi le bon grain",
+        "reference": "Matthieu 13:24-30, 36-43",
+        "evangile": "Matthieu",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 24,
+            "texte": "Il leur proposa une autre parabole, et il dit: Le royaume des cieux est semblable à un homme qui a semé une bonne semence dans son champ."
+          },
+          {
+            "numero": 25,
+            "texte": "Mais, pendant que les gens dormaient, son ennemi vint, sema de l'ivraie parmi le blé, et s'en alla."
+          },
+          {
+            "numero": 26,
+            "texte": "Lorsque l'herbe eut poussé et donné du fruit, l'ivraie parut aussi."
+          },
+          {
+            "numero": 27,
+            "texte": "Les serviteurs du maître de la maison vinrent lui dire: Seigneur, n'as-tu pas semé une bonne semence dans ton champ? D'où vient donc qu'il y a de l'ivraie?"
+          },
+          {
+            "numero": 28,
+            "texte": "Il leur répondit: C'est un ennemi qui a fait cela. Et les serviteurs lui dirent: Veux-tu que nous allions l'arracher?"
+          },
+          {
+            "numero": 29,
+            "texte": "Non, dit-il, de peur qu'en arrachant l'ivraie, vous ne déraciniez en même temps le blé."
+          },
+          {
+            "numero": 30,
+            "texte": "Laissez croître ensemble l'un et l'autre jusqu'à la moisson, et, à l'époque de la moisson, je dirai aux moissonneurs: Arrachez d'abord l'ivraie, et liez-la en gerbes pour la brûler, mais amassez le blé dans mon grenier."
+          },
+          {
+            "numero": 36,
+            "texte": "Alors il renvoya la foule, et entra dans la maison. Ses disciples s'approchèrent de lui, et dirent: Explique-nous la parabole de l'ivraie du champ."
+          },
+          {
+            "numero": 37,
+            "texte": "Il répondit: Celui qui sème la bonne semence, c'est le Fils de l'homme;"
+          },
+          {
+            "numero": 38,
+            "texte": "le champ, c'est le monde; la bonne semence, ce sont les fils du royaume; l'ivraie, ce sont les fils du malin;"
+          },
+          {
+            "numero": 39,
+            "texte": "l'ennemi qui l'a semée, c'est le diable; la moisson, c'est la fin du monde; les moissonneurs, ce sont les anges."
+          },
+          {
+            "numero": 40,
+            "texte": "Or, comme on arrache l'ivraie et qu'on la jette au feu, il en sera de même à la fin du monde."
+          },
+          {
+            "numero": 41,
+            "texte": "Le Fils de l'homme enverra ses anges, qui arracheront de son royaume tous les scandales et ceux qui commettent l'iniquité:"
+          },
+          {
+            "numero": 42,
+            "texte": "et ils les jetteront dans la fournaise ardente, où il y aura des pleurs et des grincements de dents."
+          },
+          {
+            "numero": 43,
+            "texte": "Alors les justes resplendiront comme le soleil dans le royaume de leur Père. Que celui qui a des oreilles pour entendre entende."
+          }
+        ]
+      },
+      {
+        "ordre": 5,
+        "titre": "Le grain de sénevé",
+        "reference": "Matthieu 13:31-32",
+        "evangile": "Matthieu",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 31,
+            "texte": "Il leur proposa une autre parabole, et il dit: Le royaume des cieux est semblable à un grain de sénevé qu'un homme a pris et semé dans son champ."
+          },
+          {
+            "numero": 32,
+            "texte": "C'est la plus petite de toutes les semences; mais, quand il a poussé, il est plus grand que les légumes et devient un arbre, de sorte que les oiseaux du ciel viennent habiter dans ses branches."
+          }
+        ]
+      },
+      {
+        "ordre": 6,
+        "titre": "Le levain",
+        "reference": "Matthieu 13:33",
+        "evangile": "Matthieu",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 33,
+            "texte": "Il leur dit cette autre parabole: Le royaume des cieux est semblable à du levain qu'une femme a pris et mis dans trois mesures de farine, jusqu'à ce que la pâte soit toute levée."
+          }
+        ]
+      },
+      {
+        "ordre": 7,
+        "titre": "Le trésor caché",
+        "reference": "Matthieu 13:44",
+        "evangile": "Matthieu",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 44,
+            "texte": "Le royaume des cieux est encore semblable à un trésor caché dans un champ. L'homme qui l'a trouvé le cache; et, dans sa joie, il va vendre tout ce qu'il a, et achète ce champ."
+          }
+        ]
+      },
+      {
+        "ordre": 8,
+        "titre": "La perle de grand prix",
+        "reference": "Matthieu 13:45-46",
+        "evangile": "Matthieu",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 45,
+            "texte": "Le royaume des cieux est encore semblable à un marchand qui cherche de belles perles."
+          },
+          {
+            "numero": 46,
+            "texte": "Il a trouvé une perle de grand prix; et il est allé vendre tout ce qu'il avait, et l'a achetée."
+          }
+        ]
+      },
+      {
+        "ordre": 9,
+        "titre": "Le filet jeté dans la mer",
+        "reference": "Matthieu 13:47-50",
+        "evangile": "Matthieu",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 47,
+            "texte": "Le royaume des cieux est encore semblable à un filet jeté dans la mer et ramassant des poissons de toute espèce."
+          },
+          {
+            "numero": 48,
+            "texte": "Quand il est rempli, les pêcheurs le tirent; et, après s'être assis sur le rivage, ils mettent dans des vases ce qui est bon, et ils jettent ce qui est mauvais."
+          },
+          {
+            "numero": 49,
+            "texte": "Il en sera de même à la fin du monde. Les anges viendront séparer les méchants d'avec les justes,"
+          },
+          {
+            "numero": 50,
+            "texte": "et ils les jetteront dans la fournaise ardente, où il y aura des pleurs et des grincements de dents."
+          }
+        ]
+      },
+      {
+        "ordre": 10,
+        "titre": "Le serviteur impitoyable",
+        "reference": "Matthieu 18:23-35",
+        "evangile": "Matthieu",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 23,
+            "texte": "C'est pourquoi, le royaume des cieux est semblable à un roi qui voulut faire rendre compte à ses serviteurs."
+          },
+          {
+            "numero": 24,
+            "texte": "Quand il se mit à compter, on lui en amena un qui devait dix mille talents."
+          },
+          {
+            "numero": 25,
+            "texte": "Comme il n'avait pas de quoi payer, son maître ordonna qu'il fût vendu, lui, sa femme, ses enfants, et tout ce qu'il avait, et que la dette fût acquittée."
+          },
+          {
+            "numero": 26,
+            "texte": "Le serviteur, se jetant à terre, se prosterna devant lui, et dit: Seigneur, aie patience envers moi, et je te paierai tout."
+          },
+          {
+            "numero": 27,
+            "texte": "Emu de compassion, le maître de ce serviteur le laissa aller, et lui remit la dette."
+          },
+          {
+            "numero": 28,
+            "texte": "Après qu'il fut sorti, ce serviteur rencontra un de ses compagnons qui lui devait cent deniers. Il le saisit et l'étranglait, en disant: Paie ce que tu me dois."
+          },
+          {
+            "numero": 29,
+            "texte": "Son compagnon, se jetant à terre, le suppliait, disant: Aie patience envers moi, et je te paierai."
+          },
+          {
+            "numero": 30,
+            "texte": "Mais l'autre ne voulut pas, et il alla le jeter en prison, jusqu'à ce qu'il eût payé ce qu'il devait."
+          },
+          {
+            "numero": 31,
+            "texte": "Ses compagnons, ayant vu ce qui était arrivé, furent profondément attristés, et ils allèrent raconter à leur maître tout ce qui s'était passé."
+          },
+          {
+            "numero": 32,
+            "texte": "Alors le maître fit appeler ce serviteur, et lui dit: Méchant serviteur, je t'avais remis en entier ta dette, parce que tu m'en avais supplié;"
+          },
+          {
+            "numero": 33,
+            "texte": "ne devais-tu pas aussi avoir pitié de ton compagnon, comme j'ai eu pitié de toi?"
+          },
+          {
+            "numero": 34,
+            "texte": "Et son maître, irrité, le livra aux bourreaux, jusqu'à ce qu'il eût payé tout ce qu'il devait."
+          },
+          {
+            "numero": 35,
+            "texte": "C'est ainsi que mon Père céleste vous traitera, si chacun de vous ne pardonne à son frère de tout son coeur."
+          }
+        ]
+      },
+      {
+        "ordre": 11,
+        "titre": "Les ouvriers de la vigne",
+        "reference": "Matthieu 20:1-16",
+        "evangile": "Matthieu",
+        "note": "Les travailleurs de la première et de la dernière heure.",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 1,
+            "texte": "Car le royaume des cieux est semblable à un maître de maison qui sortit dès le matin, afin de louer des ouvriers pour sa vigne."
+          },
+          {
+            "numero": 2,
+            "texte": "Il convint avec eux d'un denier par jour, et il les envoya à sa vigne."
+          },
+          {
+            "numero": 3,
+            "texte": "Il sortit vers la troisième heure, et il en vit d'autres qui étaient sur la place sans rien faire."
+          },
+          {
+            "numero": 4,
+            "texte": "Il leur dit: Allez aussi à ma vigne, et je vous donnerai ce qui sera raisonnable. Et ils y allèrent."
+          },
+          {
+            "numero": 5,
+            "texte": "Il sortit de nouveau vers la sixième heure et vers la neuvième, et il fit de même."
+          },
+          {
+            "numero": 6,
+            "texte": "Etant sorti vers la onzième heure, il en trouva d'autres qui étaient sur la place, et il leur dit: Pourquoi vous tenez-vous ici toute la journée sans rien faire?"
+          },
+          {
+            "numero": 7,
+            "texte": "Ils lui répondirent: C'est que personne ne nous a loués. Allez aussi à ma vigne, leur dit-il."
+          },
+          {
+            "numero": 8,
+            "texte": "Quand le soir fut venu, le maître de la vigne dit à son intendant: Appelle les ouvriers, et paie-leur le salaire, en allant des derniers aux premiers."
+          },
+          {
+            "numero": 9,
+            "texte": "Ceux de la onzième heure vinrent, et reçurent chacun un denier."
+          },
+          {
+            "numero": 10,
+            "texte": "Les premiers vinrent ensuite, croyant recevoir davantage; mais ils reçurent aussi chacun un denier."
+          },
+          {
+            "numero": 11,
+            "texte": "En le recevant, ils murmurèrent contre le maître de la maison,"
+          },
+          {
+            "numero": 12,
+            "texte": "et dirent: Ces derniers n'ont travaillé qu'une heure, et tu les traites à l'égal de nous, qui avons supporté la fatigue du jour et la chaleur."
+          },
+          {
+            "numero": 13,
+            "texte": "Il répondit à l'un d'eux: Mon ami, je ne te fais pas tort; n'es-tu pas convenu avec moi d'un denier?"
+          },
+          {
+            "numero": 14,
+            "texte": "Prends ce qui te revient, et va-t'en. Je veux donner à ce dernier autant qu'à toi."
+          },
+          {
+            "numero": 15,
+            "texte": "Ne m'est-il pas permis de faire de mon bien ce que je veux? Ou vois-tu de mauvais oeil que je sois bon? -"
+          },
+          {
+            "numero": 16,
+            "texte": "Ainsi les derniers seront les premiers, et les premiers seront les derniers."
+          }
+        ]
+      },
+      {
+        "ordre": 12,
+        "titre": "Les deux fils",
+        "reference": "Matthieu 21:28-32",
+        "evangile": "Matthieu",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 28,
+            "texte": "Que vous en semble? Un homme avait deux fils; et, s'adressant au premier, il dit: Mon enfant, va travailler aujourd'hui dans ma vigne."
+          },
+          {
+            "numero": 29,
+            "texte": "Il répondit: Je ne veux pas. Ensuite, il se repentit, et il alla."
+          },
+          {
+            "numero": 30,
+            "texte": "S'adressant à l'autre, il dit la même chose. Et ce fils répondit: Je veux bien, seigneur. Et il n'alla pas."
+          },
+          {
+            "numero": 31,
+            "texte": "Lequel des deux a fait la volonté du père? Ils répondirent: Le premier. Et Jésus leur dit: Je vous le dis en vérité, les publicains et les prostituées vous devanceront dans le royaume de Dieu."
+          },
+          {
+            "numero": 32,
+            "texte": "Car Jean est venu à vous dans la voie de la justice, et vous n'avez pas cru en lui. Mais les publicains et les prostituées ont cru en lui; et vous, qui avez vu cela, vous ne vous êtes pas ensuite repentis pour croire en lui."
+          }
+        ]
+      },
+      {
+        "ordre": 13,
+        "titre": "Les vignerons meurtriers",
+        "reference": "Matthieu 21:33-46",
+        "evangile": "Matthieu",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 33,
+            "texte": "Ecoutez une autre parabole. Il y avait un homme, maître de maison, qui planta une vigne. Il l'entoura d'une haie, y creusa un pressoir, et bâtit une tour; puis il l'afferma à des vignerons, et quitta le pays."
+          },
+          {
+            "numero": 34,
+            "texte": "Lorsque le temps de la récolte fut arrivé, il envoya ses serviteurs vers les vignerons, pour recevoir le produit de sa vigne."
+          },
+          {
+            "numero": 35,
+            "texte": "Les vignerons, s'étant saisis de ses serviteurs, battirent l'un, tuèrent l'autre, et lapidèrent le troisième."
+          },
+          {
+            "numero": 36,
+            "texte": "Il envoya encore d'autres serviteurs, en plus grand nombre que les premiers; et les vignerons les traitèrent de la même manière."
+          },
+          {
+            "numero": 37,
+            "texte": "Enfin, il envoya vers eux son fils, en disant: Ils auront du respect pour mon fils."
+          },
+          {
+            "numero": 38,
+            "texte": "Mais, quand les vignerons virent le fils, ils dirent entre eux: Voici l'héritier; venez, tuons-le, et emparons-nous de son héritage."
+          },
+          {
+            "numero": 39,
+            "texte": "Et ils se saisirent de lui, le jetèrent hors de la vigne, et le tuèrent."
+          },
+          {
+            "numero": 40,
+            "texte": "Maintenant, lorsque le maître de la vigne viendra, que fera-t-il à ces vignerons?"
+          },
+          {
+            "numero": 41,
+            "texte": "Ils lui répondirent: Il fera périr misérablement ces misérables, et il affermera la vigne à d'autres vignerons, qui lui en donneront le produit au temps de la récolte."
+          },
+          {
+            "numero": 42,
+            "texte": "Jésus leur dit: N'avez-vous jamais lu dans les Ecritures: La pierre qu'ont rejetée ceux qui bâtissaient Est devenue la principale de l'angle; C'est du Seigneur que cela est venu, Et c'est un prodige à nos yeux?"
+          },
+          {
+            "numero": 43,
+            "texte": "C'est pourquoi, je vous le dis, le royaume de Dieu vous sera enlevé, et sera donné à une nation qui en rendra les fruits."
+          },
+          {
+            "numero": 44,
+            "texte": "Celui qui tombera sur cette pierre s'y brisera, et celui sur qui elle tombera sera écrasé."
+          },
+          {
+            "numero": 45,
+            "texte": "Après avoir entendu ses paraboles, les principaux sacrificateurs et les pharisiens comprirent que c'était d'eux que Jésus parlait,"
+          },
+          {
+            "numero": 46,
+            "texte": "et ils cherchaient à se saisir de lui; mais ils craignaient la foule, parce qu'elle le tenait pour un prophète."
+          }
+        ]
+      },
+      {
+        "ordre": 14,
+        "titre": "Le festin de noces",
+        "reference": "Matthieu 22:1-14",
+        "evangile": "Matthieu",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 1,
+            "texte": "Jésus, prenant la parole, leur parla de nouveau en paraboles, et il dit:"
+          },
+          {
+            "numero": 2,
+            "texte": "Le royaume des cieux est semblable à un roi qui fit des noces pour son fils."
+          },
+          {
+            "numero": 3,
+            "texte": "Il envoya ses serviteurs appeler ceux qui étaient invités aux noces; mais ils ne voulurent pas venir."
+          },
+          {
+            "numero": 4,
+            "texte": "Il envoya encore d'autres serviteurs, en disant: Dites aux conviés: Voici, j'ai préparé mon festin; mes boeufs et mes bêtes grasses sont tués, tout est prêt, venez aux noces."
+          },
+          {
+            "numero": 5,
+            "texte": "Mais, sans s'inquiéter de l'invitation, ils s'en allèrent, celui-ci à son champ, celui-là à son trafic;"
+          },
+          {
+            "numero": 6,
+            "texte": "et les autres se saisirent des serviteurs, les outragèrent et les tuèrent."
+          },
+          {
+            "numero": 7,
+            "texte": "Le roi fut irrité; il envoya ses troupes, fit périr ces meurtriers, et brûla leur ville."
+          },
+          {
+            "numero": 8,
+            "texte": "Alors il dit à ses serviteurs: Les noces sont prêtes; mais les conviés n'en étaient pas dignes."
+          },
+          {
+            "numero": 9,
+            "texte": "Allez donc dans les carrefours, et appelez aux noces tous ceux que vous trouverez."
+          },
+          {
+            "numero": 10,
+            "texte": "Ces serviteurs allèrent dans les chemins, rassemblèrent tous ceux qu'ils trouvèrent, méchants et bons, et la salle des noces fut pleine de convives."
+          },
+          {
+            "numero": 11,
+            "texte": "Le roi entra pour voir ceux qui étaient à table, et il aperçut là un homme qui n'avait pas revêtu un habit de noces."
+          },
+          {
+            "numero": 12,
+            "texte": "Il lui dit: Mon ami, comment es-tu entré ici sans avoir un habit de noces? Cet homme eut la bouche fermée."
+          },
+          {
+            "numero": 13,
+            "texte": "Alors le roi dit aux serviteurs: Liez-lui les pieds et les mains, et jetez-le dans les ténèbres du dehors, où il y aura des pleurs et des grincements de dents."
+          },
+          {
+            "numero": 14,
+            "texte": "Car il y a beaucoup d'appelés, mais peu d'élus."
+          }
+        ]
+      },
+      {
+        "ordre": 15,
+        "titre": "Le figuier",
+        "reference": "Matthieu 24:32-35",
+        "evangile": "Matthieu",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 32,
+            "texte": "Instruisez-vous par une comparaison tirée du figuier. Dès que ses branches deviennent tendres, et que les feuilles poussent, vous connaissez que l'été est proche."
+          },
+          {
+            "numero": 33,
+            "texte": "De même, quand vous verrez toutes ces choses, sachez que le Fils de l'homme est proche, à la porte."
+          },
+          {
+            "numero": 34,
+            "texte": "Je vous le dis en vérité, cette génération ne passera point, que tout cela n'arrive."
+          },
+          {
+            "numero": 35,
+            "texte": "Le ciel et la terre passeront, mais mes paroles ne passeront point."
+          }
+        ]
+      },
+      {
+        "ordre": 16,
+        "titre": "Le serviteur fidèle et le mauvais serviteur",
+        "reference": "Matthieu 24:45-51",
+        "evangile": "Matthieu",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 45,
+            "texte": "Quel est donc le serviteur fidèle et prudent, que son maître a établi sur ses gens, pour leur donner la nourriture au temps convenable?"
+          },
+          {
+            "numero": 46,
+            "texte": "Heureux ce serviteur, que son maître, à son arrivée, trouvera faisant ainsi!"
+          },
+          {
+            "numero": 47,
+            "texte": "Je vous le dis en vérité, il l'établira sur tous ses biens."
+          },
+          {
+            "numero": 48,
+            "texte": "Mais, si c'est un méchant serviteur, qui dise en lui-même: Mon maître tarde à venir,"
+          },
+          {
+            "numero": 49,
+            "texte": "s'il se met à battre ses compagnons, s'il mange et boit avec les ivrognes,"
+          },
+          {
+            "numero": 50,
+            "texte": "le maître de ce serviteur viendra le jour où il ne s'y attend pas et à l'heure qu'il ne connaît pas,"
+          },
+          {
+            "numero": 51,
+            "texte": "il le mettra en pièces, et lui donnera sa part avec les hypocrites: c'est là qu'il y aura des pleurs et des grincements de dents."
+          }
+        ]
+      },
+      {
+        "ordre": 17,
+        "titre": "Les dix vierges",
+        "reference": "Matthieu 25:1-13",
+        "evangile": "Matthieu",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 1,
+            "texte": "Alors le royaume des cieux sera semblable à dix vierges qui, ayant pris leurs lampes, allèrent à la rencontre de l'époux."
+          },
+          {
+            "numero": 2,
+            "texte": "Cinq d'entre elles étaient folles, et cinq sages."
+          },
+          {
+            "numero": 3,
+            "texte": "Les folles, en prenant leurs lampes, ne prirent point d'huile avec elles;"
+          },
+          {
+            "numero": 4,
+            "texte": "mais les sages prirent, avec leurs lampes, de l'huile dans des vases."
+          },
+          {
+            "numero": 5,
+            "texte": "Comme l'époux tardait, toutes s'assoupirent et s'endormirent."
+          },
+          {
+            "numero": 6,
+            "texte": "Au milieu de la nuit, on cria: Voici l'époux, allez à sa rencontre!"
+          },
+          {
+            "numero": 7,
+            "texte": "Alors toutes ces vierges se réveillèrent, et préparèrent leurs lampes."
+          },
+          {
+            "numero": 8,
+            "texte": "Les folles dirent aux sages: Donnez-nous de votre huile, car nos lampes s'éteignent."
+          },
+          {
+            "numero": 9,
+            "texte": "Les sages répondirent: Non; il n'y en aurait pas assez pour nous et pour vous; allez plutôt chez ceux qui en vendent, et achetez-en pour vous."
+          },
+          {
+            "numero": 10,
+            "texte": "Pendant qu'elles allaient en acheter, l'époux arriva; celles qui étaient prêtes entrèrent avec lui dans la salle des noces, et la porte fut fermée."
+          },
+          {
+            "numero": 11,
+            "texte": "Plus tard, les autres vierges vinrent, et dirent: Seigneur, Seigneur, ouvre-nous."
+          },
+          {
+            "numero": 12,
+            "texte": "Mais il répondit: Je vous le dis en vérité, je ne vous connais pas."
+          },
+          {
+            "numero": 13,
+            "texte": "Veillez donc, puisque vous ne savez ni le jour, ni l'heure."
+          }
+        ]
+      },
+      {
+        "ordre": 18,
+        "titre": "Les talents",
+        "reference": "Matthieu 25:14-30",
+        "evangile": "Matthieu",
+        "versets": [
+          {
+            "numero": 14,
+            "texte": "Il en sera comme d'un homme qui, partant pour un voyage, appela ses serviteurs, et leur remit ses biens."
+          },
+          {
+            "numero": 15,
+            "texte": "Il donna cinq talents à l'un, deux à l'autre, et un au troisième, à chacun selon sa capacité, et il partit. Aussitôt"
+          },
+          {
+            "numero": 16,
+            "texte": "celui qui avait reçu les cinq talents s'en alla, les fit valoir, et il gagna cinq autres talents."
+          },
+          {
+            "numero": 17,
+            "texte": "De même, celui qui avait reçu les deux talents en gagna deux autres."
+          },
+          {
+            "numero": 18,
+            "texte": "Celui qui n'en avait reçu qu'un alla faire un creux dans la terre, et cacha l'argent de son maître."
+          },
+          {
+            "numero": 19,
+            "texte": "Longtemps après, le maître de ces serviteurs revint, et leur fit rendre compte."
+          },
+          {
+            "numero": 20,
+            "texte": "Celui qui avait reçu les cinq talents s'approcha, en apportant cinq autres talents, et il dit: Seigneur, tu m'as remis cinq talents; voici, j'en ai gagné cinq autres."
+          },
+          {
+            "numero": 21,
+            "texte": "Son maître lui dit: C'est bien, bon et fidèle serviteur; tu as été fidèle en peu de chose, je te confierai beaucoup; entre dans la joie de ton maître."
+          },
+          {
+            "numero": 22,
+            "texte": "Celui qui avait reçu les deux talents s'approcha aussi, et il dit: Seigneur, tu m'as remis deux talents; voici, j'en ai gagné deux autres."
+          },
+          {
+            "numero": 23,
+            "texte": "Son maître lui dit: C'est bien, bon et fidèle serviteur; tu as été fidèle en peu de chose, je te confierai beaucoup; entre dans la joie de ton maître."
+          },
+          {
+            "numero": 24,
+            "texte": "Celui qui n'avait reçu qu'un talent s'approcha ensuite, et il dit: Seigneur, je savais que tu es un homme dur, qui moissonnes où tu n'as pas semé, et qui amasses où tu n'as pas vanné;"
+          },
+          {
+            "numero": 25,
+            "texte": "j'ai eu peur, et je suis allé cacher ton talent dans la terre; voici, prends ce qui est à toi."
+          },
+          {
+            "numero": 26,
+            "texte": "Son maître lui répondit: Serviteur méchant et paresseux, tu savais que je moissonne où je n'ai pas semé, et que j'amasse où je n'ai pas vanné;"
+          },
+          {
+            "numero": 27,
+            "texte": "il te fallait donc remettre mon argent aux banquiers, et, à mon retour, j'aurais retiré ce qui est à moi avec un intérêt."
+          },
+          {
+            "numero": 28,
+            "texte": "Otez-lui donc le talent, et donnez-le à celui qui a les dix talents."
+          },
+          {
+            "numero": 29,
+            "texte": "Car on donnera à celui qui a, et il sera dans l'abondance, mais à celui qui n'a pas on ôtera même ce qu'il a."
+          },
+          {
+            "numero": 30,
+            "texte": "Et le serviteur inutile, jetez-le dans les ténèbres du dehors, où il y aura des pleurs et des grincements de dents."
+          }
+        ]
+      },
+      {
+        "ordre": 19,
+        "titre": "Les brebis et les boucs",
+        "reference": "Matthieu 25:31-46",
+        "evangile": "Matthieu",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 31,
+            "texte": "Lorsque le Fils de l'homme viendra dans sa gloire, avec tous les anges, il s'assiéra sur le trône de sa gloire."
+          },
+          {
+            "numero": 32,
+            "texte": "Toutes les nations seront assemblées devant lui. Il séparera les uns d'avec les autres, comme le berger sépare les brebis d'avec les boucs;"
+          },
+          {
+            "numero": 33,
+            "texte": "et il mettra les brebis à sa droite, et les boucs à sa gauche."
+          },
+          {
+            "numero": 34,
+            "texte": "Alors le roi dira à ceux qui seront à sa droite: Venez, vous qui êtes bénis de mon Père; prenez possession du royaume qui vous a été préparé dès la fondation du monde."
+          },
+          {
+            "numero": 35,
+            "texte": "Car j'ai eu faim, et vous m'avez donné à manger; j'ai eu soif, et vous m'avez donné à boire; j'étais étranger, et vous m'avez recueilli;"
+          },
+          {
+            "numero": 36,
+            "texte": "j'étais nu, et vous m'avez vêtu; j'étais malade, et vous m'avez visité; j'étais en prison, et vous êtes venus vers moi."
+          },
+          {
+            "numero": 37,
+            "texte": "Les justes lui répondront: Seigneur, quand t'avons-nous vu avoir faim, et t'avons-nous donné à manger; ou avoir soif, et t'avons-nous donné à boire?"
+          },
+          {
+            "numero": 38,
+            "texte": "Quand t'avons-nous vu étranger, et t'avons-nous recueilli; ou nu, et t'avons-nous vêtu?"
+          },
+          {
+            "numero": 39,
+            "texte": "Quand t'avons-nous vu malade, ou en prison, et sommes-nous allés vers toi?"
+          },
+          {
+            "numero": 40,
+            "texte": "Et le roi leur répondra: Je vous le dis en vérité, toutes les fois que vous avez fait ces choses à l'un de ces plus petits de mes frères, c'est à moi que vous les avez faites."
+          },
+          {
+            "numero": 41,
+            "texte": "Ensuite il dira à ceux qui seront à sa gauche: Retirez-vous de moi, maudits; allez dans le feu éternel qui a été préparé pour le diable et pour ses anges."
+          },
+          {
+            "numero": 42,
+            "texte": "Car j'ai eu faim, et vous ne m'avez pas donné à manger; j'ai eu soif, et vous ne m'avez pas donné à boire;"
+          },
+          {
+            "numero": 43,
+            "texte": "j'étais étranger, et vous ne m'avez pas recueilli; j'étais nu, et vous ne m'avez pas vêtu; j'étais malade et en prison, et vous ne m'avez pas visité."
+          },
+          {
+            "numero": 44,
+            "texte": "Ils répondront aussi: Seigneur, quand t'avons-nous vu ayant faim, ou ayant soif, ou étranger, ou nu, ou malade, ou en prison, et ne t'avons-nous pas assisté?"
+          },
+          {
+            "numero": 45,
+            "texte": "Et il leur répondra: Je vous le dis en vérité, toutes les fois que vous n'avez pas fait ces choses à l'un de ces plus petits, c'est à moi que vous ne les avez pas faites."
+          },
+          {
+            "numero": 46,
+            "texte": "Et ceux-ci iront au châtiment éternel, mais les justes à la vie éternelle."
+          }
+        ]
+      },
+      {
+        "ordre": 20,
+        "titre": "La semence qui pousse seule",
+        "reference": "Marc 4:26-29",
+        "evangile": "Marc",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 26,
+            "texte": "Il dit encore: Il en est du royaume de Dieu comme quand un homme jette de la semence en terre;"
+          },
+          {
+            "numero": 27,
+            "texte": "qu'il dorme ou qu'il veille, nuit et jour, la semence germe et croît sans qu'il sache comment."
+          },
+          {
+            "numero": 28,
+            "texte": "La terre produit d'elle-même, d'abord l'herbe, puis l'épi, puis le grain tout formé dans l'épi;"
+          },
+          {
+            "numero": 29,
+            "texte": "et, dès que le fruit est mûr, on y met la faucille, car la moisson est là."
+          }
+        ]
+      },
+      {
+        "ordre": 21,
+        "titre": "Le bon Samaritain",
+        "reference": "Luc 10:25-37",
+        "evangile": "Luc",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 25,
+            "texte": "Un docteur de la loi se leva, et dit à Jésus, pour l'éprouver: Maître, que dois-je faire pour hériter la vie éternelle?"
+          },
+          {
+            "numero": 26,
+            "texte": "Jésus lui dit: Qu'est-il écrit dans la loi? Qu'y lis-tu?"
+          },
+          {
+            "numero": 27,
+            "texte": "Il répondit: Tu aimeras le Seigneur, ton Dieu, de tout ton coeur, de toute ton âme, de toute ta force, et de toute ta pensée; et ton prochain comme toi-même."
+          },
+          {
+            "numero": 28,
+            "texte": "Tu as bien répondu, lui dit Jésus; fais cela, et tu vivras."
+          },
+          {
+            "numero": 29,
+            "texte": "Mais lui, voulant se justifier, dit à Jésus: Et qui est mon prochain?"
+          },
+          {
+            "numero": 30,
+            "texte": "Jésus reprit la parole, et dit: Un homme descendait de Jérusalem à Jéricho. Il tomba au milieu des brigands, qui le dépouillèrent, le chargèrent de coups, et s'en allèrent, le laissant à demi mort."
+          },
+          {
+            "numero": 31,
+            "texte": "Un sacrificateur, qui par hasard descendait par le même chemin, ayant vu cet homme, passa outre."
+          },
+          {
+            "numero": 32,
+            "texte": "Un Lévite, qui arriva aussi dans ce lieu, l'ayant vu, passa outre."
+          },
+          {
+            "numero": 33,
+            "texte": "Mais un Samaritain, qui voyageait, étant venu là, fut ému de compassion lorsqu'il le vit."
+          },
+          {
+            "numero": 34,
+            "texte": "Il s'approcha, et banda ses plaies, en y versant de l'huile et du vin; puis il le mit sur sa propre monture, le conduisit à une hôtellerie, et prit soin de lui."
+          },
+          {
+            "numero": 35,
+            "texte": "Le lendemain, il tira deux deniers, les donna à l'hôte, et dit: Aie soin de lui, et ce que tu dépenseras de plus, je te le rendrai à mon retour."
+          },
+          {
+            "numero": 36,
+            "texte": "Lequel de ces trois te semble avoir été le prochain de celui qui était tombé au milieu des brigands?"
+          },
+          {
+            "numero": 37,
+            "texte": "C'est celui qui a exercé la miséricorde envers lui, répondit le docteur de la loi. Et Jésus lui dit: Va, et toi, fais de même."
+          }
+        ]
+      },
+      {
+        "ordre": 22,
+        "titre": "L'ami importun",
+        "reference": "Luc 11:5-8",
+        "evangile": "Luc",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 5,
+            "texte": "Il leur dit encore: Si l'un de vous a un ami, et qu'il aille le trouver au milieu de la nuit pour lui dire: Ami, prête-moi trois pains,"
+          },
+          {
+            "numero": 6,
+            "texte": "car un de mes amis est arrivé de voyage chez moi, et je n'ai rien à lui offrir,"
+          },
+          {
+            "numero": 7,
+            "texte": "et si, de l'intérieur de sa maison, cet ami lui répond: Ne m'importune pas, la porte est déjà fermée, mes enfants et moi sommes au lit, je ne puis me lever pour te donner des pains, -"
+          },
+          {
+            "numero": 8,
+            "texte": "je vous le dis, même s'il ne se levait pas pour les lui donner parce que c'est son ami, il se lèverait à cause de son importunité et lui donnerait tout ce dont il a besoin."
+          }
+        ]
+      },
+      {
+        "ordre": 23,
+        "titre": "Le riche insensé",
+        "reference": "Luc 12:16-21",
+        "evangile": "Luc",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 16,
+            "texte": "Et il leur dit cette parabole: Les terres d'un homme riche avaient beaucoup rapporté."
+          },
+          {
+            "numero": 17,
+            "texte": "Et il raisonnait en lui-même, disant: Que ferai-je? car je n'ai pas de place pour serrer ma récolte."
+          },
+          {
+            "numero": 18,
+            "texte": "Voici, dit-il, ce que je ferai: j'abattrai mes greniers, j'en bâtirai de plus grands, j'y amasserai toute ma récolte et tous mes biens;"
+          },
+          {
+            "numero": 19,
+            "texte": "et je dirai à mon âme: Mon âme, tu as beaucoup de biens en réserve pour plusieurs années; repose-toi, mange, bois, et réjouis-toi."
+          },
+          {
+            "numero": 20,
+            "texte": "Mais Dieu lui dit: Insensé! cette nuit même ton âme te sera redemandée; et ce que tu as préparé, pour qui cela sera-t-il?"
+          },
+          {
+            "numero": 21,
+            "texte": "Il en est ainsi de celui qui amasse des trésors pour lui-même, et qui n'est pas riche pour Dieu."
+          }
+        ]
+      },
+      {
+        "ordre": 24,
+        "titre": "Le figuier stérile",
+        "reference": "Luc 13:6-9",
+        "evangile": "Luc",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 6,
+            "texte": "Il dit aussi cette parabole: Un homme avait un figuier planté dans sa vigne. Il vint pour y chercher du fruit, et il n'en trouva point."
+          },
+          {
+            "numero": 7,
+            "texte": "Alors il dit au vigneron: Voilà trois ans que je viens chercher du fruit à ce figuier, et je n'en trouve point. Coupe-le: pourquoi occupe-t-il la terre inutilement?"
+          },
+          {
+            "numero": 8,
+            "texte": "Le vigneron lui répondit: Seigneur, laisse-le encore cette année; je creuserai tout autour, et j'y mettrai du fumier."
+          },
+          {
+            "numero": 9,
+            "texte": "Peut-être à l'avenir donnera-t-il du fruit; sinon, tu le couperas."
+          }
+        ]
+      },
+      {
+        "ordre": 25,
+        "titre": "Les invités aux premières places",
+        "reference": "Luc 14:7-11",
+        "evangile": "Luc",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 7,
+            "texte": "Il adressa ensuite une parabole aux conviés, en voyant qu'ils choisissaient les premières places; et il leur dit:"
+          },
+          {
+            "numero": 8,
+            "texte": "Lorsque tu seras invité par quelqu'un à des noces, ne te mets pas à la première place, de peur qu'il n'y ait parmi les invités une personne plus considérable que toi,"
+          },
+          {
+            "numero": 9,
+            "texte": "et que celui qui vous a invités l'un et l'autre ne vienne te dire: Cède la place à cette personne-là. Tu aurais alors la honte d'aller occuper la dernière place."
+          },
+          {
+            "numero": 10,
+            "texte": "Mais, lorsque tu seras invité, va te mettre à la dernière place, afin que, quand celui qui t'a invité viendra, il te dise: Mon ami, monte plus haut. Alors cela te fera honneur devant tous ceux qui seront à table avec toi."
+          },
+          {
+            "numero": 11,
+            "texte": "Car quiconque s'élève sera abaissé, et quiconque s'abaisse sera élevé."
+          }
+        ]
+      },
+      {
+        "ordre": 26,
+        "titre": "Le grand festin",
+        "reference": "Luc 14:15-24",
+        "evangile": "Luc",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 15,
+            "texte": "Un de ceux qui étaient à table, après avoir entendu ces paroles, dit à Jésus: Heureux celui qui prendra son repas dans le royaume de Dieu!"
+          },
+          {
+            "numero": 16,
+            "texte": "Et Jésus lui répondit: Un homme donna un grand souper, et il invita beaucoup de gens."
+          },
+          {
+            "numero": 17,
+            "texte": "A l'heure du souper, il envoya son serviteur dire aux conviés: Venez, car tout est déjà prêt."
+          },
+          {
+            "numero": 18,
+            "texte": "Mais tous unanimement se mirent à s'excuser. Le premier lui dit: J'ai acheté un champ, et je suis obligé d'aller le voir; excuse-moi, je te prie."
+          },
+          {
+            "numero": 19,
+            "texte": "Un autre dit: J'ai acheté cinq paires de boeufs, et je vais les essayer; excuse-moi, je te prie."
+          },
+          {
+            "numero": 20,
+            "texte": "Un autre dit: Je viens de me marier, et c'est pourquoi je ne puis aller."
+          },
+          {
+            "numero": 21,
+            "texte": "Le serviteur, de retour, rapporta ces choses à son maître. Alors le maître de la maison irrité dit à son serviteur: Va promptement dans les places et dans les rues de la ville, et amène ici les pauvres, les estropiés, les aveugles et les boiteux."
+          },
+          {
+            "numero": 22,
+            "texte": "Le serviteur dit: Maître, ce que tu as ordonné a été fait, et il y a encore de la place."
+          },
+          {
+            "numero": 23,
+            "texte": "Et le maître dit au serviteur: Va dans les chemins et le long des haies, et ceux que tu trouveras, contrains-les d'entrer, afin que ma maison soit remplie."
+          },
+          {
+            "numero": 24,
+            "texte": "Car, je vous le dis, aucun de ces hommes qui avaient été invités ne goûtera de mon souper."
+          }
+        ]
+      },
+      {
+        "ordre": 27,
+        "titre": "La brebis perdue",
+        "reference": "Luc 15:3-7",
+        "evangile": "Luc",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 3,
+            "texte": "Mais il leur dit cette parabole:"
+          },
+          {
+            "numero": 4,
+            "texte": "Quel homme d'entre vous, s'il a cent brebis, et qu'il en perde une, ne laisse les quatre-vingt-dix-neuf autres dans le désert pour aller après celle qui est perdue, jusqu'à ce qu'il la retrouve?"
+          },
+          {
+            "numero": 5,
+            "texte": "Lorsqu'il l'a retrouvée, il la met avec joie sur ses épaules,"
+          },
+          {
+            "numero": 6,
+            "texte": "et, de retour à la maison, il appelle ses amis et ses voisins, et leur dit: Réjouissez-vous avec moi, car j'ai retrouvé ma brebis qui était perdue."
+          },
+          {
+            "numero": 7,
+            "texte": "De même, je vous le dis, il y aura plus de joie dans le ciel pour un seul pécheur qui se repent, que pour quatre-vingt-dix-neuf justes qui n'ont pas besoin de repentance."
+          }
+        ]
+      },
+      {
+        "ordre": 28,
+        "titre": "La drachme perdue",
+        "reference": "Luc 15:8-10",
+        "evangile": "Luc",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 8,
+            "texte": "Ou quelle femme, si elle a dix drachmes, et qu'elle en perde une, n'allume une lampe, ne balaie la maison, et ne cherche avec soin, jusqu'à ce qu'elle la retrouve?"
+          },
+          {
+            "numero": 9,
+            "texte": "Lorsqu'elle l'a retrouvée, elle appelle ses amies et ses voisines, et dit: Réjouissez-vous avec moi, car j'ai retrouvé la drachme que j'avais perdue."
+          },
+          {
+            "numero": 10,
+            "texte": "De même, je vous le dis, il y a de la joie devant les anges de Dieu pour un seul pécheur qui se repent."
+          }
+        ]
+      },
+      {
+        "ordre": 29,
+        "titre": "Le fils prodigue",
+        "reference": "Luc 15:11-32",
+        "evangile": "Luc",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 11,
+            "texte": "Il dit encore: Un homme avait deux fils."
+          },
+          {
+            "numero": 12,
+            "texte": "Le plus jeune dit à son père: Mon père, donne-moi la part de bien qui doit me revenir. Et le père leur partagea son bien."
+          },
+          {
+            "numero": 13,
+            "texte": "Peu de jours après, le plus jeune fils, ayant tout ramassé, partit pour un pays éloigné, où il dissipa son bien en vivant dans la débauche."
+          },
+          {
+            "numero": 14,
+            "texte": "Lorsqu'il eut tout dépensé, une grande famine survint dans ce pays, et il commença à se trouver dans le besoin."
+          },
+          {
+            "numero": 15,
+            "texte": "Il alla se mettre au service d'un des habitants du pays, qui l'envoya dans ses champs garder les pourceaux."
+          },
+          {
+            "numero": 16,
+            "texte": "Il aurait bien voulu se rassasier des carouges que mangeaient les pourceaux, mais personne ne lui en donnait."
+          },
+          {
+            "numero": 17,
+            "texte": "Etant rentré en lui-même, il se dit: Combien de mercenaires chez mon père ont du pain en abondance, et moi, ici, je meurs de faim!"
+          },
+          {
+            "numero": 18,
+            "texte": "Je me lèverai, j'irai vers mon père, et je lui dirai: Mon père, j'ai péché contre le ciel et contre toi,"
+          },
+          {
+            "numero": 19,
+            "texte": "je ne suis plus digne d'être appelé ton fils; traite-moi comme l'un de tes mercenaires."
+          },
+          {
+            "numero": 20,
+            "texte": "Et il se leva, et alla vers son père. Comme il était encore loin, son père le vit et fut ému de compassion, il courut se jeter à son cou et le baisa."
+          },
+          {
+            "numero": 21,
+            "texte": "Le fils lui dit: Mon père, j'ai péché contre le ciel et contre toi, je ne suis plus digne d'être appelé ton fils."
+          },
+          {
+            "numero": 22,
+            "texte": "Mais le père dit à ses serviteurs: Apportez vite la plus belle robe, et l'en revêtez; mettez-lui un anneau au doigt, et des souliers aux pieds."
+          },
+          {
+            "numero": 23,
+            "texte": "Amenez le veau gras, et tuez-le. Mangeons et réjouissons-nous;"
+          },
+          {
+            "numero": 24,
+            "texte": "car mon fils que voici était mort, et il est revenu à la vie; il était perdu, et il est retrouvé. Et ils commencèrent à se réjouir."
+          },
+          {
+            "numero": 25,
+            "texte": "Or, le fils aîné était dans les champs. Lorsqu'il revint et approcha de la maison, il entendit la musique et les danses."
+          },
+          {
+            "numero": 26,
+            "texte": "Il appela un des serviteurs, et lui demanda ce que c'était."
+          },
+          {
+            "numero": 27,
+            "texte": "Ce serviteur lui dit: Ton frère est de retour, et, parce qu'il l'a retrouvé en bonne santé, ton père a tué le veau gras."
+          },
+          {
+            "numero": 28,
+            "texte": "Il se mit en colère, et ne voulut pas entrer. Son père sortit, et le pria d'entrer."
+          },
+          {
+            "numero": 29,
+            "texte": "Mais il répondit à son père: Voici, il y a tant d'années que je te sers, sans avoir jamais transgressé tes ordres, et jamais tu ne m'as donné un chevreau pour que je me réjouisse avec mes amis."
+          },
+          {
+            "numero": 30,
+            "texte": "Et quand ton fils est arrivé, celui qui a mangé ton bien avec des prostituées, c'est pour lui que tu as tué le veau gras!"
+          },
+          {
+            "numero": 31,
+            "texte": "Mon enfant, lui dit le père, tu es toujours avec moi, et tout ce que j'ai est à toi;"
+          },
+          {
+            "numero": 32,
+            "texte": "mais il fallait bien s'égayer et se réjouir, parce que ton frère que voici était mort et qu'il est revenu à la vie, parce qu'il était perdu et qu'il est retrouvé."
+          }
+        ]
+      },
+      {
+        "ordre": 30,
+        "titre": "L'économe infidèle",
+        "reference": "Luc 16:1-13",
+        "evangile": "Luc",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 1,
+            "texte": "Jésus dit aussi à ses disciples: Un homme riche avait un économe, qui lui fut dénoncé comme dissipant ses biens."
+          },
+          {
+            "numero": 2,
+            "texte": "Il l'appela, et lui dit: Qu'est-ce que j'entends dire de toi? Rends compte de ton administration, car tu ne pourras plus administrer mes biens."
+          },
+          {
+            "numero": 3,
+            "texte": "L'économe dit en lui-même: Que ferai-je, puisque mon maître m'ôte l'administration de ses biens? Travailler à la terre? je ne le puis. Mendier? j'en ai honte."
+          },
+          {
+            "numero": 4,
+            "texte": "Je sais ce que je ferai, pour qu'il y ait des gens qui me reçoivent dans leurs maisons quand je serai destitué de mon emploi."
+          },
+          {
+            "numero": 5,
+            "texte": "Et, faisant venir chacun des débiteurs de son maître, il dit au premier: Combien dois-tu à mon maître?"
+          },
+          {
+            "numero": 6,
+            "texte": "Cent mesures d'huile, répondit-il. Et il lui dit: Prends ton billet, assieds-toi vite, et écris cinquante."
+          },
+          {
+            "numero": 7,
+            "texte": "Il dit ensuite à un autre: Et toi, combien dois-tu? Cent mesures de blé, répondit-il. Et il lui dit: Prends ton billet, et écris quatre-vingts."
+          },
+          {
+            "numero": 8,
+            "texte": "Le maître loua l'économe infidèle de ce qu'il avait agi prudemment. Car les enfants de ce siècle sont plus prudents à l'égard de leurs semblables que ne le sont les enfants de lumière."
+          },
+          {
+            "numero": 9,
+            "texte": "Et moi, je vous dis: Faites-vous des amis avec les richesses injustes, pour qu'ils vous reçoivent dans les tabernacles éternels, quand elles viendront à vous manquer."
+          },
+          {
+            "numero": 10,
+            "texte": "Celui qui est fidèle dans les moindres choses l'est aussi dans les grandes, et celui qui est injuste dans les moindres choses l'est aussi dans les grandes."
+          },
+          {
+            "numero": 11,
+            "texte": "Si donc vous n'avez pas été fidèles dans les richesses injustes, qui vous confiera les véritables?"
+          },
+          {
+            "numero": 12,
+            "texte": "Et si vous n'avez pas été fidèles dans ce qui est à autrui, qui vous donnera ce qui est à vous?"
+          },
+          {
+            "numero": 13,
+            "texte": "Nul serviteur ne peut servir deux maîtres. Car, ou il haïra l'un et aimera l'autre; ou il s'attachera à l'un et méprisera l'autre. Vous ne pouvez servir Dieu et Mamon."
+          }
+        ]
+      },
+      {
+        "ordre": 31,
+        "titre": "Le riche et Lazare",
+        "reference": "Luc 16:19-31",
+        "evangile": "Luc",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 19,
+            "texte": "Il y avait un homme riche, qui était vêtu de pourpre et de fin lin, et qui chaque jour menait joyeuse et brillante vie."
+          },
+          {
+            "numero": 20,
+            "texte": "Un pauvre, nommé Lazare, était couché à sa porte, couvert d'ulcères,"
+          },
+          {
+            "numero": 21,
+            "texte": "et désireux de se rassasier des miettes qui tombaient de la table du riche; et même les chiens venaient encore lécher ses ulcères."
+          },
+          {
+            "numero": 22,
+            "texte": "Le pauvre mourut, et il fut porté par les anges dans le sein d'Abraham. Le riche mourut aussi, et il fut enseveli."
+          },
+          {
+            "numero": 23,
+            "texte": "Dans le séjour des morts, il leva les yeux; et, tandis qu'il était en proie aux tourments, il vit de loin Abraham, et Lazare dans son sein."
+          },
+          {
+            "numero": 24,
+            "texte": "Il s'écria: Père Abraham, aie pitié de moi, et envoie Lazare, pour qu'il trempe le bout de son doigt dans l'eau et me rafraîchisse la langue; car je souffre cruellement dans cette flamme."
+          },
+          {
+            "numero": 25,
+            "texte": "Abraham répondit: Mon enfant, souviens-toi que tu as reçu tes biens pendant ta vie, et que Lazare a eu les maux pendant la sienne; maintenant il est ici consolé, et toi, tu souffres."
+          },
+          {
+            "numero": 26,
+            "texte": "D'ailleurs, il y a entre nous et vous un grand abîme, afin que ceux qui voudraient passer d'ici vers vous, ou de là vers nous, ne puissent le faire."
+          },
+          {
+            "numero": 27,
+            "texte": "Le riche dit: Je te prie donc, père Abraham, d'envoyer Lazare dans la maison de mon père;"
+          },
+          {
+            "numero": 28,
+            "texte": "car j'ai cinq frères. C'est pour qu'il leur atteste ces choses, afin qu'ils ne viennent pas aussi dans ce lieu de tourments."
+          },
+          {
+            "numero": 29,
+            "texte": "Abraham répondit: Ils ont Moïse et les prophètes; qu'ils les écoutent."
+          },
+          {
+            "numero": 30,
+            "texte": "Et il dit: Non, père Abraham, mais si quelqu'un des morts va vers eux, ils se repentiront."
+          },
+          {
+            "numero": 31,
+            "texte": "Et Abraham lui dit: S'ils n'écoutent pas Moïse et les prophètes, ils ne se laisseront pas persuader quand même quelqu'un des morts ressusciterait."
+          }
+        ]
+      },
+      {
+        "ordre": 32,
+        "titre": "Le juge inique et la veuve persistante",
+        "reference": "Luc 18:1-8",
+        "evangile": "Luc",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 1,
+            "texte": "Jésus leur adressa une parabole, pour montrer qu'il faut toujours prier, et ne point se relâcher."
+          },
+          {
+            "numero": 2,
+            "texte": "Il dit: Il y avait dans une ville un juge qui ne craignait point Dieu et qui n'avait d'égard pour personne."
+          },
+          {
+            "numero": 3,
+            "texte": "Il y avait aussi dans cette ville une veuve qui venait lui dire: Fais-moi justice de ma partie adverse."
+          },
+          {
+            "numero": 4,
+            "texte": "Pendant longtemps il refusa. Mais ensuite il dit en lui-même: Quoique je ne craigne point Dieu et que je n'aie d'égard pour personne,"
+          },
+          {
+            "numero": 5,
+            "texte": "néanmoins, parce que cette veuve m'importune, je lui ferai justice, afin qu'elle ne vienne pas sans cesse me rompre la tête."
+          },
+          {
+            "numero": 6,
+            "texte": "Le Seigneur ajouta: Entendez ce que dit le juge inique."
+          },
+          {
+            "numero": 7,
+            "texte": "Et Dieu ne fera-t-il pas justice à ses élus, qui crient à lui jour et nuit, et tardera-t-il à leur égard?"
+          },
+          {
+            "numero": 8,
+            "texte": "Je vous le dis, il leur fera promptement justice. Mais, quand le Fils de l'homme viendra, trouvera-t-il la foi sur la terre?"
+          }
+        ]
+      },
+      {
+        "ordre": 33,
+        "titre": "Le pharisien et le publicain",
+        "reference": "Luc 18:9-14",
+        "evangile": "Luc",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 9,
+            "texte": "Il dit encore cette parabole, en vue de certaines personnes se persuadant qu'elles étaient justes, et ne faisant aucun cas des autres:"
+          },
+          {
+            "numero": 10,
+            "texte": "Deux hommes montèrent au temple pour prier; l'un était pharisien, et l'autre publicain."
+          },
+          {
+            "numero": 11,
+            "texte": "Le pharisien, debout, priait ainsi en lui-même: O Dieu, je te rends grâces de ce que je ne suis pas comme le reste des hommes, qui sont ravisseurs, injustes, adultères, ou même comme ce publicain;"
+          },
+          {
+            "numero": 12,
+            "texte": "je jeûne deux fois la semaine, je donne la dîme de tous mes revenus."
+          },
+          {
+            "numero": 13,
+            "texte": "Le publicain, se tenant à distance, n'osait même pas lever les yeux au ciel; mais il se frappait la poitrine, en disant: O Dieu, sois apaisé envers moi, qui suis un pécheur."
+          },
+          {
+            "numero": 14,
+            "texte": "Je vous le dis, celui-ci descendit dans sa maison justifié, plutôt que l'autre. Car quiconque s'élève sera abaissé, et celui qui s'abaisse sera élevé."
+          }
+        ]
+      },
+      {
+        "ordre": 34,
+        "titre": "Les mines (unités d'argent)",
+        "reference": "Luc 19:11-27",
+        "evangile": "Luc",
+        "traduction": "Louis Segond 1910",
+        "note": "La mine est une unité monétaire antique, distincte du talent : une mine vaut environ cent drachmes, soit approximativement trois à quatre mois de salaire d'un ouvrier. La parabole des talents est un autre récit, en Matthieu 25:14-30.",
+        "versets": [
+          {
+            "numero": 11,
+            "texte": "Ils écoutaient ces choses, et Jésus ajouta une parabole, parce qu'il était près de Jérusalem, et qu'on croyait qu'à l'instant le royaume de Dieu allait paraître."
+          },
+          {
+            "numero": 12,
+            "texte": "Il dit donc: Un homme de haute naissance s'en alla dans un pays lointain, pour se faire investir de l'autorité royale, et revenir ensuite."
+          },
+          {
+            "numero": 13,
+            "texte": "Il appela dix de ses serviteurs, leur donna dix mines, et leur dit: Faites-les valoir jusqu'à ce que je revienne."
+          },
+          {
+            "numero": 14,
+            "texte": "Mais ses concitoyens le haïssaient, et ils envoyèrent une ambassade après lui, pour dire: Nous ne voulons pas que cet homme règne sur nous."
+          },
+          {
+            "numero": 15,
+            "texte": "Lorsqu'il fut de retour, après avoir été investi de l'autorité royale, il fit appeler auprès de lui les serviteurs auxquels il avait donné l'argent, afin de connaître comment chacun l'avait fait valoir."
+          },
+          {
+            "numero": 16,
+            "texte": "Le premier vint, et dit: Seigneur, ta mine a rapporté dix mines."
+          },
+          {
+            "numero": 17,
+            "texte": "Il lui dit: C'est bien, bon serviteur; parce que tu as été fidèle en peu de chose, reçois le gouvernement de dix villes."
+          },
+          {
+            "numero": 18,
+            "texte": "Le second vint, et dit: Seigneur, ta mine a produit cinq mines."
+          },
+          {
+            "numero": 19,
+            "texte": "Il lui dit: Toi aussi, sois établi sur cinq villes."
+          },
+          {
+            "numero": 20,
+            "texte": "Un autre vint, et dit: Seigneur, voici ta mine, que j'ai gardée dans un linge;"
+          },
+          {
+            "numero": 21,
+            "texte": "car j'avais peur de toi, parce que tu es un homme sévère; tu prends ce que tu n'as pas déposé, et tu moissonnes ce que tu n'as pas semé."
+          },
+          {
+            "numero": 22,
+            "texte": "Il lui dit: Je te juge sur tes paroles, méchant serviteur; tu savais que je suis un homme sévère, prenant ce que je n'ai pas déposé, et moissonnant ce que je n'ai pas semé;"
+          },
+          {
+            "numero": 23,
+            "texte": "pourquoi donc n'as-tu pas mis mon argent dans une banque, afin qu'à mon retour je le retirasse avec un intérêt?"
+          },
+          {
+            "numero": 24,
+            "texte": "Puis il dit à ceux qui étaient là: Otez-lui la mine, et donnez-la à celui qui a les dix mines."
+          },
+          {
+            "numero": 25,
+            "texte": "Ils lui dirent: Seigneur, il a dix mines. -"
+          },
+          {
+            "numero": 26,
+            "texte": "Je vous le dis, on donnera à celui qui a, mais à celui qui n'a pas on ôtera même ce qu'il a."
+          },
+          {
+            "numero": 27,
+            "texte": "Au reste, amenez ici mes ennemis, qui n'ont pas voulu que je régnasse sur eux, et tuez-les en ma présence."
+          }
+        ]
+      },
+      {
+        "ordre": 35,
+        "titre": "Le grain qui tombe en terre",
+        "reference": "Jean 12:24",
+        "evangile": "Jean",
+        "type": "enseignement imagé",
+        "note": "Ce n'est pas une parabole narrative, mais une image employée par le Christ sur sa mort et le fruit qu'elle porte.",
+        "traduction": "Louis Segond 1910",
+        "versets": [
+          {
+            "numero": 24,
+            "texte": "En vérité, en vérité, je vous le dis, si le grain de blé qui est tombé en terre ne meurt, il reste seul; mais, s'il meurt, il porte beaucoup de fruit."
+          }
+        ]
+      }
+    ]
+  }
+}

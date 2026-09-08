@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bible — consultation</title>
+  <style>
+    :root { color-scheme: light; --ink:#20322c; --muted:#64736c; --paper:#fffdf8; --line:#dfded5; --accent:#8b552d; --wash:#f4eee2; }
+    * { box-sizing:border-box; } body { margin:0; font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif; color:var(--ink); background:var(--paper); }
+    header { padding:3.5rem max(1.25rem,calc((100% - 980px)/2)); background:var(--wash); border-bottom:1px solid var(--line); }
+    h1 { margin:0; font:700 clamp(2rem,5vw,3.4rem)/1.05 Georgia,serif; } header p { max-width:46rem; color:var(--muted); margin:.8rem 0 0; }
+    main { max-width:980px; margin:0 auto; padding:1.5rem 1.25rem 4rem; } input { width:100%; padding:.85rem 1rem; border:1px solid #aeb8ad; border-radius:.5rem; font:inherit; background:white; }
+    nav { display:flex; flex-wrap:wrap; gap:.5rem; margin:1.2rem 0 2rem; } button { cursor:pointer; border:1px solid var(--line); background:white; color:var(--ink); border-radius:999px; padding:.45rem .85rem; font:inherit; } button:hover,button.active { color:white; background:var(--accent); border-color:var(--accent); }
+    .status { color:var(--muted); margin:.5rem 0 1rem; } .card { background:white; border:1px solid var(--line); border-radius:.7rem; padding:1.1rem 1.2rem; margin:.8rem 0; box-shadow:0 2px 12px #5d4b2b0a; }
+    h2 { margin:0; font:700 1.3rem/1.2 Georgia,serif; } .reference { color:var(--accent); font-weight:700; margin:.2rem 0 .6rem; } .theme { display:inline-block; background:var(--wash); border-radius:999px; padding:.1rem .55rem; color:#605745; font-size:.85rem; } .note { color:var(--muted); font-size:.92rem; } .verse { margin:.45rem 0; } .verse b { color:var(--accent); margin-right:.35rem; }
+    details { border:1px solid var(--line); border-radius:.6rem; padding:.8rem 1rem; background:white; margin:.7rem 0; } summary { cursor:pointer; font-weight:650; } pre { white-space:pre-wrap; overflow-wrap:anywhere; color:#33453d; font-size:.85rem; }
+  </style>
+</head>
+<body>
+  <header><h1>Bible</h1><p>Une consultation simple des lieux, de l'histoire de l'Église, des saints et des passages bibliques.</p></header>
+  <main>
+    <input id="search" type="search" placeholder="Rechercher un mot, une référence ou un thème…" aria-label="Rechercher">
+    <nav id="sections" aria-label="Sections"></nav>
+    <p id="status" class="status">Chargement des données…</p>
+    <section id="results" aria-live="polite"></section>
+  </main>
+  <script>
+    const state = { data:null, section:'Passages_bibliques_majeurs', query:'' };
+    const labels = { Lieux:'Lieux', Temporel:'Histoire', Eglise:'Église', Saints:'Saints', Passages_bibliques_majeurs:'Passages bibliques' };
+    const $ = id => document.getElementById(id);
+    const esc = value => String(value ?? '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+    const textOf = item => JSON.stringify(item).toLocaleLowerCase('fr');
+
+    function renderNav() {
+      $('sections').innerHTML = Object.keys(labels).filter(key => state.data[key]).map(key =>
+        `<button class="${key === state.section ? 'active' : ''}" data-section="${key}">${labels[key]}</button>`).join('');
+      document.querySelectorAll('[data-section]').forEach(button => button.onclick = () => { state.section = button.dataset.section; render(); });
+    }
+    function passageCard(passage) {
+      const verses = (passage.versets || []).map(v => `<p class="verse"><b>${esc(v.numero)}.</b>${esc(v.texte)}</p>`).join('');
+      return `<article class="card"><h2>${esc(passage.titre || 'Passage')}</h2><p class="reference">${esc(passage.reference || '')}</p>${passage.extrait ? `<p>${esc(passage.extrait)}</p>` : ''}${verses}${passage.theme ? `<span class="theme">${esc(passage.theme)}</span>` : ''}${passage.note ? `<p class="note">${esc(passage.note)}</p>` : ''}</article>`;
+    }
+    function render() {
+      const value = state.data[state.section]; const q = state.query.trim().toLocaleLowerCase('fr');
+      renderNav();
+      if (state.section === 'Passages_bibliques_majeurs') {
+        const passages = (value.passages || []).filter(p => !q || textOf(p).includes(q));
+        $('status').textContent = `${passages.length} passage${passages.length > 1 ? 's' : ''}${q ? ' trouvé' + (passages.length > 1 ? 's' : '') : ''}.`;
+        $('results').innerHTML = passages.map(passageCard).join('') || '<p>Aucun passage ne correspond à cette recherche.</p>';
+      } else {
+        const items = Array.isArray(value) ? value : Object.entries(value).map(([titre, contenu]) => ({ titre, contenu }));
+        const shown = items.filter(item => !q || textOf(item).includes(q));
+        $('status').textContent = `${shown.length} élément${shown.length > 1 ? 's' : ''} dans ${labels[state.section]}.`;
+        $('results').innerHTML = shown.map(item => `<details><summary>${esc(item.titre || item.nom || item.date || 'Élément')}</summary><pre>${esc(JSON.stringify(item, null, 2))}</pre></details>`).join('') || '<p>Aucun résultat.</p>';
+      }
+    }
+    $('search').addEventListener('input', event => { state.query = event.target.value; render(); });
+    fetch('./bible.json').then(response => { if (!response.ok) throw new Error(response.status); return response.json(); }).then(data => { state.data = data; render(); }).catch(() => { $('status').textContent = 'Impossible de charger bible.json. Publiez ces deux fichiers ensemble sur un hébergement Web.'; });
+  </script>
+</body>
+</html>

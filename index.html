@@ -153,7 +153,10 @@ const churchAssets={
   'Chapelle Sixtine':'eglises-assets/chapelle-sixtine.jpg',
   'Basilique Saint-Marc':'eglises-assets/basilique-saint-marc.jpg',
   'Cathédrale de Saint-Jacques-de-Compostelle':'eglises-assets/cathedrale-de-saint-jacques-de-compostelle.jpg',
-  'Cathédrale Notre-Dame de Chartres':'eglises-assets/cathedrale-notre-dame-de-chartres.jpg'
+  'Cathédrale Notre-Dame de Chartres':'eglises-assets/cathedrale-notre-dame-de-chartres.jpg',
+  'Basilique Notre-Dame de Guadalupe':'eglises-assets/basilique-notre-dame-de-guadalupe.jpg',
+  'Monastères des Météores':'eglises-assets/monasteres-des-meteores.jpg',
+  'Mont Athos — Sainte Montagne':'eglises-assets/mont-athos-sainte-montagne.jpg'
 };
 const renderChurchAssets=render;
 render=function(){renderChurchAssets();if(state.section==='Eglise'){document.querySelectorAll('.record-grid .record').forEach(card=>{const title=card.querySelector('h2')?.textContent,src=churchAssets[title];if(src){let img=card.querySelector('img.portrait');if(!img){img=document.createElement('img');img.className='portrait';card.prepend(img)}img.src=src;img.alt=title;}});}};

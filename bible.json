@@ -2165,6 +2165,28 @@
         "monasteres": ["Grande Lavra", "Vatopedi", "Iviron", "Hilandar", "Dionysiou", "Koutloumousiou", "Pantokratoros", "Xiropotamou", "Zographou", "Dochiariou", "Karakallou", "Philotheou", "Simonopetra", "Saint-Paul", "Stavronikita", "Xénophon", "Grigoriou", "Esphigmenou", "Saint-Pantéléimon", "Konstamonitou"],
         "importance": "Centre majeur du monachisme orthodoxe, organisé autour de vingt monastères souverains.",
         "statut": "Territoire monastique autonome de Grèce; accès réglementé."
+      },
+      {
+        "nom": "Temple Saint-Sava de Belgrade",
+        "tradition": "Église orthodoxe serbe",
+        "type": "cathédrale orthodoxe",
+        "lieu": { "ville": "Belgrade", "pays": "Serbie" },
+        "dates": "chantier commencé en 1935; église consacrée en 2020",
+        "personnalites": ["saint Sava de Serbie"],
+        "importance": "Sanctuaire national serbe élevé sur le site traditionnel de la crémation des reliques de saint Sava; l'un des plus grands édifices orthodoxes au monde.",
+        "statut": "Lieu de culte vivant; les décors intérieurs se poursuivent.",
+        "image_source": "Wikimedia Commons — Temple of Saint Sava, Belgrade, exterior in 2006.jpg"
+      },
+      {
+        "nom": "Cathédrale du Salut de la Nation roumaine",
+        "tradition": "Église orthodoxe roumaine",
+        "type": "cathédrale orthodoxe",
+        "lieu": { "ville": "Bucarest", "pays": "Roumanie" },
+        "dates": "chantier commencé en 2010; consacrée en 2018; travaux de décoration en cours",
+        "personnalites": ["Daniel, patriarche de Roumanie"],
+        "importance": "Cathédrale patriarcale moderne de Bucarest, consacrée à la mémoire des héros roumains et à l'unité nationale.",
+        "statut": "Lieu de culte vivant; aménagements et mosaïques toujours en cours.",
+        "image_source": "Wikimedia Commons — Catedrala Mântuirii Neamului (Noiembrie 2025).jpg"
       }
     ]
   },

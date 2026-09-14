@@ -82,7 +82,7 @@ const linkedImage=o=>{let n=String(o?.nom||'').toLowerCase(),known=n.includes('�
 const visual=keys=>'<div class="gallery">'+keys.map(k=>'<figure class="card art"><img src="'+blueArt[k]+'" alt="'+assetName[k][0]+'"><figcaption><strong>'+assetName[k][0]+'</strong>'+assetName[k][1]+'</figcaption></figure>').join('')+'</div>';
 function renderNav(){$('sections').innerHTML=Object.keys(labels).filter(k=>state.data[k]).map(k=>'<button class="'+(k===state.section?'active':'')+'" data-section="'+k+'">'+labels[k]+'</button>').join('');document.querySelectorAll('[data-section]').forEach(b=>b.onclick=()=>{state.section=b.dataset.section;render();});}
 function recordList(v){return Array.isArray(v)?v:Object.entries(v).filter(([,x])=>Array.isArray(x)).flatMap(([group,x])=>x.map(item=>({...item,_group:group})));}
-function render(){const value=state.data[state.section],q=state.query.trim().toLocaleLowerCase('fr');renderNav();if(state.section==='Passages_bibliques_majeurs'){const list=(value.passages||[]).filter(x=>!q||textOf(x).includes(q));$('status').textContent=list.length+' passage'+(list.length>1?'s':'')+'.';$('results').className='passages';$('results').innerHTML=list.map(passageCard).join('')||'<p>Aucun résultat.</p>';return;}const list=recordList(value).filter(x=>!q||textOf(x).includes(q));$('status').textContent=list.length+' fiche'+(list.length>1?'s':'')+' dans '+labels[state.section]+'.';let intro=!q&&state.section==='Lieux'?visual(['carte']):!q&&state.section==='Eglise'?visual(['sainte-sophie']):!q&&state.section==='Saints'?visual(['jeanne','louis']):'';$('results').className='';$('results').innerHTML=intro+'<div class="record-grid">'+list.map(x=>{const pic=linkedImage(x);return '<article class="card record">'+(pic?'<img class="portrait" src="'+blueArt[pic]+'" alt="'+esc(x.nom)+'">':'')+'<h2>'+esc(cleanTitle(x))+'</h2>'+(x._group?'<span class="theme">'+esc(humanize(x._group))+'</span>':'')+detailsOf(x,['nom','titre','_group'])+'</article>';}).join('')+'</div>';}
+function render(){const value=state.data[state.section],q=state.query.trim().toLocaleLowerCase('fr');renderNav();if(state.section==='Passages_bibliques_majeurs'){const list=(value.passages||[]).filter(x=>!q||textOf(x).includes(q));$('status').textContent=list.length+' passage'+(list.length>1?'s':'')+'.';$('results').className='passages';$('results').innerHTML=list.map(passageCard).join('')||'<p>Aucun résultat.</p>';return;}const list=recordList(value).filter(x=>!q||textOf(x).includes(q));$('status').textContent=list.length+' fiche'+(list.length>1?'s':'')+' dans '+labels[state.section]+'.';let intro=!q&&state.section==='Lieux'?visual(['carte']):!q&&state.section==='Eglise'?visual(['sainte-sophie']):!q&&state.section==='Saints'?visual(['jeanne','louis']):'';const canOpenImage=state.section==='Eglise'||state.section==='Saints';$('results').className='';$('results').innerHTML=intro+'<div class="record-grid">'+list.map(x=>{const pic=linkedImage(x),src=pic&&blueArt[pic];return '<article class="card record">'+(pic?'<img class="portrait'+(canOpenImage?' image-preview':'')+'" src="'+src+'" data-full-image="'+(canOpenImage?src:'')+'" alt="'+esc(x.nom)+'"'+(canOpenImage?' title="Ouvrir l’image en grand" tabindex="0" role="button"':'')+'>':'')+'<h2>'+esc(cleanTitle(x))+'</h2>'+(x._group?'<span class="theme">'+esc(humanize(x._group))+'</span>':'')+detailsOf(x,['nom','titre','_group'])+'</article>';}).join('')+'</div>';}
 </script>
 <style>
 :root{--gold:#c79235;--gold-light:#e8c66d}.reference,.verse b,.field b{color:var(--gold)}button.active{background:linear-gradient(120deg,#4b8bc5,var(--gold-light));border-color:var(--gold-light)}.christ-banner{display:flex;overflow:hidden;align-items:center;gap:1.25rem;margin:0 0 1.25rem;padding:0;background:linear-gradient(100deg,#123b68,#1b6099);color:white}.christ-banner img{width:40%;max-height:205px;object-fit:cover}.christ-banner div{padding:1rem 1.4rem}.christ-banner h2{margin:0 0 .3rem;color:#ffe8a4}.christ-banner p{margin:0;color:#e4f1fc}@media(max-width:600px){.christ-banner{display:block}.christ-banner img{width:100%;height:180px}}
@@ -118,7 +118,7 @@ render=function(){renderWithChrist();if(state.section==='Passages_bibliques_maje
   state.placeIndex = null;
   const placeImage = country => blueArt.carte;
   const refText = refs => (refs || []).map(ref => `${ref.livre} ${ref.chapitre}:${ref.versets}`).join(' · ');
-  function personHtml(person) { return `<div class="person"><strong>${esc(person.nom)}</strong><span>${esc(refText(person.references))}</span>${person.note ? `<span>${esc(person.note)}</span>` : ''}</div>`; }
+  function personHtml(person) { const refs=(person.references||[]).map(ref=>`${ref.livre} ${ref.chapitre}:${ref.versets}`); return `<div class="person"><strong>${esc(person.nom)}</strong><span>${refs.map(ref=>`<button class="bible-ref" data-bible-ref="${esc(ref)}">${esc(ref)}</button>`).join(' · ')}</span>${person.note ? `<span>${esc(person.note)}</span>` : ''}</div>`; }
   function cityHtml(city) {
     const name = city.ville?.nom || 'Ville'; const modern = city.ville?.hypotheses_modernes || city.ville?.noms_modernes || [];
     return `<article class="city"><h3>${esc(name)}</h3>${modern.length ? `<p class="note">${esc(modern.join(' · '))}</p>` : ''}<div class="people">${(city.personnages_bibliques || []).map(personHtml).join('') || '<span class="note">Aucun personnage explicitement associé.</span>'}</div></article>`;
@@ -162,10 +162,90 @@ const churchAssets={
   'Cathédrale Notre-Dame de Chartres':'eglises-assets/cathedrale-notre-dame-de-chartres.jpg',
   'Basilique Notre-Dame de Guadalupe':'eglises-assets/basilique-notre-dame-de-guadalupe.jpg',
   'Monastères des Météores':'eglises-assets/monasteres-des-meteores.jpg',
-  'Mont Athos — Sainte Montagne':'eglises-assets/mont-athos-sainte-montagne.jpg'
+  'Mont Athos — Sainte Montagne':'eglises-assets/mont-athos-sainte-montagne.jpg',
+  'Temple Saint-Sava de Belgrade':'eglises-assets/temple-saint-sava-belgrade.jpg',
+  'Cathédrale du Salut de la Nation roumaine':'eglises-assets/cathedrale-salut-nation-roumaine-2025.jpg'
 };
 const renderChurchAssets=render;
-render=function(){renderChurchAssets();if(state.section==='Eglise'){document.querySelectorAll('.record-grid .record').forEach(card=>{const title=card.querySelector('h2')?.textContent,src=churchAssets[title];if(src){let img=card.querySelector('img.portrait');if(!img){img=document.createElement('img');img.className='portrait';card.prepend(img)}img.src=src;img.alt=title;}});}};
+render=function(){renderChurchAssets();if(state.section==='Eglise'){document.querySelectorAll('.record-grid .record').forEach(card=>{const title=card.querySelector('h2')?.textContent,src=churchAssets[title];if(src){let img=card.querySelector('img.portrait');if(!img){img=document.createElement('img');img.className='portrait image-preview';img.tabIndex=0;img.setAttribute('role','button');img.title='Ouvrir l’image en grand';card.prepend(img)}img.src=src;img.dataset.fullImage=src;img.alt=title;}});}};
+</script>
+<style>
+.image-preview{cursor:zoom-in}.image-preview:focus{outline:3px solid var(--gold);outline-offset:3px}
+</style>
+<script>
+function openFullImage(image) { window.open(image.dataset.fullImage || image.currentSrc, '_blank', 'noopener'); }
+document.addEventListener('click', event => { const image = event.target.closest('img.image-preview'); if (image) openFullImage(image); });
+document.addEventListener('keydown', event => { if ((event.key === 'Enter' || event.key === ' ') && event.target.matches('img.image-preview')) { event.preventDefault(); openFullImage(event.target); } });
+</script>
+<style>
+.bible-ref{border:0;background:transparent;color:#8fc4ff;padding:0;margin:0 .15rem 0 0;text-decoration:underline;text-underline-offset:3px;font:inherit}.bible-ref:hover{color:#f1cd70;background:transparent}.verse-panel{position:fixed;left:1rem;bottom:1rem;z-index:100;max-width:min(380px,calc(100vw - 2rem));padding:1.1rem 1.2rem;background:#10243c;border:1px solid #d7af43;border-left:5px solid #e8c66d;border-radius:.7rem;color:#eff7ff;box-shadow:0 18px 45px #0009}.verse-panel h2{color:#ffe6a1;font-size:1.1rem;margin:0 0 .65rem}.verse-panel p{margin:0;white-space:pre-line;line-height:1.55}.verse-panel small{display:block;margin-top:.75rem;color:#b4c8d9}.verse-panel[hidden]{display:none}
+</style>
+<aside id="verse-panel" class="verse-panel" hidden aria-live="polite"></aside>
+<script>
+const FREE_BIBLE_URL = 'https://free.bible/bible/segond';
+const bibleBooks = {
+  'genese':'genesis', 'exode':'exodus', 'levitique':'leviticus', 'nombres':'numbers', 'deuteronome':'deuteronomy',
+  'josue':'joshua', 'juges':'judges', 'ruth':'ruth', '1 samuel':'1-samuel', '2 samuel':'2-samuel',
+  '1 rois':'1-kings', '2 rois':'2-kings', '1 chroniques':'1-chronicles', '2 chroniques':'2-chronicles',
+  'psaume':'psalms', 'psaumes':'psalms', 'proverbes':'proverbs', 'ecclesiaste':'ecclesiastes', 'cantique des cantiques':'song-of-solomon',
+  'esaie':'isaiah', 'jeremie':'jeremiah', 'lamentations':'lamentations', 'ezechiel':'ezekiel', 'daniel':'daniel',
+  'osee':'hosea', 'joel':'joel', 'amos':'amos', 'abdias':'obadiah', 'jonas':'jonah', 'michee':'micah', 'nahum':'nahum',
+  'habacuc':'habakkuk', 'sophonie':'zephaniah', 'aggee':'haggai', 'zacharie':'zechariah', 'malachie':'malachi',
+  'matthieu':'matthew', 'marc':'mark', 'luc':'luke', 'jean':'john', 'actes':'acts', 'romains':'romans',
+  '1 corinthiens':'1-corinthians', '2 corinthiens':'2-corinthians', 'galates':'galatians', 'ephesiens':'ephesians',
+  'philippiens':'philippians', 'colossiens':'colossians', '1 thessaloniciens':'1-thessalonians', '2 thessaloniciens':'2-thessalonians',
+  '1 timothee':'1-timothy', '2 timothee':'2-timothy', 'tite':'titus', 'philemon':'philemon', 'hebreux':'hebrews',
+  'jacques':'james', '1 pierre':'1-peter', '2 pierre':'2-peter', '1 jean':'1-john', '2 jean':'2-john', '3 jean':'3-john',
+  'jude':'jude', 'apocalypse':'revelation'
+};
+let verseTimer, verseRequest = 0;
+const normaliseBook = book => book.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
+function parseBibleReference(reference) {
+  const match = reference.trim().match(/^(.+?)\s+(\d+)\s*:\s*([\d\s,\-–]+)$/);
+  if (!match) return null;
+  const book = bibleBooks[normaliseBook(match[1])];
+  if (!book) return null;
+  const selected = new Set();
+  for (const part of match[3].split(',')) {
+    const range = part.trim().split(/\s*[-–]\s*/).map(Number);
+    if (!range[0] || range.length > 2 || (range[1] && range[1] < range[0])) return null;
+    for (let verse = range[0]; verse <= (range[1] || range[0]); verse++) selected.add(verse);
+  }
+  return { book, chapter: match[2], verses: selected };
+}
+function showVersePanel(panel, reference, content, detail) {
+  panel.replaceChildren();
+  const title = document.createElement('h2'), text = document.createElement('p'), source = document.createElement('small');
+  title.textContent = reference; text.textContent = content; source.textContent = detail;
+  panel.append(title, text, source); panel.hidden = false;
+}
+document.addEventListener('click', async event => {
+  const button = event.target.closest('.bible-ref');
+  if (!button) return;
+  const panel = document.getElementById('verse-panel'), reference = button.dataset.bibleRef, parsed = parseBibleReference(reference), request = ++verseRequest;
+  clearTimeout(verseTimer);
+  if (!parsed) {
+    showVersePanel(panel, reference, 'Cette référence ne peut pas être consultée dans la Bible Segond disponible.', 'Source : free.bible');
+  } else {
+    showVersePanel(panel, reference, 'Chargement du texte…', 'Source : free.bible — Louis Segond');
+    try {
+      const response = await fetch(`${FREE_BIBLE_URL}/${parsed.book}/${parsed.chapter}.json`);
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const chapter = await response.json();
+      const verses = chapter.verses.filter(verse => parsed.verses.has(verse.v));
+      if (!verses.length) throw new Error('Verset absent');
+      if (request === verseRequest) showVersePanel(panel, reference, verses.map(verse => `${verse.v}. ${verse.t}`).join('\n'), 'Source : free.bible — Louis Segond');
+    } catch (error) {
+      if (request === verseRequest) showVersePanel(panel, reference, 'Le texte du verset est momentanément indisponible.', 'Source : free.bible');
+    }
+  }
+  verseTimer = setTimeout(() => {
+    if (request === verseRequest) {
+      panel.hidden = true;
+      verseRequest++;
+    }
+  }, 15000);
+});
 </script>
 </body>
 </html>

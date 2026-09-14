@@ -2437,6 +2437,25 @@
         "importance": "Évêque de Myre, très vénéré en Orient et en Occident."
       },
       {
+        "nom": "Saint Spyridon de Trimythonte",
+        "date_fete_orthodoxe": "12 décembre",
+        "epoque": "avant 1054",
+        "martyre": false,
+        "description_de_la_mort": "Évêque de Trimythonte, à Chypre, il s'endort en paix vers 348.",
+        "date_fete_catholique": "14 décembre",
+        "importance": "Ancien berger devenu évêque, il continua à vivre avec simplicité. Ses icônes le montrent avec un bonnet tressé de paille plutôt qu'une mitre, mémoire de son travail de berger et signe de son humilité. Il est aussi appelé le Thaumaturge."
+      },
+      {
+        "nom": "Sainte Marie l’Égyptienne",
+        "date_fete_orthodoxe": "1er avril; mémoire particulière le cinquième dimanche du Grand Carême",
+        "epoque": "avant 1054",
+        "martyre": false,
+        "description_de_la_mort": "Selon sa Vie, elle meurt dans le désert au-delà du Jourdain, après de longues années de pénitence, vraisemblablement au Ve siècle.",
+        "date_fete_catholique": "1er avril",
+        "importance": "La tradition hagiographique la présente comme une jeune femme vivant dans la prostitution à Alexandrie. Partie pour Jérusalem, elle aurait offert son corps aux passagers pour payer sa traversée. Devant l'église du Saint-Sépulcre, elle se trouve arrêtée par une force invisible; elle reconnaît alors la gravité de sa vie, prie la Mère de Dieu et se convertit. Elle gagne ensuite le désert de l'autre côté du Jourdain, où elle mène une vie de prière et de repentir. Sa mémoire est un signe de conversion et d'espérance : aucune vie n'est hors de portée de la miséricorde de Dieu.",
+        "image_source": "Icône russe du XVIIe siècle — Wikimedia Commons (domaine public)."
+      },
+      {
         "nom": "Ambroise de Milan",
         "date_fete_orthodoxe": "7 décembre",
         "epoque": "avant 1054",

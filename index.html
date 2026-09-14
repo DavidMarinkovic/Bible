@@ -216,9 +216,19 @@ document.addEventListener('keydown', event => { if ((event.key === 'Enter' || ev
 <aside id="verse-panel" class="verse-panel" hidden aria-live="polite"></aside>
 <aside class="symbol-gutter" aria-label="Symboles célestes chrétiens">
   <figure><img class="fleur-de-lys" src="symbol-assets/fleur-de-lys-noire.svg" alt="Fleur de lys décorative"><figcaption>FLEUR DE LYS</figcaption></figure>
-  <figure><img class="image-preview" src="symbol-assets/seraphin-six-ailes-bois.jpg" data-full-image="symbol-assets/seraphin-six-ailes-bois.jpg" alt="Séraphin à six ailes sculpté en bois" title="Ouvrir l’image en grand" tabindex="0" role="button"><figcaption>SÉRAPHIN À SIX AILES</figcaption></figure>
+  <figure><img class="image-preview celestial-figure" src="symbol-assets/seraphin-six-ailes-bois.jpg" data-full-image="symbol-assets/seraphin-six-ailes-bois.jpg" alt="Séraphin à six ailes sculpté en bois" title="Ouvrir l’image en grand" tabindex="0" role="button"><figcaption>SÉRAPHIN À SIX AILES</figcaption></figure>
   <figure><img class="image-preview ark-cherubim" src="symbol-assets/arche-alliance-cherubins.png" data-full-image="symbol-assets/arche-alliance-cherubins.png" alt="Chérubins sur l’Arche d’alliance" title="Ouvrir l’image en grand" tabindex="0" role="button"><figcaption>CHÉRUBINS SUR L’ARCHE D’ALLIANCE</figcaption></figure>
 </aside>
+<style>
+@media (min-width:1320px) {
+  .symbol-gutter { background:transparent; border:0; border-radius:0; padding:0; }
+  .symbol-gutter img { border-radius:0; }
+  .symbol-gutter .celestial-figure {
+    -webkit-mask-image:radial-gradient(ellipse 70% 68% at center,#000 45%,transparent 84%);
+    mask-image:radial-gradient(ellipse 70% 68% at center,#000 45%,transparent 84%);
+  }
+}
+</style>
 <script>
 const FREE_BIBLE_URL = 'https://free.bible/bible/segond';
 const NEO_CRAMpon_URL = 'https://bible.helloao.org/api/fra_ncl';

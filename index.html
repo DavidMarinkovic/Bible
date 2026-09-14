@@ -38,13 +38,14 @@
     }
     function passageCard(passage) {
       const reference = passage.reference || '';
+      const hyperlinkReference = passage.hyperlink_reference || reference;
       const chapterReference = reference.match(/^(.+?\s+\d+)\s*:/)?.[1];
       const verses = (passage.versets || []).map(v => {
         const verseReference = chapterReference ? `${chapterReference}:${v.numero}` : '';
         const number = verseReference ? `<button class="verse-number bible-ref" data-bible-ref="${esc(verseReference)}" title="Afficher ce verset">${esc(v.numero)}.</button>` : `<b>${esc(v.numero)}.</b>`;
         return `<p class="verse">${number}${esc(v.texte)}</p>`;
       }).join('');
-      return `<article class="card"><h2>${esc(passage.titre || 'Passage')}</h2><button class="reference bible-ref passage-ref" data-bible-ref="${esc(reference)}" title="Afficher le texte du verset">${esc(reference)}</button>${passage.extrait ? `<p>${esc(passage.extrait)}</p>` : ''}${verses}${passage.theme ? `<span class="theme">${esc(passage.theme)}</span>` : ''}${passage.note ? `<p class="note">${esc(passage.note)}</p>` : ''}</article>`;
+      return `<article class="card"><h2>${esc(passage.titre || 'Passage')}</h2><button class="reference bible-ref passage-ref" data-bible-ref="${esc(hyperlinkReference)}" title="Afficher le texte du verset">${esc(reference)}</button>${passage.extrait ? `<p>${esc(passage.extrait)}</p>` : ''}${verses}${passage.theme ? `<span class="theme">${esc(passage.theme)}</span>` : ''}${passage.note ? `<p class="note">${esc(passage.note)}</p>` : ''}</article>`;
     }
     function render() {
       const value = state.data[state.section]; const q = state.query.trim().toLocaleLowerCase('fr');
@@ -215,11 +216,12 @@ let verseTimer, verseRequest = 0;
 const normaliseBook = book => book.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
 function parseBibleReference(reference) {
   const firstReference = reference.replace(/\s*\([^)]*\)/g, '').split(';')[0].trim();
-  const match = firstReference.match(/^(.+?)\s+(\d+)\s*:\s*([\d\s,\-–]+)$/);
+  const match = firstReference.match(/^(.+?)\s+(\d+)(?:\s*:\s*([\d\s,\-–]+))?$/);
   if (!match) return null;
   const normalisedBook = normaliseBook(match[1]);
   const book = bibleBooks[normalisedBook];
   if (!book) return null;
+  if (!match[3]) return { book, fallbackBook: neoCramponBooks[normalisedBook], chapter: match[2], verses: null };
   const selected = new Set();
   for (const part of match[3].split(',')) {
     const range = part.trim().split(/\s*[-–]\s*/).map(Number);
@@ -249,13 +251,13 @@ document.addEventListener('click', async event => {
       let source = 'Source : free.bible — Louis Segond';
       if (response.ok) {
         const chapter = await response.json();
-        verses = chapter.verses.filter(verse => parsed.verses.has(verse.v)).map(verse => ({ number: verse.v, text: verse.t }));
+        verses = chapter.verses.filter(verse => !parsed.verses || parsed.verses.has(verse.v)).map(verse => ({ number: verse.v, text: verse.t }));
       }
       if (!verses.length && parsed.fallbackBook) {
         const fallback = await fetch(`${NEO_CRAMpon_URL}/${parsed.fallbackBook}/${parsed.chapter}.simple.json`);
         if (fallback.ok) {
           const chapter = await fallback.json();
-          verses = chapter.chapter.content.filter(verse => verse.type === 'verse' && parsed.verses.has(Number(verse.number))).map(verse => ({ number: verse.number, text: verse.text }));
+          verses = chapter.chapter.content.filter(verse => verse.type === 'verse' && (!parsed.verses || parsed.verses.has(Number(verse.number)))).map(verse => ({ number: verse.number, text: verse.text }));
           source = 'Source : Bible néo-Crampon Libre — HelloAO';
         }
       }

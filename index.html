@@ -189,6 +189,7 @@ document.addEventListener('keydown', event => { if ((event.key === 'Enter' || ev
 <aside id="verse-panel" class="verse-panel" hidden aria-live="polite"></aside>
 <script>
 const FREE_BIBLE_URL = 'https://free.bible/bible/segond';
+const NEO_CRAMpon_URL = 'https://bible.helloao.org/api/fra_ncl';
 const bibleBooks = {
   'genese':'genesis', 'exode':'exodus', 'levitique':'leviticus', 'nombres':'numbers', 'deuteronome':'deuteronomy',
   'josue':'joshua', 'juges':'judges', 'ruth':'ruth', '1 samuel':'1-samuel', '2 samuel':'2-samuel',
@@ -202,14 +203,21 @@ const bibleBooks = {
   'philippiens':'philippians', 'colossiens':'colossians', '1 thessaloniciens':'1-thessalonians', '2 thessaloniciens':'2-thessalonians',
   '1 timothee':'1-timothy', '2 timothee':'2-timothy', 'tite':'titus', 'philemon':'philemon', 'hebreux':'hebrews',
   'jacques':'james', '1 pierre':'1-peter', '2 pierre':'2-peter', '1 jean':'1-john', '2 jean':'2-john', '3 jean':'3-john',
-  'jude':'jude', 'apocalypse':'revelation'
+  'jude':'jude', 'apocalypse':'revelation',
+  'tobie':'tobit', 'tobias':'tobit', 'judith':'judith', 'sagesse':'wisdom', 'siracide':'sirach', 'ecclesiastique':'sirach',
+  'baruch':'baruch', '1 maccabees':'1-maccabees', '2 maccabees':'2-maccabees'
+};
+const neoCramponBooks = {
+  'tobie':'TOB', 'tobias':'TOB', 'judith':'JDT', 'sagesse':'WIS', 'siracide':'SIR', 'ecclesiastique':'SIR',
+  'baruch':'BAR', '1 maccabees':'1MA', '2 maccabees':'2MA'
 };
 let verseTimer, verseRequest = 0;
 const normaliseBook = book => book.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
 function parseBibleReference(reference) {
   const match = reference.trim().match(/^(.+?)\s+(\d+)\s*:\s*([\d\s,\-–]+)$/);
   if (!match) return null;
-  const book = bibleBooks[normaliseBook(match[1])];
+  const normalisedBook = normaliseBook(match[1]);
+  const book = bibleBooks[normalisedBook];
   if (!book) return null;
   const selected = new Set();
   for (const part of match[3].split(',')) {
@@ -217,7 +225,7 @@ function parseBibleReference(reference) {
     if (!range[0] || range.length > 2 || (range[1] && range[1] < range[0])) return null;
     for (let verse = range[0]; verse <= (range[1] || range[0]); verse++) selected.add(verse);
   }
-  return { book, chapter: match[2], verses: selected };
+  return { book, fallbackBook: neoCramponBooks[normalisedBook], chapter: match[2], verses: selected };
 }
 function showVersePanel(panel, reference, content, detail) {
   panel.replaceChildren();
@@ -233,14 +241,25 @@ document.addEventListener('click', async event => {
   if (!parsed) {
     showVersePanel(panel, reference, 'Cette référence ne peut pas être consultée dans la Bible Segond disponible.', 'Source : free.bible');
   } else {
-    showVersePanel(panel, reference, 'Chargement du texte…', 'Source : free.bible — Louis Segond');
+    showVersePanel(panel, reference, 'Chargement du texte…', 'Recherche dans Louis Segond…');
     try {
       const response = await fetch(`${FREE_BIBLE_URL}/${parsed.book}/${parsed.chapter}.json`);
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      const chapter = await response.json();
-      const verses = chapter.verses.filter(verse => parsed.verses.has(verse.v));
+      let verses = [];
+      let source = 'Source : free.bible — Louis Segond';
+      if (response.ok) {
+        const chapter = await response.json();
+        verses = chapter.verses.filter(verse => parsed.verses.has(verse.v)).map(verse => ({ number: verse.v, text: verse.t }));
+      }
+      if (!verses.length && parsed.fallbackBook) {
+        const fallback = await fetch(`${NEO_CRAMpon_URL}/${parsed.fallbackBook}/${parsed.chapter}.simple.json`);
+        if (fallback.ok) {
+          const chapter = await fallback.json();
+          verses = chapter.chapter.content.filter(verse => verse.type === 'verse' && parsed.verses.has(Number(verse.number))).map(verse => ({ number: verse.number, text: verse.text }));
+          source = 'Source : Bible néo-Crampon Libre — HelloAO';
+        }
+      }
       if (!verses.length) throw new Error('Verset absent');
-      if (request === verseRequest) showVersePanel(panel, reference, verses.map(verse => `${verse.v}. ${verse.t}`).join('\n'), 'Source : free.bible — Louis Segond');
+      if (request === verseRequest) showVersePanel(panel, reference, verses.map(verse => `${verse.number}. ${verse.text}`).join('\n'), source);
     } catch (error) {
       if (request === verseRequest) showVersePanel(panel, reference, 'Le texte du verset est momentanément indisponible.', 'Source : free.bible');
     }

@@ -214,7 +214,8 @@ const neoCramponBooks = {
 let verseTimer, verseRequest = 0;
 const normaliseBook = book => book.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
 function parseBibleReference(reference) {
-  const match = reference.trim().match(/^(.+?)\s+(\d+)\s*:\s*([\d\s,\-–]+)$/);
+  const firstReference = reference.replace(/\s*\([^)]*\)/g, '').split(';')[0].trim();
+  const match = firstReference.match(/^(.+?)\s+(\d+)\s*:\s*([\d\s,\-–]+)$/);
   if (!match) return null;
   const normalisedBook = normaliseBook(match[1]);
   const book = bibleBooks[normalisedBook];

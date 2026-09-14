@@ -215,9 +215,9 @@ document.addEventListener('keydown', event => { if ((event.key === 'Enter' || ev
 </style>
 <aside id="verse-panel" class="verse-panel" hidden aria-live="polite"></aside>
 <aside class="symbol-gutter" aria-label="Symboles célestes chrétiens">
-  <figure><img class="fleur-de-lys" src="symbol-assets/fleur-de-lys-noire.svg" alt="Fleur de lys décorative"><figcaption>FLEUR DE LYS</figcaption></figure>
-  <figure><img class="image-preview celestial-figure" src="symbol-assets/seraphin-six-ailes-bois.jpg" data-full-image="symbol-assets/seraphin-six-ailes-bois.jpg" alt="Séraphin à six ailes sculpté en bois" title="Ouvrir l’image en grand" tabindex="0" role="button"><figcaption>SÉRAPHIN À SIX AILES</figcaption></figure>
-  <figure><img class="image-preview ark-cherubim" src="symbol-assets/arche-alliance-cherubins.png" data-full-image="symbol-assets/arche-alliance-cherubins.png" alt="Chérubins sur l’Arche d’alliance" title="Ouvrir l’image en grand" tabindex="0" role="button"><figcaption>CHÉRUBINS SUR L’ARCHE D’ALLIANCE</figcaption></figure>
+  <figure><img class="fleur-de-lys" src="symbol-assets/fleur-de-lys-noire.svg" alt="Fleur de lys décorative"></figure>
+  <figure><img class="image-preview celestial-figure" src="symbol-assets/seraphin-bleu-rouge.jpg" data-full-image="symbol-assets/seraphin-bleu-rouge.jpg" alt="Séraphin à six ailes aux ailes bleues et rouges" title="Ouvrir l’image en grand" tabindex="0" role="button"></figure>
+  <figure><img class="image-preview ark-cherubim" src="symbol-assets/arche-alliance-cherubins.svg" data-full-image="symbol-assets/arche-alliance-cherubins.svg" alt="Dessin de l’Arche d’alliance avec ses chérubins" title="Ouvrir l’image en grand" tabindex="0" role="button"></figure>
 </aside>
 <style>
 @media (min-width:1320px) {
@@ -226,6 +226,9 @@ document.addEventListener('keydown', event => { if ((event.key === 'Enter' || ev
   .symbol-gutter .celestial-figure {
     -webkit-mask-image:radial-gradient(ellipse 70% 68% at center,#000 45%,transparent 84%);
     mask-image:radial-gradient(ellipse 70% 68% at center,#000 45%,transparent 84%);
+  }
+  .symbol-gutter .fleur-de-lys {
+    filter:invert(37%) sepia(74%) saturate(1439%) hue-rotate(202deg) brightness(94%) contrast(93%);
   }
 }
 </style>

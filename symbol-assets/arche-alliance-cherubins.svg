@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title">
+  <title id="title">Arche d’alliance et deux chérubins</title>
+  <g fill="none" stroke="#e8c66d" stroke-width="10" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M144 234h352l-24 104H168z"/>
+    <path d="M132 234h376M168 267h304M176 310h288"/>
+    <path d="M168 338l-35 28m339-28 35 28M129 261l-50 110m432-110 50 110"/>
+    <path d="M209 232V184c0-44 34-75 75-75h72c41 0 75 31 75 75v48"/>
+    <path d="M288 109c-48-52-105-57-145-20 23 13 47 48 66 95 25-18 52-42 79-75z"/>
+    <path d="M352 109c48-52 105-57 145-20-23 13-47 48-66 95-25-18-52-42-79-75z"/>
+    <path d="M209 184c-31-33-67-39-93-18 32 16 51 42 60 77M431 184c31-33 67-39 93-18-32 16-51 42-60 77"/>
+    <path d="M282 109c-18 21-25 46-21 75 19-10 36-26 48-47M358 109c18 21 25 46 21 75-19-10-36-26-48-47"/>
+    <circle cx="278" cy="114" r="19"/><circle cx="362" cy="114" r="19"/>
+    <path d="M270 114h16m68 0h16M272 132c8 8 17 8 25 0m71 0c8 8 17 8 25 0"/>
+    <path d="M187 249h266M198 249v89m244-89v89"/>
+  </g>
+</svg>
